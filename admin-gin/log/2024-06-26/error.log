@@ -1,0 +1,9 @@
+[admin-gin]2024-06-26 13:49:03.162	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[admin-gin]2024-06-26 14:43:12.293	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/api/v1/system/sys_authority.go:111	删除失败!	{"error": "此角色有用户正在使用禁止删除"}
+[go_vue_admin]2024-06-26 15:31:02.201	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[go_vue_admin]2024-06-26 15:45:52.585	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/api/v1/system/sys_authority.go:82	拷贝失败!	{"error": "存在相同角色id"}
+[go_vue_admin]2024-06-26 20:45:35.855	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[go_vue_admin]2024-06-26 21:07:28.386	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[go_vue_admin]2024-06-26 21:19:25.377	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[go_vue_admin]2024-06-26 21:26:05.039	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[go_vue_admin]2024-06-26 21:29:47.325	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection

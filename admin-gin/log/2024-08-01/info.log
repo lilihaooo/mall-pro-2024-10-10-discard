@@ -1,0 +1,46 @@
+[go_vue_admin]2024-08-01 13:21:53.649	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-08-01 13:22:03.717	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/common.go:54	清理模拟包基础数据
+[go_vue_admin]2024-08-01 13:33:12.010	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-08-01 13:33:14.415	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/common.go:54	清理模拟包基础数据
+[go_vue_admin]2024-08-01 13:33:38.039	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/goods_add_tags.go:33	task_lock is exist
+[go_vue_admin]2024-08-01 13:33:40.985	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/goods_add_tags.go:33	task_lock is exist
+[go_vue_admin]2024-08-01 13:33:53.853	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-08-01 13:48:57.968	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-08-01 13:49:01.001	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/common.go:54	清理模拟包基础数据
+[go_vue_admin]2024-08-01 13:52:12.448	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-08-01 13:52:14.586	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/common.go:54	清理模拟包基础数据
+[go_vue_admin]2024-08-01 14:02:50.550	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-08-01 14:02:52.668	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/common.go:54	清理模拟包基础数据
+[go_vue_admin]2024-08-01 14:07:39.140	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-08-01 14:07:39.676	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-08-01 14:07:44.809	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/common.go:54	清理模拟包基础数据
+[go_vue_admin]2024-08-01 14:17:45.267	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-08-01 14:17:47.239	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/common.go:54	清理模拟包基础数据
+[go_vue_admin]2024-08-01 14:21:05.041	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-08-01 14:21:05.399	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-08-01 14:21:08.423	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/common.go:54	清理模拟包基础数据
+[go_vue_admin]2024-08-01 14:22:27.922	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-08-01 14:22:30.204	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/common.go:54	清理模拟包基础数据
+[go_vue_admin]2024-08-01 14:39:49.477	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-08-01 14:40:02.474	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:170	枣制品采集完成！
+[go_vue_admin]2024-08-01 14:40:05.706	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/common.go:54	清理模拟包基础数据
+[go_vue_admin]2024-08-01 14:43:47.931	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-08-01 14:43:51.435	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:170	枣制品采集完成！
+[go_vue_admin]2024-08-01 14:45:44.864	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-08-01 14:45:50.137	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:171	枣制品采集完成！
+[go_vue_admin]2024-08-01 14:46:01.638	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/common.go:54	清理模拟包基础数据
+[go_vue_admin]2024-08-01 14:46:12.364	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:171	枣制品采集完成！
+[go_vue_admin]2024-08-01 14:46:23.597	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/common.go:54	清理模拟包基础数据
+[go_vue_admin]2024-08-01 14:46:29.307	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:171	枣制品采集完成！
+[go_vue_admin]2024-08-01 14:46:39.601	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/common.go:54	清理模拟包基础数据
+[go_vue_admin]2024-08-01 14:46:45.309	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:171	枣制品采集完成！
+[go_vue_admin]2024-08-01 14:46:49.626	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/common.go:54	清理模拟包基础数据
+[go_vue_admin]2024-08-01 14:47:58.699	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-08-01 14:48:01.849	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:177	枣制品采集完成！
+[go_vue_admin]2024-08-01 14:48:11.029	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/common.go:54	清理模拟包基础数据
+[go_vue_admin]2024-08-01 14:48:21.514	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:177	枣制品采集完成！
+[go_vue_admin]2024-08-01 14:48:35.063	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/common.go:54	清理模拟包基础数据
+[go_vue_admin]2024-08-01 14:48:42.473	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:177	枣制品采集完成！
+[go_vue_admin]2024-08-01 14:48:56.168	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/common.go:54	清理模拟包基础数据
+[go_vue_admin]2024-08-01 14:49:01.885	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:177	枣制品采集完成！
+[go_vue_admin]2024-08-01 14:49:09.168	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/common.go:54	清理模拟包基础数据

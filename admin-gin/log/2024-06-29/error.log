@@ -1,0 +1,6 @@
+[go_vue_admin]2024-06-29 00:13:56.297	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[go_vue_admin]2024-06-29 00:40:44.144	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[go_vue_admin]2024-06-29 09:58:18.130	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[go_vue_admin]2024-06-29 09:59:50.506	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[go_vue_admin]2024-06-29 10:00:11.709	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[go_vue_admin]2024-06-29 10:06:32.107	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection

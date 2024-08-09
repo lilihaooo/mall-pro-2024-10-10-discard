@@ -1,0 +1,266 @@
+[go_vue_admin]2024-07-17 21:22:13.379	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 21:22:16.019	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:16.020	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:16.020	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:16.020	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:16.020	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:16.020	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:16.020	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:16.020	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:16.021	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:16.021	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:16.021	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:16.021	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:16.021	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:16.021	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:16.021	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:16.021	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:16.021	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:16.022	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:16.022	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:16.022	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:20.766	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 21:22:21.320	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:21.321	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:21.321	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:21.321	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:21.321	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:21.321	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:21.321	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:21.321	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:21.321	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:21.321	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:21.321	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:21.322	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:21.322	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:21.322	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:21.322	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:21.322	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:21.322	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:21.322	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:21.323	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:22:21.324	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:25:10.902	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:61217: use of closed network connection
+[go_vue_admin]2024-07-17 21:25:10.903	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:61189: use of closed network connection
+[go_vue_admin]2024-07-17 21:25:10.903	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:61261: use of closed network connection
+[go_vue_admin]2024-07-17 21:25:10.903	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-17 21:25:26.400	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:25:26.401	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:25:26.401	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:25:26.401	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:25:26.401	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:25:26.401	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:25:26.402	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:25:26.402	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:25:26.402	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:25:26.405	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:25:26.405	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:25:26.405	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:25:26.405	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:25:26.405	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:25:26.406	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:25:26.406	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:25:26.406	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:25:26.406	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:25:26.406	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:25:26.407	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:109	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:26:15.830	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:62046: use of closed network connection
+[go_vue_admin]2024-07-17 21:26:15.831	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-17 21:26:24.619	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:26:24.619	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:26:24.620	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:26:24.620	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:26:24.620	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:26:24.620	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:26:24.620	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:26:24.620	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:26:24.621	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:26:24.621	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:26:24.621	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:26:24.621	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:26:24.621	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:26:24.621	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:26:24.621	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:26:24.621	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:26:24.621	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:26:24.622	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:26:24.622	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:26:24.622	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:29:26.339	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:62306: use of closed network connection
+[go_vue_admin]2024-07-17 21:29:26.339	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-17 21:29:42.658	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:29:42.658	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:29:42.659	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:29:42.659	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:29:42.659	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:29:42.659	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:29:42.659	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:29:42.659	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:29:42.660	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:29:42.660	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:29:42.660	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:29:42.660	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:29:42.660	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:29:42.660	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:29:42.660	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:29:42.661	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:29:42.661	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:29:42.661	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:29:42.661	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:29:42.661	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:23.992	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:63129: use of closed network connection
+[go_vue_admin]2024-07-17 21:31:23.992	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-17 21:31:37.714	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:37.715	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:37.715	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:37.715	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:37.716	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:37.716	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:37.716	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:37.716	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:37.716	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:37.716	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:37.717	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:37.717	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:37.717	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:37.717	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:37.717	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:37.717	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:37.717	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:37.718	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:37.718	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:37.718	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:44.308	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:63626: use of closed network connection
+[go_vue_admin]2024-07-17 21:31:44.310	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-17 21:31:51.759	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:51.760	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:51.760	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:51.761	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:51.761	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:51.761	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:51.761	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:51.761	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:51.761	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:51.762	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:51.762	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:51.762	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:51.762	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:51.762	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:51.762	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:51.763	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:51.763	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:51.764	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:51.764	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:31:51.764	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:110	copy destination must be non-nil and addressable
+[go_vue_admin]2024-07-17 21:32:32.292	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:63701: use of closed network connection
+[go_vue_admin]2024-07-17 21:32:32.293	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-17 21:32:59.889	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 21:35:56.384	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:63921: use of closed network connection
+[go_vue_admin]2024-07-17 21:35:56.385	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:64040: use of closed network connection
+[go_vue_admin]2024-07-17 21:35:56.385	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-17 21:36:44.832	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:64801: use of closed network connection
+[go_vue_admin]2024-07-17 21:36:44.833	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-17 21:38:43.081	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:64822: use of closed network connection
+[go_vue_admin]2024-07-17 21:38:43.081	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-17 21:40:08.171	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 21:40:22.385	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 21:40:36.110	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 21:41:02.817	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 21:41:17.365	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 21:42:13.953	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 21:46:33.429	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:64854: use of closed network connection
+[go_vue_admin]2024-07-17 21:46:33.429	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:64873: use of closed network connection
+[go_vue_admin]2024-07-17 21:46:33.429	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:64919: use of closed network connection
+[go_vue_admin]2024-07-17 21:46:33.429	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:64887: use of closed network connection
+[go_vue_admin]2024-07-17 21:46:33.429	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:64901: use of closed network connection
+[go_vue_admin]2024-07-17 21:46:33.430	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:64952: use of closed network connection
+[go_vue_admin]2024-07-17 21:46:33.430	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:64933: use of closed network connection
+[go_vue_admin]2024-07-17 21:46:33.430	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-17 21:47:12.288	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-17 21:52:52.485	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:65061: use of closed network connection
+[go_vue_admin]2024-07-17 21:52:52.486	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-17 21:53:45.570	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 21:54:16.394	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 21:58:55.865	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 21:58:59.310	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 21:59:39.040	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 21:59:57.789	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:01:45.120	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:05:56.836	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:06:00.138	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:09:39.806	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:10:05.192	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:11:25.799	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:11:41.760	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:12:05.849	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:14:40.735	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:14:40.888	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:15:40.065	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:15:40.091	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:15:43.274	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:16:19.421	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:16:35.299	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:18:10.399	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:19:24.303	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:23:08.560	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:23:59.024	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:24:58.089	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:27:25.451	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:49381: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.451	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:49554: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.451	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:49561: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.451	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:50052: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.451	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:50254: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.451	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:50351: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.451	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:50514: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.452	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:49524: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.452	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:65339: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.452	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:49909: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.452	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:49269: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.451	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:65464: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.452	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:65120: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.452	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:49398: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.452	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:50470: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.452	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:65184: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.451	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:65374: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.452	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:49819: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.452	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:65149: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.452	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:65429: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.452	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:65353: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.452	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:49243: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.452	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:49362: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.451	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:65510: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.452	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:49817: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.452	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:50553: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.452	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:49158: use of closed network connection
+[go_vue_admin]2024-07-17 22:27:25.452	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-17 22:31:24.292	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:32:20.692	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:51109: use of closed network connection
+[go_vue_admin]2024-07-17 22:32:20.693	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:52163: use of closed network connection
+[go_vue_admin]2024-07-17 22:32:20.693	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-17 22:33:05.475	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-17 22:35:29.738	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:35:35.983	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:52619: use of closed network connection
+[go_vue_admin]2024-07-17 22:35:35.984	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-17 22:37:55.731	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:39:14.023	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:53889: use of closed network connection
+[go_vue_admin]2024-07-17 22:39:14.024	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:53307: use of closed network connection
+[go_vue_admin]2024-07-17 22:39:14.024	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-17 22:40:13.772	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:40:29.155	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:54316: use of closed network connection
+[go_vue_admin]2024-07-17 22:40:29.155	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:54496: use of closed network connection
+[go_vue_admin]2024-07-17 22:40:29.156	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-17 22:42:22.732	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:42:47.428	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:54617: use of closed network connection
+[go_vue_admin]2024-07-17 22:42:47.428	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-17 22:42:47.428	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:55067: use of closed network connection
+[go_vue_admin]2024-07-17 22:43:53.645	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:45:19.598	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:55109: use of closed network connection
+[go_vue_admin]2024-07-17 22:45:19.598	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-17 22:45:19.598	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:55150: use of closed network connection
+[go_vue_admin]2024-07-17 22:49:23.441	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:52:46.709	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-17 22:56:32.553	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:55983: use of closed network connection
+[go_vue_admin]2024-07-17 22:56:32.554	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:55195: use of closed network connection
+[go_vue_admin]2024-07-17 22:56:32.554	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-17 22:56:32.554	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:56879: use of closed network connection
+[go_vue_admin]2024-07-17 23:48:38.238	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection

@@ -1,0 +1,17 @@
+[go_vue_admin]2024-06-30 21:41:00.678	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[go_vue_admin]2024-06-30 21:41:23.854	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/api/v1/system/sys_initdb.go:39	自动创建数据库失败!	{"error": "test"}
+[go_vue_admin]2024-06-30 21:41:27.559	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/api/v1/system/sys_initdb.go:39	自动创建数据库失败!	{"error": "test"}
+[go_vue_admin]2024-06-30 21:41:29.627	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/api/v1/system/sys_initdb.go:39	自动创建数据库失败!	{"error": "test"}
+[go_vue_admin]2024-06-30 21:41:31.251	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/api/v1/system/sys_initdb.go:39	自动创建数据库失败!	{"error": "test"}
+[go_vue_admin]2024-06-30 21:42:24.745	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[go_vue_admin]2024-06-30 21:42:40.662	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/api/v1/system/sys_initdb.go:39	自动创建数据库失败!	{"error": "test"}
+[go_vue_admin]2024-06-30 21:42:48.301	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/api/v1/system/sys_initdb.go:39	自动创建数据库失败!	{"error": "test"}
+[go_vue_admin]2024-06-30 21:43:19.866	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[go_vue_admin]2024-06-30 21:43:29.614	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/api/v1/system/sys_initdb.go:39	自动创建数据库失败!	{"error": "test"}
+[go_vue_admin]2024-06-30 21:43:30.474	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/api/v1/system/sys_initdb.go:39	自动创建数据库失败!	{"error": "test"}
+[go_vue_admin]2024-06-30 21:43:31.186	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/api/v1/system/sys_initdb.go:39	自动创建数据库失败!	{"error": "test"}
+[go_vue_admin]2024-06-30 21:44:22.915	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[go_vue_admin]2024-06-30 21:44:31.878	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/api/v1/system/sys_initdb.go:39	自动创建数据库失败!	{"error": "test"}
+[go_vue_admin]2024-06-30 22:24:16.578	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[go_vue_admin]2024-06-30 22:25:04.597	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[go_vue_admin]2024-06-30 23:49:22.711	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:54	accept tcp [::]:8888: use of closed network connection

@@ -1,0 +1,1 @@
+[go_vue_admin]2024-07-02 08:31:29.875	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:55	accept tcp [::]:8888: use of closed network connection

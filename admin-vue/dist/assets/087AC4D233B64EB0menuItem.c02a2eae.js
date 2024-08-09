@@ -1,0 +1,4 @@
+/*! 
+ Build based on admin-vue 
+ Time : 1721439181000 */
+import{a9 as e,aa as t,B as a,o as s,h as n,w as o,g as r,t as i,ag as u,e as m,Y as l,S as d}from"./087AC4D233B64EB0index.3a42c3d0.js";import{b as f}from"./087AC4D233B64EB0index.d831c00a.js";import"./087AC4D233B64EB0index.70cb6f72.js";import"./087AC4D233B64EB0index.3ccbca82.js";import"./087AC4D233B64EB0index.f44b2100.js";const p=Object.assign({name:"MenuItem"},{__name:"menuItem",props:{routerInfo:{default:function(){return null},type:Object}},setup(p){const B=e(),{config:c}=t(B),x=a((()=>c.value.layout_side_item_height+"px"));return(e,t)=>{const a=d,B=f;return s(),n(B,{index:p.routerInfo.name,class:"dark:text-slate-300",style:l({height:x.value})},{title:o((()=>[r(i(p.routerInfo.meta.title),1)])),default:o((()=>[p.routerInfo.meta.icon?(s(),n(a,{key:0},{default:o((()=>[(s(),n(u(p.routerInfo.meta.icon)))])),_:1})):m("",!0)])),_:1},8,["index","style"])}}});export{p as default};

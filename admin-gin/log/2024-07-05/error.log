@@ -1,0 +1,9 @@
+[go_vue_admin]2024-07-05 09:58:16.224	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:55	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-05 09:58:29.319	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:55	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-05 10:16:07.900	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:55	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-05 10:16:54.831	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:55	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-05 13:06:42.761	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:55	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-05 14:24:34.224	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:55	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-05 15:07:55.197	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:55	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-05 15:19:20.722	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:55	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-05 22:51:19.140	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:55	accept tcp [::]:8887: use of closed network connection

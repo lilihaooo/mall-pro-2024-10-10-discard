@@ -1,0 +1,112 @@
+[go_vue_admin]2024-07-07 13:57:15.579	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 13:57:15.586	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 13:57:15.593	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 13:57:15.593	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 13:59:48.713	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 13:59:48.720	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 13:59:48.728	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 13:59:48.728	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 14:01:36.017	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 14:01:36.025	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 14:01:36.032	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 14:01:36.032	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 14:05:14.752	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 14:05:14.758	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 14:05:14.762	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 14:05:14.762	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 14:13:22.098	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 14:13:22.104	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 14:13:22.108	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 14:13:22.109	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 14:14:25.814	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 14:14:25.822	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 14:14:25.828	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 14:14:25.828	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 14:17:12.641	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 14:17:12.648	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 14:17:12.653	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 14:17:12.654	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 14:20:21.266	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 14:20:21.273	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 14:20:21.279	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 14:20:21.279	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 14:25:40.588	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 14:25:40.594	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 14:25:40.595	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 14:25:40.595	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 14:31:26.532	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 14:31:26.540	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 14:31:26.546	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 14:31:26.547	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 14:36:18.702	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 14:36:18.709	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 14:36:18.714	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 14:36:18.714	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 14:39:02.729	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 14:39:02.736	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 14:39:02.744	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 14:39:02.744	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 14:40:00.018	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 14:40:00.025	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 14:40:00.033	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 14:40:00.034	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 14:46:39.773	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 14:46:39.780	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 14:46:39.787	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 14:46:39.787	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 14:50:10.889	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 14:50:10.896	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 14:50:10.906	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 14:50:10.906	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 15:08:19.980	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 15:08:19.987	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 15:08:19.994	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 15:08:19.995	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 19:38:59.518	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 19:38:59.525	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 19:38:59.534	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 19:38:59.534	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 19:46:03.758	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 19:46:03.765	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 19:46:03.773	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 19:46:03.774	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 19:46:50.928	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 19:46:50.935	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 19:46:50.943	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 19:46:50.944	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 19:49:09.597	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 19:49:09.604	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 19:49:09.612	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 19:49:09.612	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 19:52:32.918	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 19:52:32.926	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 19:52:32.938	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 19:52:32.938	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 19:55:47.647	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 19:55:47.654	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 19:55:47.666	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 19:55:47.667	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 20:01:43.779	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 20:01:43.786	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 20:01:43.794	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 20:01:43.795	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 20:16:37.790	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 20:16:37.797	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 20:16:37.803	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 20:16:37.804	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 20:18:12.163	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 20:18:12.171	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 20:18:12.179	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 20:18:12.179	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 20:21:18.408	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 20:21:18.416	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 20:21:18.426	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 20:21:18.426	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 20:22:58.973	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 20:22:58.981	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 20:22:58.989	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 20:22:58.990	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}
+[go_vue_admin]2024-07-07 21:39:46.150	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/gorm.go:67	register table success
+[go_vue_admin]2024-07-07 21:39:46.157	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-07-07 21:39:46.166	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/router.go:113	router register success
+[go_vue_admin]2024-07-07 21:39:46.166	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:39	server run success on 	{"address": ":8887"}

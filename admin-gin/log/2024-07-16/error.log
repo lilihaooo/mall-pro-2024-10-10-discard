@@ -1,0 +1,611 @@
+[go_vue_admin]2024-07-16 00:01:56.568	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:01:58.407	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:02:12.516	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:02:13.870	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:02:46.792	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:03:04.083	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:03:13.244	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:03:23.223	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:03:29.067	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:03:30.599	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:03:31.535	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:04:41.182	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:04:43.010	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:04:48.822	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:04:50.046	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:04:50.782	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:04:52.167	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:05:16.889	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:05:23.033	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:05:23.838	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:05:24.167	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:05:24.427	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:05:44.390	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:06:16.905	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:06:27.239	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:07:20.606	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:07:30.843	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:08:06.245	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:08:45.652	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:16:23.313	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:18:05.988	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:19:25.654	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:20:00.572	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:20:58.121	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:25:22.855	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:26:36.432	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 00:26:48.547	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:54639: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.547	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:50261: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.547	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:54977: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.547	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:59093: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.547	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:62427: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.547	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:52160: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.547	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:62435: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.547	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:62367: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.547	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:65308: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.547	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:49714: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.547	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:53724: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.547	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:59824: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:61779: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:50284: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:62675: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:63023: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:56109: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:61640: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:56759: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:54894: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:59964: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:62221: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:56525: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:58100: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:61743: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:62233: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:62245: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:55501: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:60022: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:60351: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:61310: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:49866: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:59385: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:58435: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:61405: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:61791: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:61292: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:62532: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:54226: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:62419: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:50114: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:54106: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:54348: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:52428: use of closed network connection
+[go_vue_admin]2024-07-16 00:26:48.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:61389: use of closed network connection
+[go_vue_admin]2024-07-16 10:18:04.506	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 10:18:18.540	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 10:19:04.394	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:54588: use of closed network connection
+[go_vue_admin]2024-07-16 10:19:04.394	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:54662: use of closed network connection
+[go_vue_admin]2024-07-16 10:19:04.394	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-16 10:21:31.336	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 10:22:37.080	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 10:22:38.065	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 10:23:26.588	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 10:27:33.000	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 10:28:09.973	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 10:58:24.681	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:57207: use of closed network connection
+[go_vue_admin]2024-07-16 10:58:24.684	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-16 10:58:24.681	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:56005: use of closed network connection
+[go_vue_admin]2024-07-16 10:58:24.682	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:55511: use of closed network connection
+[go_vue_admin]2024-07-16 10:58:24.682	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:55786: use of closed network connection
+[go_vue_admin]2024-07-16 10:58:24.682	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:55800: use of closed network connection
+[go_vue_admin]2024-07-16 10:58:24.682	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:57039: use of closed network connection
+[go_vue_admin]2024-07-16 10:58:24.682	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:54895: use of closed network connection
+[go_vue_admin]2024-07-16 10:59:08.194	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 11:03:17.259	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 11:03:38.519	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 11:05:41.877	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 11:13:25.781	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 11:13:25.912	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_menu.go:29	获取失败!	{"error": "dial tcp 47.109.31.106:3306: connect: network is unreachable"}
+[go_vue_admin]2024-07-16 11:13:25.924	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_user.go:442	获取失败!	{"error": "dial tcp 47.109.31.106:3306: connect: network is unreachable"}
+[go_vue_admin]2024-07-16 11:55:34.875	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:49153: use of closed network connection
+[go_vue_admin]2024-07-16 11:55:34.875	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:65363: use of closed network connection
+[go_vue_admin]2024-07-16 11:55:34.875	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:51032: use of closed network connection
+[go_vue_admin]2024-07-16 11:55:34.875	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:50495: use of closed network connection
+[go_vue_admin]2024-07-16 11:55:34.875	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:50389: use of closed network connection
+[go_vue_admin]2024-07-16 11:55:34.875	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:52950: use of closed network connection
+[go_vue_admin]2024-07-16 11:55:34.875	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-16 11:55:51.659	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 11:57:31.230	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:63944: use of closed network connection
+[go_vue_admin]2024-07-16 11:57:31.230	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:63992: use of closed network connection
+[go_vue_admin]2024-07-16 11:57:31.230	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-16 11:58:03.180	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 11:58:24.469	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:64622: use of closed network connection
+[go_vue_admin]2024-07-16 11:58:24.470	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:64495: use of closed network connection
+[go_vue_admin]2024-07-16 11:58:24.470	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-16 11:59:21.324	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:64816: use of closed network connection
+[go_vue_admin]2024-07-16 11:59:21.325	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-16 12:01:36.762	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 12:14:47.060	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1006 (abnormal closure): unexpected EOF
+[go_vue_admin]2024-07-16 12:31:24.311	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_menu.go:29	获取失败!	{"error": "invalid connection"}
+[go_vue_admin]2024-07-16 12:31:24.338	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_user.go:442	获取失败!	{"error": "dial tcp 47.109.31.106:3306: connect: network is unreachable"}
+[go_vue_admin]2024-07-16 12:53:48.610	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 12:53:48.659	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_menu.go:29	获取失败!	{"error": "dial tcp 47.109.31.106:3306: connect: network is unreachable"}
+[go_vue_admin]2024-07-16 12:53:48.664	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_user.go:442	获取失败!	{"error": "dial tcp 47.109.31.106:3306: connect: network is unreachable"}
+[go_vue_admin]2024-07-16 12:53:56.301	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_menu.go:29	获取失败!	{"error": "dial tcp 47.109.31.106:3306: connect: network is unreachable"}
+[go_vue_admin]2024-07-16 12:53:56.310	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_user.go:442	获取失败!	{"error": "dial tcp 47.109.31.106:3306: connect: network is unreachable"}
+[go_vue_admin]2024-07-16 12:53:57.197	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 12:54:19.344	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_user.go:56	登陆失败! 用户名不存在或者密码错误!	{"error": "dial tcp 47.109.31.106:3306: connect: network is unreachable"}
+[go_vue_admin]2024-07-16 12:54:29.785	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_user.go:56	登陆失败! 用户名不存在或者密码错误!	{"error": "dial tcp 47.109.31.106:3306: connect: network is unreachable"}
+[go_vue_admin]2024-07-16 12:54:43.105	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_user.go:56	登陆失败! 用户名不存在或者密码错误!	{"error": "dial tcp 47.109.31.106:3306: connect: network is unreachable"}
+[go_vue_admin]2024-07-16 12:55:04.624	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_user.go:56	登陆失败! 用户名不存在或者密码错误!	{"error": "dial tcp 47.109.31.106:3306: connect: network is unreachable"}
+[go_vue_admin]2024-07-16 12:55:26.882	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_user.go:56	登陆失败! 用户名不存在或者密码错误!	{"error": "dial tcp 47.109.31.106:3306: connect: network is unreachable"}
+[go_vue_admin]2024-07-16 12:56:20.841	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_user.go:56	登陆失败! 用户名不存在或者密码错误!	{"error": "dial tcp 47.109.31.106:3306: connect: network is unreachable"}
+[go_vue_admin]2024-07-16 12:59:07.426	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 18:41:25.607	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:53975: use of closed network connection
+[go_vue_admin]2024-07-16 18:41:25.607	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:65030: use of closed network connection
+[go_vue_admin]2024-07-16 18:41:25.607	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:52862: use of closed network connection
+[go_vue_admin]2024-07-16 18:41:25.607	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:52707: use of closed network connection
+[go_vue_admin]2024-07-16 18:41:25.607	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:49242: use of closed network connection
+[go_vue_admin]2024-07-16 18:41:25.607	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-16 18:43:31.543	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-16 19:18:08.287	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:57470: use of closed network connection
+[go_vue_admin]2024-07-16 19:18:08.288	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-16 20:24:21.870	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 20:24:30.870	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 20:28:37.073	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 21:42:28.824	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 21:42:48.237	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 21:42:49.626	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 21:42:50.393	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 21:42:56.867	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 21:43:03.817	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:59282: use of closed network connection
+[go_vue_admin]2024-07-16 21:43:03.817	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:59301: use of closed network connection
+[go_vue_admin]2024-07-16 21:43:03.817	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:59288: use of closed network connection
+[go_vue_admin]2024-07-16 21:43:03.818	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-16 21:43:03.818	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:58803: use of closed network connection
+[go_vue_admin]2024-07-16 21:44:24.013	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 21:45:36.077	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 21:46:01.564	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:59321: use of closed network connection
+[go_vue_admin]2024-07-16 21:46:01.564	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:59739: use of closed network connection
+[go_vue_admin]2024-07-16 21:46:01.564	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:59413: use of closed network connection
+[go_vue_admin]2024-07-16 21:46:01.565	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-16 21:48:55.200	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	read tcp [::1]:8887->[::1]:60066: use of closed network connection
+[go_vue_admin]2024-07-16 21:48:55.200	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-16 21:49:02.501	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:99	Ƙ
+[go_vue_admin]2024-07-16 21:49:26.285	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 21:49:44.493	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 21:49:51.100	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:60757: use of closed network connection
+[go_vue_admin]2024-07-16 21:49:51.101	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:60840: use of closed network connection
+[go_vue_admin]2024-07-16 21:49:51.101	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:60638: use of closed network connection
+[go_vue_admin]2024-07-16 21:49:51.101	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-16 21:50:00.175	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:99	Ƙ
+[go_vue_admin]2024-07-16 21:50:07.880	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:60909: use of closed network connection
+[go_vue_admin]2024-07-16 21:50:07.881	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-16 21:50:39.874	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:99	食品饮料
+[go_vue_admin]2024-07-16 21:51:10.341	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 21:51:13.027	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:61090: use of closed network connection
+[go_vue_admin]2024-07-16 21:51:13.028	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-16 21:51:13.028	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:61237: use of closed network connection
+[go_vue_admin]2024-07-16 21:51:33.570	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 21:51:38.075	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:61280: use of closed network connection
+[go_vue_admin]2024-07-16 21:51:38.075	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:61356: use of closed network connection
+[go_vue_admin]2024-07-16 21:51:38.075	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-16 21:53:25.763	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-16 21:53:57.824	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:61864: use of closed network connection
+[go_vue_admin]2024-07-16 21:53:57.825	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-16 21:54:36.757	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:62031: use of closed network connection
+[go_vue_admin]2024-07-16 21:54:36.758	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-16 21:55:42.721	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:62222: use of closed network connection
+[go_vue_admin]2024-07-16 21:55:42.722	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-16 21:57:18.674	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	read tcp [::1]:8887->[::1]:62503: use of closed network connection
+[go_vue_admin]2024-07-16 21:57:18.674	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-07-16 21:57:37.242	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 31分类名称：饼干
+[go_vue_admin]2024-07-16 21:57:37.246	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 32分类名称：糕点
+[go_vue_admin]2024-07-16 21:57:37.286	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 33分类名称：枣制品
+[go_vue_admin]2024-07-16 21:57:37.290	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 34分类名称：巧克力
+[go_vue_admin]2024-07-16 21:57:37.330	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 35分类名称：膨化食品
+[go_vue_admin]2024-07-16 21:57:37.333	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 36分类名称：蜜饯/果干
+[go_vue_admin]2024-07-16 21:57:37.374	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 37分类名称：糖果
+[go_vue_admin]2024-07-16 21:57:37.377	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 39分类名称：豆干
+[go_vue_admin]2024-07-16 21:57:37.418	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 40分类名称：海苔/即食海产
+[go_vue_admin]2024-07-16 21:57:37.421	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 41分类名称：饮料
+[go_vue_admin]2024-07-16 21:57:37.463	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 42分类名称：乳制品/奶制品
+[go_vue_admin]2024-07-16 21:57:37.465	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 43分类名称：咖啡冲饮
+[go_vue_admin]2024-07-16 21:57:37.507	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 44分类名称：营养膳补
+[go_vue_admin]2024-07-16 21:57:37.510	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 45分类名称：膳食保健
+[go_vue_admin]2024-07-16 21:57:37.550	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 46分类名称：精选肉类
+[go_vue_admin]2024-07-16 21:57:37.553	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 47分类名称：蔬菜蛋品
+[go_vue_admin]2024-07-16 21:57:37.594	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 48分类名称：新鲜水果
+[go_vue_admin]2024-07-16 21:57:37.596	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 49分类名称：海鲜水产
+[go_vue_admin]2024-07-16 21:57:37.637	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 50分类名称：日用百货
+[go_vue_admin]2024-07-16 21:57:37.639	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 53分类名称：家具家装
+[go_vue_admin]2024-07-16 21:57:37.680	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 54分类名称：酒类
+[go_vue_admin]2024-07-16 21:57:37.684	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 55分类名称：珠宝配饰
+[go_vue_admin]2024-07-16 21:57:37.724	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 56分类名称：男装
+[go_vue_admin]2024-07-16 21:57:37.727	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 57分类名称：女装
+[go_vue_admin]2024-07-16 21:57:37.767	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 58分类名称：内衣裤/袜子
+[go_vue_admin]2024-07-16 21:57:37.771	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 62分类名称：皮带/手表
+[go_vue_admin]2024-07-16 21:57:37.811	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 63分类名称：男士裤装
+[go_vue_admin]2024-07-16 21:57:37.814	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 64分类名称：男士外套
+[go_vue_admin]2024-07-16 21:57:37.855	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 65分类名称：男士内搭
+[go_vue_admin]2024-07-16 21:57:37.858	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 69分类名称：文胸塑身
+[go_vue_admin]2024-07-16 21:57:37.899	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 70分类名称：内裤
+[go_vue_admin]2024-07-16 21:57:37.902	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 71分类名称：家居服
+[go_vue_admin]2024-07-16 21:57:37.944	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 72分类名称：美容护肤
+[go_vue_admin]2024-07-16 21:57:37.947	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 73分类名称：彩妆香水
+[go_vue_admin]2024-07-16 21:57:37.988	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 74分类名称：美容美体
+[go_vue_admin]2024-07-16 21:57:37.991	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 76分类名称：面膜
+[go_vue_admin]2024-07-16 21:57:38.032	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 77分类名称：精华
+[go_vue_admin]2024-07-16 21:57:38.042	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 78分类名称：眼部护理
+[go_vue_admin]2024-07-16 21:57:38.077	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 79分类名称：洁面
+[go_vue_admin]2024-07-16 21:57:38.088	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 81分类名称：护肤套装
+[go_vue_admin]2024-07-16 21:57:38.122	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 82分类名称：防晒
+[go_vue_admin]2024-07-16 21:57:38.132	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 83分类名称：乳液面霜
+[go_vue_admin]2024-07-16 21:57:38.166	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 84分类名称：卸妆
+[go_vue_admin]2024-07-16 21:57:38.210	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 86分类名称：口红
+[go_vue_admin]2024-07-16 21:57:38.226	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 88分类名称：隔离
+[go_vue_admin]2024-07-16 21:57:38.255	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 89分类名称：眉笔
+[go_vue_admin]2024-07-16 21:57:38.269	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 90分类名称：睫毛膏
+[go_vue_admin]2024-07-16 21:57:38.300	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 103分类名称：童鞋
+[go_vue_admin]2024-07-16 21:57:38.313	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 104分类名称：婴童用品
+[go_vue_admin]2024-07-16 21:57:38.348	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 105分类名称：孕妇用品
+[go_vue_admin]2024-07-16 21:57:38.356	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 107分类名称：童装
+[go_vue_admin]2024-07-16 21:57:38.393	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 108分类名称：手机
+[go_vue_admin]2024-07-16 21:57:38.401	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 109分类名称：大家电
+[go_vue_admin]2024-07-16 21:57:38.438	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 110分类名称：智能手机
+[go_vue_admin]2024-07-16 21:57:38.445	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 117分类名称：电视
+[go_vue_admin]2024-07-16 21:57:38.482	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 118分类名称：空调
+[go_vue_admin]2024-07-16 21:57:38.490	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 119分类名称：冰箱
+[go_vue_admin]2024-07-16 21:57:38.526	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 120分类名称：洗衣机
+[go_vue_admin]2024-07-16 21:57:38.533	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 121分类名称：厨房大家电
+[go_vue_admin]2024-07-16 21:57:38.571	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 122分类名称：热水器
+[go_vue_admin]2024-07-16 21:57:38.577	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 125分类名称：其他
+[go_vue_admin]2024-07-16 21:57:38.614	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 130分类名称：奶粉辅食
+[go_vue_admin]2024-07-16 21:57:38.620	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 132分类名称：粮油速食
+[go_vue_admin]2024-07-16 21:57:38.658	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 133分类名称：粮油米面
+[go_vue_admin]2024-07-16 21:57:38.664	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 134分类名称：南北干货
+[go_vue_admin]2024-07-16 21:57:38.702	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 135分类名称：调味品
+[go_vue_admin]2024-07-16 21:57:38.708	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 137分类名称：3C数码配件
+[go_vue_admin]2024-07-16 21:57:38.747	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 138分类名称：手机配件
+[go_vue_admin]2024-07-16 21:57:38.753	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 139分类名称：电脑配件
+[go_vue_admin]2024-07-16 21:57:38.791	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 140分类名称：其他数码配件
+[go_vue_admin]2024-07-16 21:57:38.797	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 141分类名称：打火机/眼镜
+[go_vue_admin]2024-07-16 21:57:38.836	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 142分类名称：帽子/围巾/手套
+[go_vue_admin]2024-07-16 21:57:38.841	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 143分类名称：其他配饰
+[go_vue_admin]2024-07-16 21:57:38.880	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 148分类名称：茗茶
+[go_vue_admin]2024-07-16 21:57:38.885	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 149分类名称：白酒
+[go_vue_admin]2024-07-16 21:57:38.925	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 150分类名称：葡萄酒
+[go_vue_admin]2024-07-16 21:57:38.930	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 151分类名称：洋酒
+[go_vue_admin]2024-07-16 21:57:38.970	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 152分类名称：黄酒/米酒
+[go_vue_admin]2024-07-16 21:57:38.975	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 153分类名称：预调酒/果酒
+[go_vue_admin]2024-07-16 21:57:39.015	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 154分类名称：绿茶
+[go_vue_admin]2024-07-16 21:57:39.020	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 155分类名称：红茶
+[go_vue_admin]2024-07-16 21:57:39.059	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 156分类名称：普洱
+[go_vue_admin]2024-07-16 21:57:39.066	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 157分类名称：黑茶/白茶
+[go_vue_admin]2024-07-16 21:57:39.103	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 158分类名称：花果茶
+[go_vue_admin]2024-07-16 21:57:39.111	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 159分类名称：茶制品
+[go_vue_admin]2024-07-16 21:57:39.148	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 160分类名称：袜子
+[go_vue_admin]2024-07-16 21:57:39.155	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 161分类名称：冷饮冻食
+[go_vue_admin]2024-07-16 21:57:39.199	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 163分类名称：电子电工
+[go_vue_admin]2024-07-16 21:57:39.232	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 164分类名称：基础建材
+[go_vue_admin]2024-07-16 21:57:39.243	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 165分类名称：五金工具
+[go_vue_admin]2024-07-16 21:57:39.276	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 166分类名称：家装主材
+[go_vue_admin]2024-07-16 21:57:39.287	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 167分类名称：灯饰照明
+[go_vue_admin]2024-07-16 21:57:39.319	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 168分类名称：家具装饰
+[go_vue_admin]2024-07-16 21:57:39.331	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 172分类名称：传统滋补
+[go_vue_admin]2024-07-16 21:57:39.363	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 175分类名称：婴童尿裤
+[go_vue_admin]2024-07-16 21:57:39.374	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 176分类名称：儿童餐具
+[go_vue_admin]2024-07-16 21:57:39.407	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 177分类名称：童车座椅
+[go_vue_admin]2024-07-16 21:57:39.418	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 178分类名称：婴幼个护
+[go_vue_admin]2024-07-16 21:57:39.451	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 179分类名称：喂养用品
+[go_vue_admin]2024-07-16 21:57:39.462	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 181分类名称：宝宝护肤
+[go_vue_admin]2024-07-16 21:57:39.495	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 182分类名称：孕妇个护
+[go_vue_admin]2024-07-16 21:57:39.506	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 184分类名称：孕妇家居
+[go_vue_admin]2024-07-16 21:57:39.539	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 185分类名称：孕妇营养
+[go_vue_admin]2024-07-16 21:57:39.550	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 186分类名称：孕妇配件
+[go_vue_admin]2024-07-16 21:57:39.582	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 187分类名称：骨盆带/塑身衣
+[go_vue_admin]2024-07-16 21:57:39.593	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 188分类名称：儿童上衣
+[go_vue_admin]2024-07-16 21:57:39.626	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 189分类名称：亲子装
+[go_vue_admin]2024-07-16 21:57:39.636	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 190分类名称：儿童下装
+[go_vue_admin]2024-07-16 21:57:39.670	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 191分类名称：内衣裤袜
+[go_vue_admin]2024-07-16 21:57:39.680	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 192分类名称：儿童套装
+[go_vue_admin]2024-07-16 21:57:39.713	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 193分类名称：儿童配饰
+[go_vue_admin]2024-07-16 21:57:39.723	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 194分类名称：儿童外套
+[go_vue_admin]2024-07-16 21:57:39.757	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 195分类名称：婴儿调味
+[go_vue_admin]2024-07-16 21:57:39.767	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 196分类名称：辅食零食
+[go_vue_admin]2024-07-16 21:57:39.801	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 197分类名称：儿童营养
+[go_vue_admin]2024-07-16 21:57:39.811	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 198分类名称：奶粉
+[go_vue_admin]2024-07-16 21:57:39.846	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 199分类名称：儿童拖鞋
+[go_vue_admin]2024-07-16 21:57:39.856	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 200分类名称：儿童凉鞋
+[go_vue_admin]2024-07-16 21:57:39.891	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 201分类名称：休闲鞋
+[go_vue_admin]2024-07-16 21:57:39.900	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 202分类名称：学步鞋
+[go_vue_admin]2024-07-16 21:57:39.935	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 203分类名称：运动鞋
+[go_vue_admin]2024-07-16 21:57:39.944	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 204分类名称：儿童皮鞋
+[go_vue_admin]2024-07-16 21:57:39.980	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 206分类名称：爽肤水
+[go_vue_admin]2024-07-16 21:57:39.989	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 207分类名称：婴幼玩具
+[go_vue_admin]2024-07-16 21:57:40.025	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 211分类名称：电脑办公
+[go_vue_admin]2024-07-16 21:57:40.033	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 212分类名称：影音智能
+[go_vue_admin]2024-07-16 21:57:40.069	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 213分类名称：老人机
+[go_vue_admin]2024-07-16 21:57:40.077	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 214分类名称：游戏手机
+[go_vue_admin]2024-07-16 21:57:40.114	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 215分类名称：影音娱乐
+[go_vue_admin]2024-07-16 21:57:40.121	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 216分类名称：智能设备
+[go_vue_admin]2024-07-16 21:57:40.158	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 217分类名称：台式机
+[go_vue_admin]2024-07-16 21:57:40.165	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 218分类名称：笔记本
+[go_vue_admin]2024-07-16 21:57:40.209	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 220分类名称：键盘鼠标
+[go_vue_admin]2024-07-16 21:57:40.252	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 221分类名称：办公设备
+[go_vue_admin]2024-07-16 21:57:40.253	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 222分类名称：生活家电
+[go_vue_admin]2024-07-16 21:57:40.297	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 223分类名称：个护家电
+[go_vue_admin]2024-07-16 21:57:40.298	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 224分类名称：生活电器
+[go_vue_admin]2024-07-16 21:57:40.341	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 225分类名称：厨房小电
+[go_vue_admin]2024-07-16 21:57:40.344	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 226分类名称：肉干肉脯/卤味
+[go_vue_admin]2024-07-16 21:57:40.386	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 228分类名称：食品添加剂/辅料
+[go_vue_admin]2024-07-16 21:57:40.391	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 229分类名称：方便速食
+[go_vue_admin]2024-07-16 21:57:40.430	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 230分类名称：枸杞
+[go_vue_admin]2024-07-16 21:57:40.435	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 231分类名称：阿胶
+[go_vue_admin]2024-07-16 21:57:40.475	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 232分类名称：蜂蜜
+[go_vue_admin]2024-07-16 21:57:40.479	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 233分类名称：燕窝
+[go_vue_admin]2024-07-16 21:57:40.519	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 234分类名称：参茸贵细
+[go_vue_admin]2024-07-16 21:57:40.523	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 235分类名称：养生原料
+[go_vue_admin]2024-07-16 21:57:40.564	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 236分类名称：其他滋补品
+[go_vue_admin]2024-07-16 21:57:40.569	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 238分类名称：食疗滋补
+[go_vue_admin]2024-07-16 21:57:40.608	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 239分类名称：猪肉类
+[go_vue_admin]2024-07-16 21:57:40.614	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 240分类名称：牛羊肉类
+[go_vue_admin]2024-07-16 21:57:40.653	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 241分类名称：鸡鸭肉类
+[go_vue_admin]2024-07-16 21:57:40.658	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 242分类名称：肉制品
+[go_vue_admin]2024-07-16 21:57:40.697	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 243分类名称：包点/面点
+[go_vue_admin]2024-07-16 21:57:40.702	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 244分类名称：煎饼类
+[go_vue_admin]2024-07-16 21:57:40.742	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 245分类名称：水饺馄饨
+[go_vue_admin]2024-07-16 21:57:40.746	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 246分类名称：冰淇淋
+[go_vue_admin]2024-07-16 21:57:40.787	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 247分类名称：冻半成品
+[go_vue_admin]2024-07-16 21:57:40.790	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 248分类名称：蟹类
+[go_vue_admin]2024-07-16 21:57:40.832	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 249分类名称：海鲜制品
+[go_vue_admin]2024-07-16 21:57:40.834	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 250分类名称：海参
+[go_vue_admin]2024-07-16 21:57:40.877	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 251分类名称：贝类
+[go_vue_admin]2024-07-16 21:57:40.880	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 252分类名称：虾类
+[go_vue_admin]2024-07-16 21:57:40.922	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 253分类名称：鱼类
+[go_vue_admin]2024-07-16 21:57:40.925	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 254分类名称：其他海产
+[go_vue_admin]2024-07-16 21:57:40.966	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 255分类名称：叶菜类
+[go_vue_admin]2024-07-16 21:57:40.969	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 256分类名称：根茎类
+[go_vue_admin]2024-07-16 21:57:41.010	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 257分类名称：鲜菌菇
+[go_vue_admin]2024-07-16 21:57:41.013	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 258分类名称：茄果瓜类
+[go_vue_admin]2024-07-16 21:57:41.054	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 259分类名称：快手菜
+[go_vue_admin]2024-07-16 21:57:41.057	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 260分类名称：葱姜蒜椒
+[go_vue_admin]2024-07-16 21:57:41.099	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 261分类名称：蛋品
+[go_vue_admin]2024-07-16 21:57:41.101	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 262分类名称：柑橘橙柚
+[go_vue_admin]2024-07-16 21:57:41.143	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 263分类名称：葡提莓果
+[go_vue_admin]2024-07-16 21:57:41.147	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 264分类名称：苹果蕉梨
+[go_vue_admin]2024-07-16 21:57:41.192	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 266分类名称：热带水果
+[go_vue_admin]2024-07-16 21:57:41.230	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 267分类名称：西瓜/蜜瓜
+[go_vue_admin]2024-07-16 21:57:41.236	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 268分类名称：猕猴桃
+[go_vue_admin]2024-07-16 21:57:41.274	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 269分类名称：水果礼盒
+[go_vue_admin]2024-07-16 21:57:41.280	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 270分类名称：气垫
+[go_vue_admin]2024-07-16 21:57:41.319	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 271分类名称：粉底遮瑕
+[go_vue_admin]2024-07-16 21:57:41.324	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 272分类名称：散粉
+[go_vue_admin]2024-07-16 21:57:41.363	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 273分类名称：彩妆套装
+[go_vue_admin]2024-07-16 21:57:41.368	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 274分类名称：眼影眼线
+[go_vue_admin]2024-07-16 21:57:41.408	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 275分类名称：腮红/修容
+[go_vue_admin]2024-07-16 21:57:41.412	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 276分类名称：美容美体医疗器械
+[go_vue_admin]2024-07-16 21:57:41.452	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 277分类名称：美容/个护仪器
+[go_vue_admin]2024-07-16 21:57:41.456	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 278分类名称：女士脱毛
+[go_vue_admin]2024-07-16 21:57:41.497	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 279分类名称：洁面仪
+[go_vue_admin]2024-07-16 21:57:41.500	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 280分类名称：蒸脸器
+[go_vue_admin]2024-07-16 21:57:41.541	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 299分类名称：老年机
+[go_vue_admin]2024-07-16 21:57:41.545	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 300分类名称：连衣裙
+[go_vue_admin]2024-07-16 21:57:41.586	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 301分类名称：女士上衣
+[go_vue_admin]2024-07-16 21:57:41.589	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 302分类名称：裤子
+[go_vue_admin]2024-07-16 21:57:41.630	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 303分类名称：套装
+[go_vue_admin]2024-07-16 21:57:41.633	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 304分类名称：衬衫
+[go_vue_admin]2024-07-16 21:57:41.674	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 305分类名称：大码女装
+[go_vue_admin]2024-07-16 21:57:41.676	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 306分类名称：其他肉类
+[go_vue_admin]2024-07-16 21:57:41.718	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 307分类名称：豆制品
+[go_vue_admin]2024-07-16 21:57:41.720	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 308分类名称：生活日用
+[go_vue_admin]2024-07-16 21:57:41.763	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 310分类名称：办公文具
+[go_vue_admin]2024-07-16 21:57:41.765	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 311分类名称：创意家居
+[go_vue_admin]2024-07-16 21:57:41.808	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 312分类名称：餐饮具
+[go_vue_admin]2024-07-16 21:57:41.809	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 313分类名称：烹饪用具
+[go_vue_admin]2024-07-16 21:57:41.852	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 314分类名称：厨房配件
+[go_vue_admin]2024-07-16 21:57:41.858	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 319分类名称：精油/纯露
+[go_vue_admin]2024-07-16 21:57:41.897	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 320分类名称：基础护肤
+[go_vue_admin]2024-07-16 21:57:41.904	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 321分类名称：美妆工具
+[go_vue_admin]2024-07-16 21:57:41.941	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 322分类名称：其他
+[go_vue_admin]2024-07-16 21:57:41.948	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 323分类名称：益智玩具
+[go_vue_admin]2024-07-16 21:57:41.985	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 324分类名称：手工DIY
+[go_vue_admin]2024-07-16 21:57:41.991	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 325分类名称：积木/模型
+[go_vue_admin]2024-07-16 21:57:42.029	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 326分类名称：电动玩具
+[go_vue_admin]2024-07-16 21:57:42.035	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 327分类名称：童车运动
+[go_vue_admin]2024-07-16 21:57:42.073	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 328分类名称：宝宝纪念品
+[go_vue_admin]2024-07-16 21:57:42.079	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 329分类名称：童鞋配件
+[go_vue_admin]2024-07-16 21:57:42.117	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 330分类名称：孕妇装/妈咪装
+[go_vue_admin]2024-07-16 21:57:42.122	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 331分类名称：日用起居
+[go_vue_admin]2024-07-16 21:57:42.161	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 332分类名称：安全防护
+[go_vue_admin]2024-07-16 21:57:42.166	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 333分类名称：乌龙茶
+[go_vue_admin]2024-07-16 21:57:42.211	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 336分类名称：黄金珠宝
+[go_vue_admin]2024-07-16 21:57:42.231	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 337分类名称：时尚配饰
+[go_vue_admin]2024-07-16 21:57:42.255	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 338分类名称：时尚箱包
+[go_vue_admin]2024-07-16 21:57:42.275	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 339分类名称：功能箱包
+[go_vue_admin]2024-07-16 21:57:42.299	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 340分类名称：女士包袋
+[go_vue_admin]2024-07-16 21:57:42.320	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 341分类名称：男士包袋
+[go_vue_admin]2024-07-16 21:57:42.344	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 342分类名称：卡套
+[go_vue_admin]2024-07-16 21:57:42.365	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 343分类名称：运动鞋靴
+[go_vue_admin]2024-07-16 21:57:42.388	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 344分类名称：运动鞋
+[go_vue_admin]2024-07-16 21:57:42.409	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 345分类名称：休闲鞋
+[go_vue_admin]2024-07-16 21:57:42.433	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 346分类名称：皮鞋
+[go_vue_admin]2024-07-16 21:57:42.454	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 347分类名称：靴子
+[go_vue_admin]2024-07-16 21:57:42.477	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 348分类名称：高跟鞋
+[go_vue_admin]2024-07-16 21:57:42.498	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 349分类名称：拖鞋
+[go_vue_admin]2024-07-16 21:57:42.521	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 350分类名称：凉鞋
+[go_vue_admin]2024-07-16 21:57:42.541	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 351分类名称：其他
+[go_vue_admin]2024-07-16 21:57:42.565	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 352分类名称：套装
+[go_vue_admin]2024-07-16 21:57:42.585	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 353分类名称：男士上衣
+[go_vue_admin]2024-07-16 21:57:42.608	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 354分类名称：短裤
+[go_vue_admin]2024-07-16 21:57:42.629	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 355分类名称：民族服装
+[go_vue_admin]2024-07-16 21:57:42.652	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 356分类名称：民族服装
+[go_vue_admin]2024-07-16 21:57:42.673	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 357分类名称：短裙
+[go_vue_admin]2024-07-16 21:57:42.696	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 358分类名称：内搭/背心
+[go_vue_admin]2024-07-16 21:57:42.716	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 359分类名称：礼服
+[go_vue_admin]2024-07-16 21:57:42.739	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 360分类名称：保暖套装
+[go_vue_admin]2024-07-16 21:57:42.760	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 361分类名称：宠物/宠物食品及用品
+[go_vue_admin]2024-07-16 21:57:42.783	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 363分类名称：宠物食品
+[go_vue_admin]2024-07-16 21:57:42.804	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 364分类名称：宠物用品
+[go_vue_admin]2024-07-16 21:57:42.827	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 365分类名称：图书杂志
+[go_vue_admin]2024-07-16 21:57:42.848	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 366分类名称：文学小说类
+[go_vue_admin]2024-07-16 21:57:42.871	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 367分类名称：儿童读物类
+[go_vue_admin]2024-07-16 21:57:42.892	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 368分类名称：教材辅导类
+[go_vue_admin]2024-07-16 21:57:42.915	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 369分类名称：休闲杂志类
+[go_vue_admin]2024-07-16 21:57:42.936	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 370分类名称：社会科学类
+[go_vue_admin]2024-07-16 21:57:42.959	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 371分类名称：啤酒
+[go_vue_admin]2024-07-16 21:57:42.980	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 372分类名称：学习用品
+[go_vue_admin]2024-07-16 21:57:43.003	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 373分类名称：文具
+[go_vue_admin]2024-07-16 21:57:43.023	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 374分类名称：收纳整理
+[go_vue_admin]2024-07-16 21:57:43.047	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 375分类名称：家纺布艺
+[go_vue_admin]2024-07-16 21:57:43.067	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 376分类名称：家居布艺
+[go_vue_admin]2024-07-16 21:57:43.092	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 377分类名称：床上用品
+[go_vue_admin]2024-07-16 21:57:43.111	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 378分类名称：窗帘窗纱
+[go_vue_admin]2024-07-16 21:57:43.136	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 379分类名称：地毯/地垫
+[go_vue_admin]2024-07-16 21:57:43.155	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 380分类名称：抱枕/靠垫/座垫
+[go_vue_admin]2024-07-16 21:57:43.199	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 382分类名称：毛巾/浴巾/浴袍
+[go_vue_admin]2024-07-16 21:57:43.229	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 383分类名称：其他配件
+[go_vue_admin]2024-07-16 21:57:43.242	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 384分类名称：被子/枕头
+[go_vue_admin]2024-07-16 21:57:43.273	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 385分类名称：四件套/床笠床套
+[go_vue_admin]2024-07-16 21:57:43.286	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 386分类名称：电热毯/毛毯
+[go_vue_admin]2024-07-16 21:57:43.316	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 387分类名称：凉席/蚊帐
+[go_vue_admin]2024-07-16 21:57:43.330	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 388分类名称：儿童床品
+[go_vue_admin]2024-07-16 21:57:43.360	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 389分类名称：拖鞋/居家鞋
+[go_vue_admin]2024-07-16 21:57:43.373	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 390分类名称：进口书籍
+[go_vue_admin]2024-07-16 21:57:43.404	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 391分类名称：生鲜卡券
+[go_vue_admin]2024-07-16 21:57:43.417	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 392分类名称：水果/肉蛋/蔬菜卡券
+[go_vue_admin]2024-07-16 21:57:43.448	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 393分类名称：海鲜/水产品/制品卡券
+[go_vue_admin]2024-07-16 21:57:43.460	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 394分类名称：烘焙蛋糕卡券
+[go_vue_admin]2024-07-16 21:57:43.492	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 395分类名称：洗发护发
+[go_vue_admin]2024-07-16 21:57:43.504	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 396分类名称：口腔护理
+[go_vue_admin]2024-07-16 21:57:43.537	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 397分类名称：身体清洁
+[go_vue_admin]2024-07-16 21:57:43.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 398分类名称：身体护理
+[go_vue_admin]2024-07-16 21:57:43.580	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 399分类名称：卫生巾/私处护理
+[go_vue_admin]2024-07-16 21:57:43.591	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 400分类名称：染发烫发
+[go_vue_admin]2024-07-16 21:57:43.624	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 401分类名称：手部护理
+[go_vue_admin]2024-07-16 21:57:43.635	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 402分类名称：个护工具
+[go_vue_admin]2024-07-16 21:57:43.668	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 403分类名称：其他个护用品
+[go_vue_admin]2024-07-16 21:57:43.679	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 404分类名称：洗发水
+[go_vue_admin]2024-07-16 21:57:43.711	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 405分类名称：洗护套装
+[go_vue_admin]2024-07-16 21:57:43.723	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 406分类名称：护发素/发膜/精油
+[go_vue_admin]2024-07-16 21:57:43.755	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 407分类名称：其它护发
+[go_vue_admin]2024-07-16 21:57:43.766	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 408分类名称：牙膏
+[go_vue_admin]2024-07-16 21:57:43.798	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 409分类名称：牙刷/口腔清洁工具
+[go_vue_admin]2024-07-16 21:57:43.810	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 410分类名称：牙齿美白/护理剂
+[go_vue_admin]2024-07-16 21:57:43.842	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 411分类名称：口腔护理套装
+[go_vue_admin]2024-07-16 21:57:43.854	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 412分类名称：漱口水/口腔喷剂
+[go_vue_admin]2024-07-16 21:57:43.886	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 413分类名称：牙线/牙签/牙线棒
+[go_vue_admin]2024-07-16 21:57:43.898	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 414分类名称：沐浴露/油
+[go_vue_admin]2024-07-16 21:57:43.930	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 415分类名称：香皂
+[go_vue_admin]2024-07-16 21:57:43.943	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 416分类名称：身体磨砂膏/去角质膏
+[go_vue_admin]2024-07-16 21:57:43.975	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 417分类名称：洗手液
+[go_vue_admin]2024-07-16 21:57:43.986	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 418分类名称：其他
+[go_vue_admin]2024-07-16 21:57:44.019	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 419分类名称：身体乳/霜/精油/膏
+[go_vue_admin]2024-07-16 21:57:44.031	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 420分类名称：身体护理套装
+[go_vue_admin]2024-07-16 21:57:44.064	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 422分类名称：颈霜/颈膜
+[go_vue_admin]2024-07-16 21:57:44.074	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 423分类名称：止汗露/消臭剂
+[go_vue_admin]2024-07-16 21:57:44.108	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 424分类名称：肩颈/膝肘贴
+[go_vue_admin]2024-07-16 21:57:44.118	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 425分类名称：足部护理
+[go_vue_admin]2024-07-16 21:57:44.151	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 426分类名称：胸部护理
+[go_vue_admin]2024-07-16 21:57:44.161	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 427分类名称：脱毛膏/凝胶
+[go_vue_admin]2024-07-16 21:57:44.205	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 429分类名称：身体皂/身体喷雾
+[go_vue_admin]2024-07-16 21:57:44.248	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 430分类名称：其他
+[go_vue_admin]2024-07-16 21:57:44.292	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 431分类名称：卫生巾/护垫/卫生裤
+[go_vue_admin]2024-07-16 21:57:44.336	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 432分类名称：卫生棉条
+[go_vue_admin]2024-07-16 21:57:44.381	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 433分类名称：私处洗液/湿巾
+[go_vue_admin]2024-07-16 21:57:44.425	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 434分类名称：染发产品
+[go_vue_admin]2024-07-16 21:57:44.468	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 435分类名称：摩丝/啫喱/头发造型
+[go_vue_admin]2024-07-16 21:57:44.512	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 436分类名称：烫发产品
+[go_vue_admin]2024-07-16 21:57:44.556	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 437分类名称：美发工具
+[go_vue_admin]2024-07-16 21:57:44.600	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 438分类名称：护手霜/手膜
+[go_vue_admin]2024-07-16 21:57:44.643	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 439分类名称：手部保养套装
+[go_vue_admin]2024-07-16 21:57:44.687	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 440分类名称：手部修复/清洁
+[go_vue_admin]2024-07-16 21:57:44.731	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 441分类名称：剃须刀/指甲钳
+[go_vue_admin]2024-07-16 21:57:44.775	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 442分类名称：塑身贴/塑形带
+[go_vue_admin]2024-07-16 21:57:44.818	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 443分类名称：发圈/发网/发带
+[go_vue_admin]2024-07-16 21:57:44.862	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 444分类名称：梳子/卷发棒/化妆镜
+[go_vue_admin]2024-07-16 21:57:44.906	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 445分类名称：蒸汽眼罩
+[go_vue_admin]2024-07-16 21:57:44.950	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 446分类名称：按摩用品
+[go_vue_admin]2024-07-16 21:57:44.994	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 447分类名称：其他个护工具
+[go_vue_admin]2024-07-16 21:57:45.038	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 448分类名称：假发及配件
+[go_vue_admin]2024-07-16 21:57:45.082	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 449分类名称：身体精油芳疗
+[go_vue_admin]2024-07-16 21:57:45.125	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 450分类名称：室内除臭/芳香用品
+[go_vue_admin]2024-07-16 21:57:45.169	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 451分类名称：家庭清洁剂
+[go_vue_admin]2024-07-16 21:57:45.617	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 29分类名称：小零食
+[go_vue_admin]2024-07-16 21:57:45.661	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 453分类名称：驱虫用品
+[go_vue_admin]2024-07-16 21:57:45.704	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 454分类名称：纸品/湿巾
+[go_vue_admin]2024-07-16 21:57:45.749	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 455分类名称：其他家清用品
+[go_vue_admin]2024-07-16 21:57:45.793	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 456分类名称：抽纸/纸巾/手帕纸
+[go_vue_admin]2024-07-16 21:57:45.836	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 457分类名称：棉柔巾/洗脸巾
+[go_vue_admin]2024-07-16 21:57:45.880	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 458分类名称：湿巾/湿厕纸
+[go_vue_admin]2024-07-16 21:57:45.925	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 459分类名称：卷纸/卫生纸
+[go_vue_admin]2024-07-16 21:57:45.969	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 460分类名称：厨房用纸
+[go_vue_admin]2024-07-16 21:57:46.013	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 461分类名称：空气清新/净化/芳香剂
+[go_vue_admin]2024-07-16 21:57:46.057	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 462分类名称：甲醛清除剂/甲醛测试
+[go_vue_admin]2024-07-16 21:57:46.101	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 463分类名称：冰箱除味剂
+[go_vue_admin]2024-07-16 21:57:46.146	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 464分类名称：除臭喷雾/剂/除臭用品
+[go_vue_admin]2024-07-16 21:57:46.437	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 30分类名称：坚果
+[go_vue_admin]2024-07-16 21:57:46.481	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 466分类名称：厨房清洁
+[go_vue_admin]2024-07-16 21:57:46.525	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 467分类名称：居家清洁
+[go_vue_admin]2024-07-16 21:57:46.570	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 468分类名称：消毒用品
+[go_vue_admin]2024-07-16 21:57:46.614	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 469分类名称：洗衣液/洗衣凝珠/留香珠
+[go_vue_admin]2024-07-16 21:57:46.657	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 470分类名称：洗衣粉/爆炸盐/漂白剂
+[go_vue_admin]2024-07-16 21:57:46.701	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 471分类名称：洗衣皂/内衣皂
+[go_vue_admin]2024-07-16 21:57:46.744	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 472分类名称：柔顺剂/吸色片/织物喷雾
+[go_vue_admin]2024-07-16 21:57:46.788	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 473分类名称：其他衣物洗涤剂
+[go_vue_admin]2024-07-16 21:57:46.832	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 474分类名称：家用杀虫剂
+[go_vue_admin]2024-07-16 21:57:46.876	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 475分类名称：蚊香液/电蚊香
+[go_vue_admin]2024-07-16 21:57:46.921	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 476分类名称：除螨喷雾
+[go_vue_admin]2024-07-16 21:57:46.965	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 477分类名称：蚊香片/蚊香盘
+[go_vue_admin]2024-07-16 21:57:47.009	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 478分类名称：驱蚊液/驱蚊凝露/驱蚊喷雾
+[go_vue_admin]2024-07-16 21:57:47.054	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 479分类名称：其他驱虫用品
+[go_vue_admin]2024-07-16 21:57:47.098	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 480分类名称：家私清洁/皮具护理剂
+[go_vue_admin]2024-07-16 21:57:47.143	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 482分类名称：清洁慕斯
+[go_vue_admin]2024-07-16 21:57:47.231	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 484分类名称：木作/书画/钱币/收藏
+[go_vue_admin]2024-07-16 21:57:47.275	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 485分类名称：珠宝/文玩/收藏品
+[go_vue_admin]2024-07-16 21:57:47.296	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 85分类名称：香水香膏
+[go_vue_admin]2024-07-16 21:57:47.320	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 486分类名称：宠物
+[go_vue_admin]2024-07-16 21:57:47.340	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 487分类名称：个人护理
+[go_vue_admin]2024-07-16 21:57:47.364	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 488分类名称：家庭清洁
+[go_vue_admin]2024-07-16 21:57:47.384	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 489分类名称：男士个护
+[go_vue_admin]2024-07-16 21:57:47.409	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 490分类名称：中老年护理用品
+[go_vue_admin]2024-07-16 21:57:47.429	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 491分类名称：隐形眼镜/护理液
+[go_vue_admin]2024-07-16 21:57:47.454	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 492分类名称：个护服务
+[go_vue_admin]2024-07-16 21:57:47.473	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 493分类名称：其它
+[go_vue_admin]2024-07-16 21:57:47.498	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 494分类名称：个护电器
+[go_vue_admin]2024-07-16 21:57:47.518	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 495分类名称：家庭/个人清洁工具
+[go_vue_admin]2024-07-16 21:57:47.543	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 496分类名称：个人洗护清洁用具
+[go_vue_admin]2024-07-16 21:57:47.563	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 497分类名称：家务/地板清洁用具
+[go_vue_admin]2024-07-16 21:57:47.587	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 498分类名称：卫浴/置物用具
+[go_vue_admin]2024-07-16 21:57:47.607	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 500分类名称：画具/画材/书法用品
+[go_vue_admin]2024-07-16 21:57:47.632	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 502分类名称：摄影摄像
+[go_vue_admin]2024-07-16 21:57:47.653	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 503分类名称：毛衣/针织衫
+[go_vue_admin]2024-07-16 21:57:47.676	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 504分类名称：毛衣/针织衫
+[go_vue_admin]2024-07-16 21:57:47.697	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 505分类名称：女式外套
+[go_vue_admin]2024-07-16 21:57:47.721	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 506分类名称：女式短裤
+[go_vue_admin]2024-07-16 21:57:47.742	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 507分类名称：其他农产品
+[go_vue_admin]2024-07-16 21:57:47.765	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 508分类名称：其他童鞋
+[go_vue_admin]2024-07-16 21:57:47.787	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 509分类名称：其他
+[go_vue_admin]2024-07-16 21:57:47.810	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:150	服务器错误,id: 510分类名称：其他
+[go_vue_admin]2024-07-16 21:58:22.000	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 23:06:36.234	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 23:08:46.992	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 23:09:36.935	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 23:10:21.095	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 23:19:46.893	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 23:19:56.461	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 23:24:44.111	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 23:29:15.161	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 23:31:03.072	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 23:35:04.469	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:69	websocket: close 1001 (going away)
+[go_vue_admin]2024-07-16 23:40:07.305	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:63193: use of closed network connection
+[go_vue_admin]2024-07-16 23:40:07.305	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:64176: use of closed network connection
+[go_vue_admin]2024-07-16 23:40:07.305	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:62948: use of closed network connection
+[go_vue_admin]2024-07-16 23:40:07.305	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:65394: use of closed network connection
+[go_vue_admin]2024-07-16 23:40:07.305	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:50638: use of closed network connection
+[go_vue_admin]2024-07-16 23:40:07.305	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:50191: use of closed network connection
+[go_vue_admin]2024-07-16 23:40:07.305	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:64210: use of closed network connection
+[go_vue_admin]2024-07-16 23:40:07.305	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:64106: use of closed network connection
+[go_vue_admin]2024-07-16 23:40:07.305	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:64065: use of closed network connection
+[go_vue_admin]2024-07-16 23:40:07.305	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:64091: use of closed network connection
+[go_vue_admin]2024-07-16 23:40:07.305	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:37	close tcp [::1]:8887->[::1]:64122: use of closed network connection
+[go_vue_admin]2024-07-16 23:40:07.307	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection

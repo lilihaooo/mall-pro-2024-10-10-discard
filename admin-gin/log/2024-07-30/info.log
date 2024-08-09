@@ -1,0 +1,285 @@
+[go_vue_admin]2024-07-30 10:06:14.208	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 11:15:32.085	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 11:15:33.745	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:62	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 11:15:36.575	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:62	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 11:16:13.580	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:62	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 11:16:17.702	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:62	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 11:18:40.363	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 11:18:52.902	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:62	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 11:18:58.722	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:62	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 11:20:09.881	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 11:20:21.783	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:62	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 11:22:12.686	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 11:22:22.648	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:62	模拟优惠券完成, 共计生成10个数据
+[go_vue_admin]2024-07-30 11:24:39.628	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 11:24:51.442	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:65	模拟优惠券完成, 共计生成10个数据
+[go_vue_admin]2024-07-30 11:26:18.415	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 11:26:28.938	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:66	模拟优惠券完成, 共计生成10个数据
+[go_vue_admin]2024-07-30 11:37:23.148	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 11:37:34.841	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:75	模拟优惠券完成, 共计生成10个数据
+[go_vue_admin]2024-07-30 11:42:24.035	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 11:42:28.173	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:75	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 11:45:49.693	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 11:45:54.683	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:63	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 11:46:29.039	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:63	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 11:47:17.546	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 11:47:22.835	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:63	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 11:47:33.699	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:63	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 12:14:37.719	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 12:14:50.047	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:65	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 12:16:09.045	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 12:16:12.719	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:66	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 12:17:19.664	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:66	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 12:17:24.344	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:66	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 12:18:42.331	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:66	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 12:18:49.841	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:66	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 12:18:53.259	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:66	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 12:18:55.999	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:66	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 12:19:15.388	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:66	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 12:20:22.262	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:66	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 12:21:07.742	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 12:21:12.146	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:66	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 12:28:50.466	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 12:28:59.438	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:66	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 12:36:05.051	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:66	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 12:38:12.527	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 12:38:19.105	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:67	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 12:38:52.918	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 12:38:53.497	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 12:38:57.080	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:67	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 12:39:14.783	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:67	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 12:40:26.297	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 12:40:31.080	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:68	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 12:40:34.738	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:68	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 12:40:36.089	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:68	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 12:40:38.746	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:68	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 12:43:03.513	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 12:43:07.365	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:69	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 12:43:10.202	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:69	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 13:03:27.615	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 13:03:31.224	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:68	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 13:03:42.080	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:68	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 13:03:43.717	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:68	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 13:03:45.146	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:68	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 13:04:48.042	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 13:04:53.434	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:66	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 13:04:55.870	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:66	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 13:04:57.795	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:66	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 13:04:58.698	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:66	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 13:04:59.359	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:66	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 13:05:09.487	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:66	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 13:05:56.806	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 13:06:02.608	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:68	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 13:07:17.987	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 13:07:23.040	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:68	模拟优惠券完成, 共计生成0个数据
+[go_vue_admin]2024-07-30 13:11:34.145	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 13:13:20.746	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 13:37:50.159	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 13:38:02.231	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:65	模拟优惠券完成, 共计生成11个数据
+[go_vue_admin]2024-07-30 13:40:39.440	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 13:41:03.231	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:66	模拟优惠券完成, 共计生成111个数据
+[go_vue_admin]2024-07-30 13:41:34.449	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 13:41:58.139	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:66	模拟优惠券完成, 共计生成11个数据
+[go_vue_admin]2024-07-30 13:44:08.561	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 13:44:09.679	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 13:44:21.549	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:67	模拟优惠券完成, 共计生成22个数据
+[go_vue_admin]2024-07-30 13:45:06.858	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 13:45:15.133	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:69	模拟优惠券完成, 共计生成22个数据
+[go_vue_admin]2024-07-30 13:54:36.953	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 13:54:47.517	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:70	模拟优惠券完成, 共计生成12个数据
+[go_vue_admin]2024-07-30 13:56:09.575	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:70	模拟优惠券完成, 共计生成12个数据
+[go_vue_admin]2024-07-30 14:02:41.532	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:02:56.751	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:70	模拟优惠券完成, 共计生成111个数据
+[go_vue_admin]2024-07-30 14:03:10.699	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/simulate_action.go:37	simulate_coupon_lock is exist
+[go_vue_admin]2024-07-30 14:03:12.799	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:70	模拟优惠券完成, 共计生成111个数据
+[go_vue_admin]2024-07-30 14:12:12.867	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:12:13.168	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:13:36.366	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:13:36.378	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:15:11.831	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:15:12.184	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:15:46.612	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:15:47.204	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:16:19.021	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:16:29.692	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:16:33.360	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:17:16.567	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:17:23.818	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:17:33.197	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:17:47.933	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:70	模拟优惠券完成, 共计生成111个数据
+[go_vue_admin]2024-07-30 14:20:10.391	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:20:24.386	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:21:09.655	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:22:44.103	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:22:48.953	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:25:03.227	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:25:33.617	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/simulate_action.go:37	simulate_coupon_lock is exist
+[go_vue_admin]2024-07-30 14:25:42.005	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:80	模拟优惠券完成, 共计生成1000个数据
+[go_vue_admin]2024-07-30 14:32:07.404	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:32:07.422	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:32:12.308	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:32:29.197	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:32:32.763	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:167	枣制品采集完成！
+[go_vue_admin]2024-07-30 14:33:11.934	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/coupon.go:80	模拟优惠券完成, 共计生成222个数据
+[go_vue_admin]2024-07-30 14:33:20.216	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:33:55.037	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:33:59.402	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:46:01.628	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 14:46:01.641	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 15:18:52.218	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 15:21:01.284	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 15:21:01.296	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 15:21:45.605	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 15:23:49.217	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 15:23:49.909	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 15:25:17.471	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 15:36:06.511	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:167	枣制品采集完成！
+[go_vue_admin]2024-07-30 15:36:57.497	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 15:37:23.536	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/simulate_action.go:37	simulate_coupon_lock is exist
+[go_vue_admin]2024-07-30 15:37:25.704	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/simulate_action.go:37	simulate_coupon_lock is exist
+[go_vue_admin]2024-07-30 15:37:26.284	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/simulate_action.go:37	simulate_coupon_lock is exist
+[go_vue_admin]2024-07-30 15:38:35.080	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 15:39:25.311	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 15:42:12.844	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 15:44:08.795	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 15:44:09.036	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 15:44:17.571	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 15:52:06.543	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 16:36:49.498	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 16:36:58.896	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/simulate_action.go:38	simulate_coupon_lock is exist
+[go_vue_admin]2024-07-30 16:36:59.212	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/simulate_action.go:38	simulate_coupon_lock is exist
+[go_vue_admin]2024-07-30 16:36:59.447	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/simulate_action.go:38	simulate_coupon_lock is exist
+[go_vue_admin]2024-07-30 16:37:00.724	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/simulate_coupon.go:53	模拟优惠券完成, 共计生成100个数据
+[go_vue_admin]2024-07-30 16:37:04.492	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/simulate_action.go:38	simulate_coupon_lock is exist
+[go_vue_admin]2024-07-30 16:37:04.700	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/simulate_action.go:38	simulate_coupon_lock is exist
+[go_vue_admin]2024-07-30 16:37:04.917	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/simulate_action.go:38	simulate_coupon_lock is exist
+[go_vue_admin]2024-07-30 16:37:05.095	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/simulate_action.go:38	simulate_coupon_lock is exist
+[go_vue_admin]2024-07-30 16:37:05.902	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/simulate_coupon.go:53	模拟优惠券完成, 共计生成100个数据
+[go_vue_admin]2024-07-30 18:48:07.861	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 18:50:55.343	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 18:52:37.133	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 18:52:40.251	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 18:52:47.041	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 18:53:22.903	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-07-30 18:54:15.353	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 18:57:44.825	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 18:58:48.099	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 18:58:48.313	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 18:59:52.863	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:00:22.775	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:01:37.166	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:09:27.318	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:15:44.081	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:15:47.028	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:43	修改为c条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:16:13.143	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:16:18.209	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为96条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:16:24.295	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为96条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:16:29.539	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为95条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:16:33.297	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为95条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:16:36.348	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为95条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:16:39.075	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为94条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:16:41.718	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为90条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:16:44.299	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为89条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:17:48.750	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:17:52.079	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为91条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:18:04.034	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为94条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:18:30.501	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:18:31.571	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:18:55.722	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为943条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:19:17.270	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/goods_band_coupon.go:33	task_lock is exist
+[go_vue_admin]2024-07-30 19:19:25.148	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/goods_band_coupon.go:33	task_lock is exist
+[go_vue_admin]2024-07-30 19:19:29.849	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为921条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:19:41.420	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为122条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:19:43.831	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为22条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:19:56.760	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为6条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:19:57.655	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为2条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:19:58.354	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为5条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:19:59.184	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为2条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:19:59.712	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为1条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:20:00.187	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为0条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:20:00.689	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为0条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:20:01.107	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为0条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:20:01.307	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为0条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:20:01.523	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为0条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:20:01.714	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为0条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:20:01.906	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为0条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:20:02.085	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为0条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:20:02.279	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为0条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:20:02.472	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:44	修改为0条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 19:20:43.437	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:21:04.199	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:25:10.456	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:25:15.782	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:26:38.402	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:26:53.549	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:28:23.438	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:29:20.584	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:29:21.685	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:29:22.760	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:29:24.807	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:30:09.986	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:30:12.255	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:30:16.074	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:30:31.785	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:30:40.145	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:30:57.976	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:33:27.080	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:33:43.745	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:34:48.060	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:36:49.739	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:57:03.915	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 19:57:03.963	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 20:02:33.541	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 20:02:33.610	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 22:06:32.357	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 22:12:31.424	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 22:45:09.075	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 22:45:50.326	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 22:46:21.416	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/goods_band_coupon.go:33	task_lock is exist
+[go_vue_admin]2024-07-30 22:46:21.509	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/goods_band_coupon.go:33	task_lock is exist
+[go_vue_admin]2024-07-30 22:46:21.588	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:48	为970条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 22:46:24.777	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/goods_band_coupon.go:33	task_lock is exist
+[go_vue_admin]2024-07-30 22:46:48.742	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:48	为950条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 22:46:56.112	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/goods_band_coupon.go:33	task_lock is exist
+[go_vue_admin]2024-07-30 22:47:10.964	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/goods_band_coupon.go:33	task_lock is exist
+[go_vue_admin]2024-07-30 22:47:16.623	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:48	为934条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 22:47:24.023	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:48	为174条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 22:47:25.454	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:48	为11条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 22:47:26.349	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:48	为9条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 22:47:26.981	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:48	为5条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 22:47:27.457	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:48	为2条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 22:47:27.928	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:48	为1条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 22:47:28.421	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:48	为1条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 22:47:28.994	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:48	为1条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 22:47:29.503	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:48	为0条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 22:47:30.367	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:48	为1条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 22:47:30.625	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:48	为0条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 22:47:30.948	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:48	为0条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 22:47:37.620	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 22:48:21.062	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 22:49:54.833	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 22:56:12.426	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 22:57:13.209	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 22:57:27.689	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 22:59:43.637	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 23:01:08.898	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 23:01:09.753	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 23:01:49.264	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 23:06:42.869	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 23:08:06.342	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 23:08:53.635	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 23:10:04.288	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 23:12:26.923	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 23:21:46.951	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 23:21:55.786	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 23:22:57.400	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 23:36:27.333	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 23:37:10.987	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 23:39:36.491	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 23:40:33.370	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 23:41:30.849	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 23:42:05.707	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 23:45:15.729	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-30 23:47:19.007	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:48	为0条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 23:47:21.206	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/goods_bind_coupon.go:48	为0条商品成功添加了优惠券
+[go_vue_admin]2024-07-30 23:48:26.748	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功

@@ -1,0 +1,5 @@
+[go_vue_admin]2024-06-28 22:20:51.699	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[go_vue_admin]2024-06-28 22:22:28.707	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[go_vue_admin]2024-06-28 22:25:04.824	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[go_vue_admin]2024-06-28 22:25:12.428	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/api/v1/system/sys_initdb.go:23	已存在数据库配置!
+[go_vue_admin]2024-06-28 22:25:31.798	[31merror[0m	/Users/lihao/project/gin-vue-admin/server/api/v1/system/sys_initdb.go:23	已存在数据库配置!

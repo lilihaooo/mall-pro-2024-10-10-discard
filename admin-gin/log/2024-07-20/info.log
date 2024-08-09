@@ -1,0 +1,293 @@
+[go_vue_admin]2024-07-20 00:00:28.388	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:00:34.521	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 00:01:00.678	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:01:04.870	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 00:01:09.317	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:01:21.832	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/grab_action.go:42	grab_lock is exist
+[go_vue_admin]2024-07-20 00:01:23.871	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 00:01:46.396	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:01:49.268	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 00:02:02.755	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:02:14.981	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 00:02:24.852	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:02:31.531	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:02:34.987	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 00:02:53.285	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:03:23.692	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:04:24.540	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/grab_action.go:42	grab_lock is exist
+[go_vue_admin]2024-07-20 00:04:24.630	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/grab_action.go:42	grab_lock is exist
+[go_vue_admin]2024-07-20 00:05:19.664	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:05:22.916	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 00:07:27.223	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:08:20.827	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:09:39.340	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:10:27.508	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:11:14.853	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:11:16.519	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:11:28.984	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 00:11:33.975	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/grab_action.go:42	grab_lock is exist
+[go_vue_admin]2024-07-20 00:11:36.658	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:11:50.999	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:11:53.613	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:11:54.703	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:11:56.095	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:11:57.729	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:11:59.744	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:12:01.595	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:12:10.041	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 00:12:13.204	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:12:25.181	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:12:27.571	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:12:28.420	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:12:29.124	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:13:12.326	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:13:27.315	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:13:29.922	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:13:44.343	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/grab_action.go:42	grab_lock is exist
+[go_vue_admin]2024-07-20 00:13:45.347	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 00:14:00.067	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:14:04.235	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:14:18.594	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:14:38.298	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:15:06.263	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:15:09.107	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:15:42.300	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:15:49.043	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 00:15:55.009	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:15:57.647	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:16:16.255	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:16:19.404	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:16:38.906	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:16:41.985	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:16:53.211	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:16:58.738	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:17:04.052	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/grab_action.go:42	grab_lock is exist
+[go_vue_admin]2024-07-20 00:17:05.168	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/grab_action.go:42	grab_lock is exist
+[go_vue_admin]2024-07-20 00:17:06.792	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/grab_action.go:42	grab_lock is exist
+[go_vue_admin]2024-07-20 00:17:08.057	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:17:08.756	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/grab_action.go:42	grab_lock is exist
+[go_vue_admin]2024-07-20 00:17:09.736	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/grab_action.go:42	grab_lock is exist
+[go_vue_admin]2024-07-20 00:17:10.803	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/grab_action.go:42	grab_lock is exist
+[go_vue_admin]2024-07-20 00:17:11.501	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/grab_action.go:42	grab_lock is exist
+[go_vue_admin]2024-07-20 00:17:27.017	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:17:35.679	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:17:59.084	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:18:20.903	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:18:26.093	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 00:19:04.694	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:19:26.710	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:22:20.851	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 00:33:38.286	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:33:43.134	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 00:34:00.613	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 00:35:06.296	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:36:19.196	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:36:56.892	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:36:59.407	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 00:36:59.503	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/grab_action.go:42	grab_lock is exist
+[go_vue_admin]2024-07-20 00:39:07.503	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:39:08.192	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:39:08.204	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:39:14.088	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:39:18.626	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 00:39:20.215	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/grab_action.go:42	grab_lock is exist
+[go_vue_admin]2024-07-20 00:39:50.416	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:39:53.012	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 00:39:58.435	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:40:01.984	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/grab_action.go:42	grab_lock is exist
+[go_vue_admin]2024-07-20 00:40:04.200	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:40:05.198	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:40:06.124	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:40:11.012	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 00:40:11.174	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:40:11.892	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:40:12.946	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:40:14.432	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:40:15.368	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:41:56.524	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:41:58.813	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 00:42:24.299	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:42:26.450	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 00:42:53.295	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 00:44:38.650	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:45:12.975	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:46:40.712	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:46:49.578	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:47:55.810	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:48:05.794	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:50:14.625	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:50:53.258	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:50:58.140	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 00:52:44.466	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:53:06.901	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:53:21.234	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:54:45.609	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 00:54:52.043	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 01:01:24.763	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 01:01:59.248	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 01:02:06.192	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 01:04:09.555	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 01:04:19.936	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 01:04:29.160	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 01:05:05.552	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 01:05:12.111	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 01:06:23.206	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 01:06:56.517	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 01:07:30.363	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 01:07:35.229	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 01:07:56.336	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 01:08:31.240	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 09:02:39.723	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:03:55.683	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:04:15.227	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:04:21.593	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:04:35.147	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:04:42.916	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:05:51.548	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:07:33.104	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:07:59.914	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:08:52.403	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:09:05.957	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:09:14.293	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:09:27.741	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:09:35.113	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:09:47.408	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:09:56.392	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:10:01.344	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:10:07.439	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:10:38.448	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:10:47.737	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:10:59.189	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:11:09.385	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:11:17.212	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:11:31.338	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:11:45.144	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 09:12:05.205	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 09:12:41.832	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:12:51.145	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:14:33.548	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:14:41.820	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:16:05.718	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	膳食保健采集完成！
+[go_vue_admin]2024-07-20 09:16:17.723	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	营养膳补采集完成！
+[go_vue_admin]2024-07-20 09:17:21.867	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:17:36.042	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 09:18:10.505	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:18:16.700	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:174	枣制品采集完成！
+[go_vue_admin]2024-07-20 09:20:41.510	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:20:41.822	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 09:21:21.614	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:176	衬衫采集完成！
+[go_vue_admin]2024-07-20 09:21:32.717	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:176	短裙采集完成！
+[go_vue_admin]2024-07-20 09:21:42.697	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:176	短裙采集完成！
+[go_vue_admin]2024-07-20 09:21:45.942	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:176	女式外套采集完成！
+[go_vue_admin]2024-07-20 12:46:54.313	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 18:21:22.116	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 18:37:38.302	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 18:49:59.652	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 18:50:03.505	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 18:50:13.352	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 18:50:21.390	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:176	枣制品采集完成！
+[go_vue_admin]2024-07-20 18:50:31.545	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:176	枣制品采集完成！
+[go_vue_admin]2024-07-20 18:54:09.143	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 18:54:13.366	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:176	枣制品采集完成！
+[go_vue_admin]2024-07-20 18:54:17.192	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 18:54:29.370	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:176	枣制品采集完成！
+[go_vue_admin]2024-07-20 18:54:41.367	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:176	枣制品采集完成！
+[go_vue_admin]2024-07-20 18:55:41.332	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 18:55:50.309	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:176	枣制品采集完成！
+[go_vue_admin]2024-07-20 18:55:50.720	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/grab_action.go:42	grab_lock is exist
+[go_vue_admin]2024-07-20 18:55:54.223	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/grab_action.go:42	grab_lock is exist
+[go_vue_admin]2024-07-20 18:56:07.852	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 19:09:27.621	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 19:09:31.492	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 19:09:34.378	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:176	枣制品采集完成！
+[go_vue_admin]2024-07-20 19:09:46.377	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:176	枣制品采集完成！
+[go_vue_admin]2024-07-20 19:17:07.822	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 19:17:13.885	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:176	枣制品采集完成！
+[go_vue_admin]2024-07-20 19:17:35.469	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:176	枣制品采集完成！
+[go_vue_admin]2024-07-20 19:19:58.616	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 19:20:05.477	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:176	枣制品采集完成！
+[go_vue_admin]2024-07-20 19:21:02.576	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 19:21:07.141	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:176	枣制品采集完成！
+[go_vue_admin]2024-07-20 19:23:52.041	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 19:26:11.037	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 19:26:19.411	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:176	枣制品采集完成！
+[go_vue_admin]2024-07-20 19:27:22.560	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 19:27:26.558	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:176	枣制品采集完成！
+[go_vue_admin]2024-07-20 19:27:48.452	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 19:27:55.430	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:176	枣制品采集完成！
+[go_vue_admin]2024-07-20 19:28:36.025	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 19:28:41.530	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:176	枣制品采集完成！
+[go_vue_admin]2024-07-20 19:30:05.960	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 19:30:15.334	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:176	枣制品采集完成！
+[go_vue_admin]2024-07-20 19:31:17.850	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 19:31:21.998	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:176	枣制品采集完成！
+[go_vue_admin]2024-07-20 19:40:32.669	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 19:41:41.494	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 19:41:49.885	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 19:42:58.153	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 19:43:03.689	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:176	枣制品采集完成！
+[go_vue_admin]2024-07-20 19:43:22.363	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:176	枣制品采集完成！
+[go_vue_admin]2024-07-20 19:43:24.713	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 19:43:46.261	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 19:43:48.492	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:176	枣制品采集完成！
+[go_vue_admin]2024-07-20 19:43:56.167	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 19:44:35.221	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 19:44:53.052	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:20:24.643	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:21:04.415	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:26:28.203	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:27:37.488	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:27:45.872	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:27:49.621	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:29:02.326	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:29:12.556	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:29:44.968	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:30:34.578	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:31:50.224	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:35:52.170	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:37:10.446	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:39:18.348	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:39:44.038	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:43:41.706	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:44:43.564	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:44:52.410	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:45:24.380	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:45:48.941	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:46:53.005	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:47:21.409	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:47:30.060	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:47:41.698	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:47:51.943	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:48:03.503	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:48:27.213	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:48:40.790	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:48:52.077	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:49:14.263	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:49:20.828	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:51:00.340	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:51:16.339	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:51:27.005	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:51:58.764	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:52:32.693	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:54:30.810	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:54:52.939	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:55:20.003	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 20:57:40.167	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 21:02:58.133	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 21:03:57.002	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 21:04:53.787	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 21:05:23.647	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 21:07:13.998	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 21:10:25.921	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 21:10:39.720	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 21:11:17.526	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 21:11:42.714	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 21:12:23.155	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 21:12:57.196	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 21:15:45.590	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 21:15:52.334	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 21:16:00.376	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 21:16:25.137	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 21:17:41.398	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 22:54:30.032	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功
+[go_vue_admin]2024-07-20 22:54:38.832	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:48	websocket 连接成功

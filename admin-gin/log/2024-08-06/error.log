@@ -1,0 +1,41 @@
+[go_vue_admin]2024-08-06 00:05:42.836	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-08-06 00:06:05.026	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-08-06 00:06:35.204	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-08-06 00:06:49.517	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-08-06 00:25:53.330	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:58467: use of closed network connection
+[go_vue_admin]2024-08-06 00:25:53.330	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:60342: use of closed network connection
+[go_vue_admin]2024-08-06 00:25:53.330	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:60396: use of closed network connection
+[go_vue_admin]2024-08-06 00:25:53.330	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:55094: use of closed network connection
+[go_vue_admin]2024-08-06 00:25:53.330	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:60302: use of closed network connection
+[go_vue_admin]2024-08-06 00:25:53.331	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	read tcp [::1]:8887->[::1]:60426: use of closed network connection
+[go_vue_admin]2024-08-06 00:25:53.330	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:60433: use of closed network connection
+[go_vue_admin]2024-08-06 00:25:53.332	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-08-06 10:38:30.005	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-08-06 10:54:33.127	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-08-06 10:54:53.412	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-08-06 10:55:11.978	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-08-06 10:55:19.458	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-08-06 10:55:56.922	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-08-06 10:56:12.417	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-08-06 10:56:24.793	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-08-06 10:57:11.641	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-08-06 10:57:27.166	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-08-06 11:21:22.330	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-08-06 11:21:35.473	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-08-06 14:59:41.145	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:56654: use of closed network connection
+[go_vue_admin]2024-08-06 14:59:41.145	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:56886: use of closed network connection
+[go_vue_admin]2024-08-06 14:59:41.146	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:56744: use of closed network connection
+[go_vue_admin]2024-08-06 14:59:41.145	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:56835: use of closed network connection
+[go_vue_admin]2024-08-06 14:59:41.145	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:56692: use of closed network connection
+[go_vue_admin]2024-08-06 14:59:41.146	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	read tcp [::1]:8887->[::1]:57243: use of closed network connection
+[go_vue_admin]2024-08-06 14:59:41.146	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	read tcp [::1]:8887->[::1]:61905: use of closed network connection
+[go_vue_admin]2024-08-06 14:59:41.145	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:56721: use of closed network connection
+[go_vue_admin]2024-08-06 14:59:41.145	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:56855: use of closed network connection
+[go_vue_admin]2024-08-06 14:59:41.145	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:56909: use of closed network connection
+[go_vue_admin]2024-08-06 14:59:41.145	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:57216: use of closed network connection
+[go_vue_admin]2024-08-06 14:59:41.145	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:56608: use of closed network connection
+[go_vue_admin]2024-08-06 14:59:41.145	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:56808: use of closed network connection
+[go_vue_admin]2024-08-06 14:59:41.149	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-08-06 15:03:13.990	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	read tcp [::1]:8887->[::1]:64298: use of closed network connection
+[go_vue_admin]2024-08-06 15:03:13.991	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-08-06 20:12:57.785	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1006 (abnormal closure): unexpected EOF

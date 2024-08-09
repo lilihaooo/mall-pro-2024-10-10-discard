@@ -1,0 +1,4 @@
+/*! 
+ Build based on admin-vue 
+ Time : 1721439181000 */
+System.register(["./087AC4D233B64EB0index-legacy.1fc1e6a8.js"],(function(t,e){"use strict";var r,i,u,n,l,a;return{setters:[function(t){r=t.o,i=t.c,u=t.Z,n=t.$,l=t.b,a=t.t}],execute:function(){var e={class:"grid grid-cols-2 gap-2"},c=["href"];t("default",{__name:"wiki",setup:function(t){var s=[{title:"Vue3",url:"https://v3.cn.vuejs.org/guide/introduction.html"},{title:"GIN 文档",url:"https://gin-gonic.com/"},{title:"GVA 文档",url:"https://www.admin-vue.com/"},{title:"插件市场",url:"https://plugin.admin-vue.com/"},{title:"github 仓库",url:"https://github.com/flipped-aurora/admin-vue"}];return function(t,o){return r(),i("div",e,[(r(),i(u,null,n(s,(function(t){return l("a",{key:t.url,href:t.url,class:"text-sm text-gray-700 dark:text-gray-300 no-underline hover:text-active",target:"_blank"},a(t.title),9,c)})),64))])}}})}}}));

@@ -1,0 +1,32 @@
+[admin-gin]2024-06-26 13:37:23.021	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/initialize/router.go:60	register swagger handler
+[admin-gin]2024-06-26 13:37:23.024	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/initialize/router.go:106	router register success
+[admin-gin]2024-06-26 13:37:23.024	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:37	server run success on 	{"address": ":8888"}
+[admin-gin]2024-06-26 13:37:40.367	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/api/v1/system/sys_initdb.go:57	前往初始化数据库
+[admin-gin]2024-06-26 14:07:34.970	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/initialize/router.go:60	register swagger handler
+[admin-gin]2024-06-26 14:07:34.972	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/initialize/router.go:106	router register success
+[admin-gin]2024-06-26 14:07:34.972	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:37	server run success on 	{"address": ":8888"}
+[admin-gin]2024-06-26 14:17:21.016	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/api/v1/system/sys_initdb.go:57	前往初始化数据库
+[go_vue_admin]2024-06-26 15:31:09.616	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/initialize/gorm.go:68	register table success
+[go_vue_admin]2024-06-26 15:31:09.624	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/initialize/router.go:60	register swagger handler
+[go_vue_admin]2024-06-26 15:31:09.632	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/initialize/router.go:106	router register success
+[go_vue_admin]2024-06-26 15:31:09.633	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:37	server run success on 	{"address": ":8888"}
+[go_vue_admin]2024-06-26 20:58:29.043	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/initialize/gorm.go:68	register table success
+[go_vue_admin]2024-06-26 20:58:29.051	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/initialize/router.go:60	register swagger handler
+[go_vue_admin]2024-06-26 20:58:29.058	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/initialize/router.go:106	router register success
+[go_vue_admin]2024-06-26 20:58:29.058	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:37	server run success on 	{"address": ":8888"}
+[go_vue_admin]2024-06-26 21:07:37.826	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/initialize/gorm.go:68	register table success
+[go_vue_admin]2024-06-26 21:07:37.833	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/initialize/router.go:60	register swagger handler
+[go_vue_admin]2024-06-26 21:07:37.844	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/initialize/router.go:106	router register success
+[go_vue_admin]2024-06-26 21:07:37.844	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:37	server run success on 	{"address": ":8888"}
+[go_vue_admin]2024-06-26 21:19:33.023	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/initialize/gorm.go:68	register table success
+[go_vue_admin]2024-06-26 21:19:33.029	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-06-26 21:19:33.037	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/initialize/router.go:111	router register success
+[go_vue_admin]2024-06-26 21:19:33.037	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:37	server run success on 	{"address": ":8888"}
+[go_vue_admin]2024-06-26 21:26:12.800	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/initialize/gorm.go:68	register table success
+[go_vue_admin]2024-06-26 21:26:12.807	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-06-26 21:26:12.816	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/initialize/router.go:111	router register success
+[go_vue_admin]2024-06-26 21:26:12.816	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:37	server run success on 	{"address": ":8888"}
+[go_vue_admin]2024-06-26 21:29:54.675	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/initialize/gorm.go:68	register table success
+[go_vue_admin]2024-06-26 21:29:54.683	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/initialize/router.go:61	register swagger handler
+[go_vue_admin]2024-06-26 21:29:54.690	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/initialize/router.go:111	router register success
+[go_vue_admin]2024-06-26 21:29:54.691	[34minfo[0m	/Users/lihao/project/gin-vue-admin/server/core/server.go:37	server run success on 	{"address": ":8888"}
