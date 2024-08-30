@@ -1,7 +1,10 @@
 <script setup>
-import {ref,reactive, onMounted} from 'vue';
+import {ref, reactive, onMounted, computed} from 'vue';
 import {useRoute} from "vue-router";
-import {getGoodsInfo} from "@/api/product";
+import {DeleteImage, getGoodsInfo, GetTagList, SetCoverImage} from "@/api/product";
+import {ElMessage} from "element-plus";
+import ImageCompress from "@/utils/image";
+import {Plus} from "@element-plus/icons-vue";
 
 
 const route = useRoute();
@@ -10,7 +13,7 @@ const goodsInfo = reactive({
   goodsTitle: null,
   goodsDes: null,
   images: [],
-  coverImageUrl:"",
+  coverImageUrl: "",
   shopName: null,
   shopWlF: null,
   shopFWF: null,
@@ -18,8 +21,8 @@ const goodsInfo = reactive({
   shopLogo: null,
   tzName: null,
   tzLevel: null,
-  brandName:null,
-  tags:[],
+  brandName: null,
+  tags: [],
 
 
   cv: null,
@@ -33,30 +36,147 @@ const goodsInfo = reactive({
   coupon: null,
   couponValue: null,
   couponEndTime: null,
+  couponStartTime: null,
 
-
-
+  postCouponPrice: null,
+  price: null
 
 
 })
 
-const priceName = ref("原价:")
-const priceValue= ref(0)
+
+const coverImageID = ref(0)
+
+// 0 无消费券; 1 正常; 2 过期; 3 未开始;
+const couponStatus = ref(0)
+
+
+// 基本编辑抽屉
+const showTags = ref([])
+const baseUpdateVisible = ref(false)
+const baseUpdate = reactive({
+  description: "",
+  price: 0,
+  commission_rate: 0,
+  tags: []
+})
+
+let arr = []
+const onBaseUpdateSubmit = () => {
+  arr = []
+  showTags.value.forEach(tag => {
+    arr.push(tag.id)
+  });
+  baseUpdate.tags = arr
+
+  console.log(baseUpdate)
+  console.log("发起后端请求 todo")
+}
+const originalDescription = ref("")
+const originalCommissionRate = ref(0)
+const originalTags = ref([])
+const originalPrice = ref(0)
+
+// 重置
+const onBaseUpdateReset = () => {
+  showTags.value = originalTags.value
+  baseUpdate.price = originalPrice.value
+  baseUpdate.description = originalDescription.value
+  baseUpdate.commission_rate = originalCommissionRate.value
+}
+const delTag = (id) => {
+  showTags.value = showTags.value.filter(tag => tag.id !== id);
+}
+const tagData = ref([])
+const getTagList = async () => {
+  const res = await GetTagList();
+  tagData.value = res.data
+}
+
+let selectedIds = []
+const originalSelectedIds = ref([])
+
+const changeTagPosition = (id) => {
+  const index = selectedIds.indexOf(id);
+  if (index !== -1) {
+    // 如果 selectedIds 中包含传入的 id，则删除该 id
+    selectedIds.splice(index, 1);
+  } else {
+    // 如果 selectedIds 中不包含传入的 id，则将其加入 selectedIds
+    selectedIds.push(id);
+  }
+
+  initTagList();
+};
+
+
+const tagList = ref([])
+// 显示标签对话框
+const tagDialogVisible = ref(false)
+const initTagList = () => {
+  // 添加 selected 字段
+  const updatedData = computed(() => {
+    return tagData.value.map(item => ({
+      ...item,
+      selected: selectedIds.includes(item.id),
+    }));
+  });
+
+  // 按 group 分组
+  const groupedData = computed(() => {
+    return updatedData.value.reduce((acc, item) => {
+      if (!acc[item.group]) {
+        acc[item.group] = [];
+      }
+      acc[item.group].push(item);
+      return acc;
+    }, {});
+  });
+
+  tagList.value = groupedData.value
+}
+const showTag = async () => {
+  tagDialogVisible.value = true
+  await getTagList()
+  //获取数据
+  initTagList()
+}
+const tagCommit = () => {
+  const filteredData = ref(tagData.value.filter(item => selectedIds.includes(item.id)));
+  showTags.value = filteredData.value;
+  tagDialogVisible.value = false
+}
+const tagReset = () => {
+  selectedIds = originalSelectedIds.value
+  initTagList()
+}
+
+
+// 优惠券抽屉
+const couponUpdateVisible = ref(false)
+
+
+
+
+
+
+
+
 
 const getGoodsDetail = async () => {
   const res = await getGoodsInfo({id: id});
-  goodsInfo.coverImageUrl = res.data.images[0].url;
-  for (const image of res.data.images) {
-    if (image.is_cover === 1) {
-      goodsInfo.coverImageUrl = image.url;
-    }
+  let coverImage = res.data.images[0].url
+  if (res.data.cover_image_id !== 0) {
+    coverImage = res.data.image.url;
+    coverImageID.value = res.data.cover_image_id
   }
+  goodsInfo.coverImageUrl = coverImage;
+
   goodsInfo.shopName = res.data.shop.name;
   goodsInfo.shopFWF = res.data.shop.service_score;
   goodsInfo.shopSPF = res.data.shop.product_score;
   goodsInfo.shopWlF = res.data.shop.logistics_score;
   goodsInfo.shopLogo = res.data.shop.logo;
-
   goodsInfo.tzName = res.data.media.media_mame;
   goodsInfo.tzLevel = res.data.media.user_level;
   goodsInfo.tzLogo = res.data.media.media_head;
@@ -72,27 +192,60 @@ const getGoodsDetail = async () => {
   goodsInfo.goodsDes = res.data.description
 
   goodsInfo.coverImages = res.data.images;
-  goodsInfo.images = res.data.images;
+  goodsInfo.images = res.data.images
   goodsInfo.tags = res.data.tags;
 
-  if (res.data.coupon.ID !== 0) {
-    goodsInfo.coupon = res.data.coupon;
-    priceName.value ="券后价:"
-    priceValue.value = res.data.post_coupon_price
-    goodsInfo.couponEndTime = formatDateTime(res.data.coupon.end_time) ;
-    goodsInfo.couponValue = res.data.coupon.amount
-  }else {
-    priceValue.value = res.data.price;
+  const cEndTime = new Date(res.data.coupon.end_time)
+  const cStartTime = new Date(res.data.coupon.start_time)
+  const nowTime = new Date()
+
+  if (res.data.coupon.ID === null) {
+    couponStatus.value = 0;
+  } else {
+    if (cEndTime >= nowTime && cStartTime <= nowTime) {
+      couponStatus.value = 1;
+    } else if (cEndTime < nowTime) {
+      couponStatus.value = 2;
+    } else if (cStartTime > nowTime) {
+      couponStatus.value = 3;
+    }
+  }
+
+  goodsInfo.coupon = res.data.coupon;
+  goodsInfo.postCouponPrice = res.data.post_coupon_price
+  goodsInfo.couponEndTime = formatDateTime(res.data.coupon.end_time);
+  goodsInfo.couponStartTime = formatDateTime(res.data.coupon.start_time);
+  goodsInfo.couponValue = res.data.coupon.amount
+
+  goodsInfo.price = res.data.price;
+  baseUpdate.price = res.data.price;
+  baseUpdate.description = res.data.description;
+  baseUpdate.commission_rate = res.data.commission_rate;
+
+  if (res.data.tags.length > 0) {
+    for (let i = 0; i < res.data.tags.length; i++) {
+      let tag = res.data.tags[i];
+      baseUpdate.tags = tag.id
+    }
   }
 
 
-
   goodsInfo.cv = res.data.commission_value;
-  goodsInfo.cr= res.data.commission_rate;
+  goodsInfo.cr = res.data.commission_rate;
 
   goodsInfo.sale2h = res.data.sales_2_hour
   goodsInfo.saleDay = res.data.sales_day
   goodsInfo.saleAll = res.data.sales_all
+
+  showTags.value = res.data.tags;
+  originalTags.value = res.data.tags;
+  originalDescription.value = res.data.description;
+  originalCommissionRate.value = res.data.commission_rate;
+  originalPrice.value = res.data.price;
+  originalSelectedIds.value = []
+  res.data.tags.forEach(tag => originalSelectedIds.value.push(tag.id));
+
+  res.data.tags.forEach(tag => selectedIds.push(tag.id));
 }
 
 function formatDateTime(dateString) {
@@ -111,34 +264,265 @@ function formatDateTime(dateString) {
 }
 
 
+const computedWidth = computed(() => {
+  const imageCount = goodsInfo.images.length;
+  return imageCount > 4 ? '296px' : `${imageCount * 70}px`;
+});
 
-onMounted(()=>{
+// 图片上传相关
+const path = ref(import.meta.env.VITE_BASE_API)
+const uploadError = () => {
+  ElMessage({
+    type: 'error',
+    message: '上传失败'
+  })
+}
+const uploadSuccess = (res) => {
+  console.log("上传成功")
+  getGoodsDetail()
+}
+const beforeImageUpload = (file) => {
+  const isJPG = file.type === 'image/jpeg'
+  const isPng = file.type === 'image/png'
+  if (!isJPG && !isPng) {
+    ElMessage.error('上传图片只能是 jpg或png 格式!')
+    return false
+  }
+  const isRightSize = file.size / 1024 < 512   // 图片高于512K 会被压缩
+  if (!isRightSize) {
+    // 压缩
+    const compress = new ImageCompress(file, 2048, 1920)
+    return compress.compress()
+  }
+  return isRightSize
+}
+
+// 图片点击点击事件
+const setCoverImage = async (goodsID, imageID) => {
+  await SetCoverImage(goodsID, imageID);
+  await getGoodsDetail()
+}
+const deleteImage = async (imageID) => {
+  await DeleteImage({id: imageID});
+  await getGoodsDetail()
+}
+
+
+onMounted(() => {
   getGoodsDetail()
 })
 </script>
 
 
 <template>
+  <!--基础抽屉-->
+  <el-drawer
+      v-model="baseUpdateVisible"
+      title="基本信息修改"
+      :show-close="false"
+  >
+
+    <el-form :inline="false" :model="baseUpdate" label-width="68px">
+      <el-form-item label="价格">
+        <el-input type="number" v-model="baseUpdate.price"/>
+      </el-form-item>
+
+      <el-form-item label="佣金率%">
+        <el-input type="number" v-model="baseUpdate.commission_rate"/>
+      </el-form-item>
+
+      <el-form-item label="标签">
+        <div style="display: flex; align-items: center;">
+          <!-- 标签列表 -->
+          <div style="display: flex; flex-wrap: wrap; gap: 2px;">
+            <el-tag v-for="item in showTags"
+                    :key="item.id"
+                    type="danger"
+                    closable
+                    @close="delTag(item.id)"
+            >{{ item.title }}
+            </el-tag>
+            <!-- 按钮 -->
+            <el-button
+                size="small" type="primary"
+                @click="showTag"
+                icon="plus"
+            >
+            </el-button>
+          </div>
+        </div>
+      </el-form-item>
+
+
+
+      <el-form-item label="描述">
+        <el-input type="textarea"
+                  :autosize="{ minRows: 2, maxRows: 6 }"
+                  v-model="baseUpdate.description"
+        />
+      </el-form-item>
+
+      <el-form-item>
+        <el-button type="primary" @click="onBaseUpdateSubmit">保存</el-button>
+        <el-button @click="onBaseUpdateReset">重置</el-button>
+      </el-form-item>
+
+
+    </el-form>
+  </el-drawer>
+  <!--优惠券抽屉-->
+  <el-drawer
+      v-model="couponUpdateVisible"
+      title="优惠券信息修改"
+      :show-close="false"
+  >
+
+    <el-form :inline="false" :model="baseUpdate" label-width="48px">
+      <el-form-item label="价格">
+        <el-input type="number" v-model="baseUpdate.price"/>
+      </el-form-item>
+
+
+      <el-form-item label="标签">
+        <div style="display: flex; align-items: center;">
+          <!-- 标签列表 -->
+          <div style="display: flex; flex-wrap: wrap; gap: 2px;">
+            <el-tag v-for="item in showTags"
+                    :key="item.id"
+                    type="danger"
+                    closable
+                    @close="delTag(item.id)"
+            >{{ item.title }}
+            </el-tag>
+            <!-- 按钮 -->
+            <el-button
+                size="small" type="primary"
+                @click="showTag"
+                icon="plus"
+            >
+            </el-button>
+          </div>
+        </div>
+      </el-form-item>
+
+
+
+      <el-form-item label="描述">
+        <el-input type="textarea"
+                  :autosize="{ minRows: 2, maxRows: 6 }"
+                  v-model="baseUpdate.description"
+        />
+      </el-form-item>
+
+      <el-form-item>
+        <el-button type="primary" @click="onBaseUpdateSubmit">保存</el-button>
+        <el-button @click="onBaseUpdateReset">重置</el-button>
+      </el-form-item>
+
+
+    </el-form>
+  </el-drawer>
+
+
+
+
+  <!--标签修改对话框-->
+  <el-dialog
+      v-model="tagDialogVisible"
+      title="添加标签"
+      width="80%"
+  >
+    <div v-for="(tags, groupName) in tagList" :key="groupName">
+      <div class="tag-group-name">{{ groupName }}</div>
+      <div>
+        <el-button @click="changeTagPosition(tag.id)" plain :type="tag.selected ? 'primary' : 'info'"
+                   style="margin-right: 4px"
+                   size="small" v-for="tag in tags"
+        >{{ tag.title }}
+        </el-button>
+      </div>
+    </div>
+
+
+    <template #footer>
+      <span class="dialog-footer">
+        <el-button @click="tagReset">重置</el-button>
+        <el-button type="primary" @click="tagCommit">确认</el-button>
+      </span>
+    </template>
+  </el-dialog>
+  <!--带货抽屉-->
+
+
   <div class="fixed-layout">
     <el-container>
-      <el-main>
+      <el-main style="padding-top: 4px">
         <div class="content">
+          <el-row>
+            <el-col :span="24">
+              <el-card body-style="padding:10px" style="margin-bottom: 2px" class="box-card">
+                <el-button @click="baseUpdateVisible = true">
+                  基础
+                </el-button>
+
+                <el-button @click="couponUpdateVisible = true">
+                  优惠券
+                </el-button>
+
+                <el-button>
+                  品牌认证
+                </el-button>
+              </el-card>
+
+            </el-col>
+          </el-row>
           <el-row :gutter="10">
             <el-col :span="8">
               <el-card class="box-card" :body-style="{ padding: '5px' }">
                 <div class="fixed-image-container">
-                  <img class="fixed-image" :src="goodsInfo.coverImageUrl" alt="Product Image" />
+                  <img class="fixed-image" :src="goodsInfo.coverImageUrl" alt="Product Image"/>
                 </div>
-                <div style="margin-top: 10px">
-                  <el-scrollbar>
-                    <div style="height: 74px">
-                      <div class="fixed-image-container_sub">
-                        <img v-for="item in goodsInfo.images" :key="item.id" :src="item.url" class="fixed-image-sub"/>
-                      </div>
+                <div style="margin-top: 10px; display: flex; align-items: center;">
+                  <el-scrollbar :style="{ width: computedWidth }">
+                    <div style="height: 74px;">
+
+                      <el-dropdown v-for="item in goodsInfo.images" :key="item.id">
+                        <div class="fixed-image-container_sub">
+                          <img
+                              :style="item.id === coverImageID ? 'border: 2px var(--el-color-primary) solid; box-sizing: border-box;' : ''"
+                              class="fixed-image-sub"
+                              :src="item.url"
+                          />
+                        </div>
+                        <template #dropdown>
+                          <el-dropdown-menu>
+                            <el-dropdown-item icon="edit" @click="setCoverImage(id, item.id)">封面</el-dropdown-item>
+                            <el-dropdown-item icon="delete" @click="deleteImage(item.id, item.url)">删除
+                            </el-dropdown-item>
+                          </el-dropdown-menu>
+                        </template>
+                      </el-dropdown>
                     </div>
+
                   </el-scrollbar>
+                  <div style="height: 74px; margin-left: 8px">
+                    <el-upload
+                        :show-file-list="false"
+                        :action="`${path}/goods/image/upload?id=${id}`"
+                        :on-error="uploadError"
+                        :on-success="uploadSuccess"
+                        :before-upload="beforeImageUpload"
+                        :multiple="false"
+                    >
+                      <el-icon style="width: 62px; height: 62px;background-color: #eee; border-radius: 6px;">
+                        <Plus/>
+                      </el-icon>
+                    </el-upload>
+                  </div>
                 </div>
               </el-card>
+
+
               <el-card class="box-card" :body-style="{ padding: '15px' }">
                 <div>
                   <div>店铺信息</div>
@@ -146,9 +530,9 @@ onMounted(()=>{
                     <img :src="goodsInfo.shopLogo"
                          style="display: inline; width: 18px; height: 18px; margin-right: 10px"
                     />
-                    <span style="font-size: 16px; width: 116px">{{goodsInfo.shopName}}</span>
+                    <span style="font-size: 16px; width: 116px">{{ goodsInfo.shopName }}</span>
                     <div class="shop-info-score">
-                      <span style="margin-left: 10px">商品:{{ goodsInfo.shopSPF}}</span>
+                      <span style="margin-left: 10px">商品:{{ goodsInfo.shopSPF }}</span>
                       <span style="margin-left: 10px">服务:{{ goodsInfo.shopFWF }}</span>
                       <span style="margin-left: 10px">物流:{{ goodsInfo.shopWlF }}</span>
                     </div>
@@ -160,65 +544,77 @@ onMounted(()=>{
                     <img :src="goodsInfo.tzLogo"
                          style="display: inline; width: 18px; height: 18px; margin-right: 10px"
                     />
-                    <span style="font-size: 16px; width: 116px">{{goodsInfo.tzName}}</span>
+                    <span style="font-size: 16px; width: 116px">{{ goodsInfo.tzName }}</span>
                     <div class="tz-info-level">
-                      <span style="margin-left: 10px">Lv.{{goodsInfo.tzLevel}}</span>
+                      <span style="margin-left: 10px">Lv.{{ goodsInfo.tzLevel }}</span>
                     </div>
                   </div>
                 </div>
               </el-card>
             </el-col>
             <el-col :span="16">
-              <el-card class="box-card" style="width: 98%; height: 644px">
+              <el-card class="box-card" style="width: 100%; height: 644px">
                 <div>
                   <div class="product-details-bt">
                     <el-button
                         color="#FF6545"
                         size="small"
                         class="goods-brand"
-                        v-if='goodsInfo.brandName'
-                    >{{goodsInfo.brandName}}</el-button>
-                    <el-button link class="goods-title">{{goodsInfo.goodsTitle}}</el-button>
+                        v-if="goodsInfo.brandName"
+                    >{{ goodsInfo.brandName }}
+                    </el-button>
+                    <el-button link class="goods-title">{{ goodsInfo.goodsTitle }}</el-button>
                   </div>
                   <div class="product-details-des">
                     <span>
-                      {{goodsInfo.goodsDes}}
+                      {{ goodsInfo.goodsDes }}
                     </span>
                   </div>
-
                   <div class="product-details-tag">
-                    <el-tag v-for="item in goodsInfo.tags" :key="item.id" class="ml-2" size="small" type="danger" style="margin-top: 3px">{{item.title}}</el-tag>
+                    <el-tag v-for="item in goodsInfo.tags" :key="item.id" size="small" type="danger"
+                            style="margin-top: 3px; margin-left: 0"
+                    >{{ item.title }}
+                    </el-tag>
                   </div>
-
-
                   <div class="goods-pcc">
                     <table>
                       <tr class="goods-pcc-tr">
-                        <td class="goods-pcc-td-1">{{priceName}}</td>
-                        <td class="goods-pcc-td-2">￥{{priceValue}}</td>
-                        <!--                        <td class="goods-pcc-td-3">333</td>-->
+                        <td class="goods-pcc-td-1">原价:</td>
+                        <td class="goods-pcc-td-2"
+                            :style="{ textDecoration: couponStatus === 1 ? 'line-through' : 'none' }"
+                        >￥{{ goodsInfo.price }}
+                        </td>
                       </tr>
-
+                      <tr class="goods-pcc-tr" v-if="goodsInfo.coupon != null">
+                        <td class="goods-pcc-td-1"
+                            :style="{ textDecoration: couponStatus !== 1 ? 'line-through' : 'none' }"
+                        >券后价:
+                        </td>
+                        <td class="goods-pcc-td-2">￥{{ goodsInfo.postCouponPrice }}</td>
+                      </tr>
                       <tr class="goods-pcc-tr">
                         <td class="goods-pcc-td-1">优惠券:</td>
                         <td class="goods-pcc-td-2">
-                          <span v-if="goodsInfo.coupon != null">￥ {{goodsInfo.couponValue}}</span>
+                          <span v-if="couponStatus !==0"
+                                :style="{ textDecoration: couponStatus !== 1 ? 'line-through' : 'none' }"
+                          >￥ {{ goodsInfo.couponValue }}</span>
                           <span v-else>none</span>
 
                         </td>
                         <td class="goods-pcc-td-3">
-                          {{ goodsInfo.couponEndTime }}
+                          {{ goodsInfo.couponStartTime }} ~ {{ goodsInfo.couponEndTime }}
+                          <span v-if="couponStatus === 2">(过期)</span>
+                          <span v-if="couponStatus === 3">(未开始)</span>
                         </td>
                       </tr>
 
                       <tr class="goods-pcc-tr">
                         <td class="goods-pcc-td-1">佣金:</td>
-                        <td class="goods-pcc-td-2">{{goodsInfo.cr}}%</td>
+                        <td class="goods-pcc-td-2">{{ goodsInfo.cr }}%</td>
                         <td class="goods-pcc-td-3-cv">约 {{ goodsInfo.cv }} 元</td>
                       </tr>
                     </table>
                   </div>
-
                   <div class="goods-sale">
                     <table>
                       <tr class="goods-sale-tr">
@@ -229,29 +625,20 @@ onMounted(()=>{
 
                         <td class="goods-sale-td-1">
                           <span style="margin-right: 10px;">今日销量:</span>
-                          <span class="goods-sale-span">{{goodsInfo.saleDay}}</span>
+                          <span class="goods-sale-span">{{ goodsInfo.saleDay }}</span>
                         </td>
 
                         <td class="goods-sale-td-1">
                           <span style="margin-right: 10px;">销量:</span>
-                          <span class="goods-sale-span">{{goodsInfo.saleAll}}</span>
+                          <span class="goods-sale-span">{{ goodsInfo.saleAll }}</span>
                         </td>
                       </tr>
 
                     </table>
 
                   </div>
-
-
-
-
-
                 </div>
-
-
               </el-card>
-
-
             </el-col>
           </el-row>
         </div>
@@ -262,6 +649,8 @@ onMounted(()=>{
 
 
 <style scoped>
+
+
 .fixed-layout {
   width: 1200px; /* 固定总宽度 */
   height: 75vh; /* 固定总高度 */
@@ -291,9 +680,7 @@ onMounted(()=>{
 }
 
 .fixed-image-container_sub {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  margin-right: 8px;
   width: 62px; /* 固定宽度 */
   height: 62px; /* 固定高度 */
 }
@@ -309,10 +696,11 @@ onMounted(()=>{
 .fixed-image-sub {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  margin-right: 14px;
+
+  margin-right: 80px;
   border-radius: 6px;
 }
+
 
 .shop-info {
   display: flex;
@@ -342,14 +730,17 @@ onMounted(()=>{
   font-size: 18px;
   color: #fff;
   max-width: 140px;
+  margin-right: 12px;
+  padding-left: 0;
+  margin-left: 0;
 }
 
 .goods-title {
   font-size: 18px;
-  margin-left: 16px;
   max-width: 500px;
   font-family: "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif; /* 微软雅黑在某些情况下看起来可能类似于黑体，然后是Helvetica Neue和Arial等无衬线字体 */
   color: #000;
+  padding-left: 0;
 }
 
 
@@ -404,6 +795,12 @@ onMounted(()=>{
 
 .goods-sale-span {
   color: #FF6545;
+}
+
+.tag-group-name {
+  margin-bottom: 6px;
+  font-weight: bold;
+  margin-top: 6px;
 }
 
 </style>

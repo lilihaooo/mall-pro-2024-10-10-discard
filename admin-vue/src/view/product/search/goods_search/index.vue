@@ -44,7 +44,9 @@ const handleSearch = async (query) => {
 };
 
 
-const condition = ref({})
+const condition = ref({
+  category_id: 375
+})
 const tableData = ref([])
 
 
@@ -59,7 +61,7 @@ const getTableData = async (query) => {
   }
 }
 
-getTableData()
+getTableData(condition.value)
 
 const paginationData = reactive({
   pageSize: 10,

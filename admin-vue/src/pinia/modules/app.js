@@ -19,7 +19,7 @@ export const useAppStore = defineStore('app', () => {
         layout_side_collapsed_width: 80,
         layout_side_item_height: 48,
         show_watermark: false,
-        side_mode: 'normal'
+        side_mode: 'head'
     })
 
     const userStore = useUserStore();
@@ -34,6 +34,7 @@ export const useAppStore = defineStore('app', () => {
             }
         });
     };
+
 
     try {
         const setData = localStorage.getItem(key);
@@ -54,6 +55,8 @@ export const useAppStore = defineStore('app', () => {
         console.error('Error parsing local storage data:', error);
         // 可以在这里进行额外的错误处理
     }
+
+
 
 
 

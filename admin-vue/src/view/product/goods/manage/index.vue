@@ -5,8 +5,12 @@ import GoodsDetail from "@/view/product/goods/manage/components/goods-detail.vue
 
 <template>
   <div class="card-container">
-  <el-card style="margin-top:10px; width: 80%;">
+
+
+  <el-card  style="margin-top:10px; width: 90%;">
+    <el-scrollbar >
     <goods-detail/>
+      </el-scrollbar >
   </el-card>
   </div>
 </template>

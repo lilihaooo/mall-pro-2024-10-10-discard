@@ -4,7 +4,7 @@
 import chalk from "chalk";
 
 const config = {
-  appName: 'admin-vue',
+  appName: '小淘淘',
   appLogo: 'logo.png',
   showViteLogo: true,
   logs: [],

@@ -41,6 +41,7 @@ const props = defineProps({
 
 const path = ref(import.meta.env.VITE_BASE_API)
 
+
 const userStore = useUserStore()
 
 const beforeImageUpload = (file) => {

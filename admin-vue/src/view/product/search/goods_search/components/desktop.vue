@@ -29,9 +29,13 @@ const goodsDetail =(id)=>{
             <div class="goods-title">{{item.title}}</div>
             <div class="goods-two" >
               <div class="two-item">
-                <div>
+                <div v-if="item.coupon_id !== 0">
                   <div class="info-bt">券后价</div>
                   <div class="qhj">¥{{item.post_coupon_price}}</div>
+                </div>
+                <div v-else>
+                  <div class="info-bt">原价</div>
+                  <div class="qhj">¥{{item.price}}</div>
                 </div>
 
               </div>

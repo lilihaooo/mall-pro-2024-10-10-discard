@@ -24,7 +24,7 @@ const getRouter = async(userStore) => {
 
 async function handleKeepAlive(to) {
   if (to.matched.some(item => item.meta.keepAlive)) {
-    if (to.matched && to.matched.length > 2) {
+    if (to.matched && to.maotched.length > 2) {
       for (let i = 1; i < to.matched.length; i++) {
         const element = to.matched[i - 1]
         if (element.name === 'layout') {
@@ -85,8 +85,9 @@ router.beforeEach(async(to, from) => {
       // console.log(sessionStorage.getItem("needCloseAll"))
       // websocket 连接
       if (!webSocketStore.isConnected) {
-        webSocketStore.connect('ws://localhost:8887/ws');
-        // webSocketStore.connect('ws://' + window.location.host + '/ws');
+        webSocketStore.connect('ws://localhost:8887/ws');             // 本地环境使用
+        // webSocketStore.connect('ws://' + window.l
+        // ocation.host + '/ws');  // 服务器上使用
       }
 
 

@@ -43,6 +43,26 @@ export const getGoodsInfo = (params) => {
         params
     })
 }
+export const SetCoverImage = (goodsID, imageID) => {
+    return service({
+        url: '/goods/image/setCover',
+        method: 'post',
+        data:{
+            image_id:imageID,
+            goods_id:goodsID
+        }
+    })
+}
+
+
+export const DeleteImage = (params) => {
+    return service({
+        url: '/goods/image/delete',
+        method: 'get',
+        params:params
+    })
+}
+
 
 
 export const getCategoryTree = () => {
@@ -75,5 +95,14 @@ export const getShopList = (params) => {
         url: '/shop/list',
         method: 'get',
         params
+    })
+}
+
+
+
+export const GetTagList = () => {
+    return service({
+        url: '/tag/list',
+        method: 'get',
     })
 }
