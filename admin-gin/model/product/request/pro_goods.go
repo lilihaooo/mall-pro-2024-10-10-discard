@@ -83,6 +83,19 @@ type GoodsInfo struct {
 	ID uint `json:"id" form:"id"`
 }
 
+type GoodsImageUpload struct {
+	ID uint `json:"id" form:"id" validate:"required"`
+}
+
+type GoodsImageDelete struct {
+	ID uint `json:"id" form:"id" validate:"required"`
+}
+
+type SetGoodsImageCover struct {
+	GoodsID uint `json:"goods_id,string" form:"goods_id" validate:"required"`
+	ImageID uint `json:"image_id" form:"image_id" validate:"required"`
+}
+
 type GrabRecord struct {
 	Page     int `json:"page" form:"page"`         // 页码
 	PageSize int `json:"pageSize" form:"pageSize"` // 每页大小

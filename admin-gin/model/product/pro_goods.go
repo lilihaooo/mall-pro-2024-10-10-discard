@@ -11,7 +11,7 @@ type Goods struct {
 	Shop            Shop      `json:"shop"`
 	CouponID        uint      `gorm:"column:coupon_id" json:"coupon_id"`
 	Coupon          Coupon    `json:"coupon"`
-	Images          []Image   `gorm:"many2many:goods_image" json:"images" `
+	Images          []Image   `gorm:"many2many:goods_image" json:"images"`
 	CoverImageID    uint      `gorm:"column:cover_image_id" json:"cover_image_id"`
 	Image           Image     `gorm:"foreignKey:CoverImageID" json:"image"`
 	Status          int       `gorm:"column:status;comment:状态" json:"status"`             // 状态
@@ -79,4 +79,5 @@ type EsGoods struct {
 	GoodsDataFrom   int     `json:"goods_data_from"`
 	BrandName       string  `json:"brand_name"`
 	Tags            []uint  `json:"tags"`
+	IsToEs          int     `gorm:"column:is_to_es" json:"is_to_es"`
 }

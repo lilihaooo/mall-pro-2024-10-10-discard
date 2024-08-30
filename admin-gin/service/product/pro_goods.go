@@ -6,12 +6,16 @@ import (
 	"admin-gin/model/product/request"
 	"admin-gin/model/product/response"
 	"admin-gin/model/system"
+	"admin-gin/utils/kafka"
+	"admin-gin/utils/upload"
 	"context"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"github.com/jinzhu/copier"
 	"github.com/olivere/elastic/v7"
 	"gorm.io/gorm"
+	"mime/multipart"
 	"strings"
 	"sync"
 	"time"
@@ -429,6 +433,7 @@ func (*GoodsService) GoodsInfo(req request.GoodsInfo) (goods product.Goods, err 
 		}).
 		Preload("Media").
 		Preload("Images").
+		Preload("Image").
 		Preload("Tags").
 		Preload("Brand").
 		Preload("Coupon").
@@ -622,7 +627,7 @@ func (*GoodsService) GoodsSearchByEs(req request.ProGoodsSearchV2) (respGoods []
 
 	// 关键词搜索 - 模糊匹配
 	if req.Keyword != "" {
-		boolQuery.Must(elastic.NewMatchPhraseQuery("all", req.Keyword).Slop(0))
+		boolQuery.Must(elastic.NewWildcardQuery("all", "*"+req.Keyword+"*")) // 模糊匹配
 	}
 	// 分类查询
 	if req.CategoryID != 0 {
@@ -669,7 +674,6 @@ func (*GoodsService) GoodsSearchByEs(req request.ProGoodsSearchV2) (respGoods []
 	// 到期时间
 	if req.CouponExpirationDay != 0 {
 		p := time.Now().Add(time.Hour * 24 * time.Duration(req.CouponExpirationDay)).Format("2006-01-02 15:04:05")
-		fmt.Println(p)
 		boolQuery.Filter(elastic.NewRangeQuery("coupon_end_time").Gte(p))
 	}
 	// 体验分
@@ -834,4 +838,129 @@ func (*GoodsService) SearchSuggestionKeywordList(req request.Suggestion) (collec
 		return
 	}
 	return
+}
+
+// 商品图片上传
+func (*GoodsService) GoodsUploadImage(file *multipart.FileHeader, goodsID uint) error {
+	oss := upload.NewOss()
+	filePath, _, uploadErr := oss.UploadFile(file)
+	if uploadErr != nil {
+		return uploadErr
+	}
+	// 图片上传成功 将图片地址保存到数据库
+	err := global.XTK_DB.Transaction(func(tx *gorm.DB) error {
+		var i product.Image
+		i.Url = filePath
+		if err := global.XTK_DB.Create(&i).Error; err != nil {
+			return err
+		}
+		var gi product.GoodsImage
+		gi.ImageID = i.ID
+		gi.GoodsID = goodsID
+		if err := global.XTK_DB.Create(&gi).Error; err != nil {
+			return err
+		}
+		return nil
+	})
+
+	return err
+}
+
+// 删除商品图片
+func (*GoodsService) DeleteGoodsImage(id uint) error {
+	// 获取图片信息
+	var i product.Image
+	err := global.XTK_DB.Where("id = ?", id).First(&i).Error
+	if err != nil {
+		return err
+	}
+
+	err = global.XTK_DB.Transaction(func(tx *gorm.DB) error {
+		// 查询出哪些商品该图片作为封面图
+		var gs []product.Goods
+		err = tx.Where("cover_image_id = ?", i.ID).Preload("Images").Find(&gs).Error
+		if err != nil {
+			return err
+		}
+		if len(gs) != 0 {
+			// 更改商品封面应用为null
+			err = tx.Model(product.Goods{}).Where("cover_image_id = ?", i.ID).Update("cover_image_id", nil).Error
+			if err != nil {
+				return err
+			}
+			for _, g := range gs {
+				ci := ""
+				if len(g.Images) > 0 {
+					ci = g.Images[0].Url
+				}
+				m := kafka.Message{
+					ID:         g.ID,
+					CoverImage: ci,
+					CreatedAt:  time.Now().Format("2006-01-02 15:04:05"),
+				}
+				// 发送消息通知es
+				sender := kafka.NewSender("test", "kafka2EsUpdate", m)
+				err = sender.Send()
+				if err != nil {
+					return err
+				}
+			}
+		}
+
+		// 删除图片表
+		err = tx.Where("id = ?", id).Delete(&product.Image{}).Error
+		if err != nil {
+			return err
+		}
+		// 删除关联表
+		err = tx.Where("image_id = ?", id).Delete(&product.GoodsImage{}).Error
+		if err != nil {
+			return err
+		}
+		// 删除文件
+		// 根据图片url来判断判读删除位置
+		var oss upload.OSS
+		parts := strings.Split(i.Url, "/")
+		host := parts[2]
+		var key string
+		if host == "127.0.0.1:8887" {
+			key = parts[len(parts)-1]
+			oss = &upload.Local{}
+		}
+		// 判断oss是否已经被实例化
+		if oss == nil {
+			return errors.New("oss类型未被实例化")
+		}
+		if err = oss.DeleteFile(key); err != nil {
+			return errors.New("文件删除失败")
+		}
+		return nil
+	})
+	return err
+}
+
+// 设置商品的封面图片
+func (*GoodsService) SetCoverImage(goodsID uint, imageID uint) error {
+	// 获得图片信息
+	var i product.Image
+	err := global.XTK_DB.First(&i, imageID).Error
+	if err != nil {
+		return err
+	}
+
+	err = global.XTK_DB.Transaction(func(tx *gorm.DB) error {
+		err = tx.Model(product.Goods{}).Where("id = ?", goodsID).Update("cover_image_id", imageID).Error
+		if err != nil {
+			return err
+		}
+
+		m := kafka.Message{
+			ID:         goodsID,
+			CoverImage: i.Url,
+			CreatedAt:  time.Now().Format("2006-01-02 15:04:05"),
+		}
+		sender := kafka.NewSender("test", "kafka2EsUpdate", m)
+		return sender.Send()
+	})
+	return err
 }

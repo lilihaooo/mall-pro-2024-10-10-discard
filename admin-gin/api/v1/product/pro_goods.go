@@ -61,7 +61,6 @@ func (GoodsApi) GoodsInfo(c *gin.Context) {
 }
 
 func (GoodsApi) SuggestionList(c *gin.Context) {
-
 	var req request.Suggestion
 	err := c.ShouldBindQuery(&req)
 	if err != nil {
@@ -79,4 +78,73 @@ func (GoodsApi) SuggestionList(c *gin.Context) {
 
 	list := goodsService.SearchSuggestionKeywordList(req)
 	response.OkWithDetailed(list, "success", c)
+}
+
+func (GoodsApi) UploadGoodsImage(c *gin.Context) {
+	file, err := c.FormFile("file")
+	if err != nil {
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	var req request.GoodsImageUpload
+	if err = c.ShouldBindQuery(&req); err != nil {
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	if err = utils.ZhValidate(req); err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+
+	err = goodsService.GoodsUploadImage(file, req.ID)
+	if err != nil {
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	response.OkWithMessage("success", c)
+
+}
+
+func (GoodsApi) DeleteGoodsImage(c *gin.Context) {
+	var req request.GoodsImageDelete
+	if err := c.ShouldBindQuery(&req); err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	if err := utils.ZhValidate(req); err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	err := goodsService.DeleteGoodsImage(req.ID)
+	if err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	response.OkWithMessage("success", c)
+}
+
+func (GoodsApi) SetGoodsImageCover(c *gin.Context) {
+	var req request.SetGoodsImageCover
+	if err := c.ShouldBindJSON(&req); err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	if err := utils.ZhValidate(req); err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+
+	err := goodsService.SetCoverImage(req.GoodsID, req.ImageID)
+	if err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	response.OkWithMessage("success", c)
 }

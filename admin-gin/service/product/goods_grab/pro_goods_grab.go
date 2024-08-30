@@ -82,7 +82,7 @@ func (*GoodsGrabService) GoodsGrab(uID uint, grabR request.GrabRequest) {
 	elapsed = time.Since(begin)
 
 	msgListenerCode = common.MESSAGE_LEVEL_INFO
-	msgListenerMsg = "采集结束！， 共耗时：" + elapsed.String() + ". 共采集数据" + strconv.FormatInt(count, 10) + "个。"
+	msgListenerMsg = "采集结束！， 共耗时：" + elapsed.String() + ". 共采扫描" + strconv.FormatInt(count, 10) + "个。"
 	common.WsSendMsg(msgListenerCode, msgListenerMsg, msgListenerData, msgListenerForWhere, msgListenerToUsers, msgListenerUuid)
 
 	// 清理模拟的基础数据
@@ -211,31 +211,32 @@ func work(categoryInfo CategoryInfo) {
 			g.Tags = simulate.MakeRandomTags()
 			g.DataFrom = 1
 			process.ToMysqlJobCh <- g
+			count++
 
 			// 由于爬取请求 速度比较慢 所以直接将生成的数据放大100倍
-			for i := 0; i < 50; i++ {
-				g.ID = 0
-				g.CreatedAt = time.Now()
-				g = *simulate.GoodsBindCoupon(&g)
-				g.MediaUID = simulate.MakeRandomMediaUID()
-				g.Tags = simulate.MakeRandomTags()
-				g.DataFrom = 2
-				// 佣金, 库存
-				g.CommissionRate = int32(utils.RandomInt(1, 60))
-				g.CommissionValue = utils.RoundToOneDecimal(float64(g.CommissionRate) * g.PostCouponPrice / 100)
-
-				g.Inventory = int32(utils.RandomInt(1000, 60000))
-
-				// 销量, 评分
-				g.SalesAll = int32(utils.RandomInt(0, 100000))
-				g.SalesMonth = int32(utils.RandomInt(0, 10000))
-				g.SalesDay = int32(utils.RandomInt(0, 1000))
-				g.Sales2Hour = int32(utils.RandomInt(0, 100))
-				g.ExperienceScore = utils.RandomFloat64With1Decimal(1.0, 10.0)
-				// 由于查询出来的关联图片 对应的是原理的 商品id 直接往里放的话 复合组件冲突,不会新增新的关联, 所以要将商品id去除, 才好创建新的关联
-				process.ToMysqlJobCh <- g
-
-			}
+			//for i := 0; i < 50; i++ {
+			//	g.ID = 0
+			//	g.CreatedAt = time.Now()
+			//	g = *simulate.GoodsBindCoupon(&g)
+			//	g.MediaUID = simulate.MakeRandomMediaUID()
+			//	g.Tags = simulate.MakeRandomTags()
+			//	g.DataFrom = 2
+			//	// 佣金, 库存
+			//	g.CommissionRate = int32(utils.RandomInt(1, 60))
+			//	g.CommissionValue = utils.RoundToOneDecimal(float64(g.CommissionRate) * g.PostCouponPrice / 100)
+			//
+			//	g.Inventory = int32(utils.RandomInt(1000, 60000))
+			//
+			//	// 销量, 评分
+			//	g.SalesAll = int32(utils.RandomInt(0, 100000))
+			//	g.SalesMonth = int32(utils.RandomInt(0, 10000))
+			//	g.SalesDay = int32(utils.RandomInt(0, 1000))
+			//	g.Sales2Hour = int32(utils.RandomInt(0, 100))
+			//	g.ExperienceScore = utils.RandomFloat64With1Decimal(1.0, 10.0)
+			//	// 由于查询出来的关联图片 对应的是原理的 商品id 直接往里放的话 复合组件冲突,不会新增新的关联, 所以要将商品id去除, 才好创建新的关联
+			//	process.ToMysqlJobCh <- g
+			//
+			//}
 
 		}
 	}

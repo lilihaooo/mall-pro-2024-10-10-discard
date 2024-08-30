@@ -1,0 +1,1 @@
+[go_vue_admin]2024-08-21 14:13:41.112	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection

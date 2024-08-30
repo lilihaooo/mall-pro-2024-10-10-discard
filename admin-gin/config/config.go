@@ -19,6 +19,8 @@ type Server struct {
 	DBList []SpecializedDB `mapstructure:"db-list" json:"db-list" yaml:"db-list"`
 	// es
 	Es Es `mapstructure:"es" json:"es" yaml:"es"`
+	// kafka
+	Kafka Kafka `mapstructure:"kafka" json:"kafka" yaml:"kafka"`
 	// oss
 	Local      Local      `mapstructure:"local" json:"local" yaml:"local"`
 	Qiniu      Qiniu      `mapstructure:"qiniu" json:"qiniu" yaml:"qiniu"`

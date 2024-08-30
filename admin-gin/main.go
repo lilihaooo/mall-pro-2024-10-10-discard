@@ -34,6 +34,7 @@ func main() {
 	initialize.DBList() // 初始化多数据库 通过配置文件db-list
 
 	initialize.InitEs()
+	initialize.InitKafkaProducer()
 
 	global.XTK_DB = global.MustGetGlobalDBByDBName("xtaoke_db") // 将redu_db放到全局变量
 
@@ -57,6 +58,10 @@ func main() {
 		//	return
 		//}
 		defer db.Close()
+	}
+
+	if global.KafkaProducer != nil {
+		defer global.KafkaProducer.Close()
 	}
 
 	core.RunWindowsServer()

@@ -13,6 +13,8 @@ import (
 	"golang.org/x/sync/singleflight"
 	"gorm.io/gorm"
 	"sync"
+
+	"github.com/IBM/sarama"
 )
 
 var (
@@ -27,6 +29,9 @@ var (
 	GVA_LOG                 *zap.Logger
 	GVA_Timer               timer.Timer = timer.NewTimerTask()
 	GVA_Concurrency_Control             = &singleflight.Group{}
+
+	// kafka 生产者
+	KafkaProducer sarama.SyncProducer
 
 	ESClient *elastic.Client
 

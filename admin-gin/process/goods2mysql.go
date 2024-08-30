@@ -3,6 +3,7 @@ package process
 import (
 	"admin-gin/global"
 	"admin-gin/model/product"
+	"fmt"
 	"sync"
 	"time"
 )
@@ -18,6 +19,7 @@ func toMysqlJob() {
 	for {
 		select {
 		case goods, _ := <-ToMysqlJobCh:
+			fmt.Println("toMysqlJob: 接受+1")
 			batch = append(batch, goods)
 			if len(batch) == batchSize {
 				SaveGoods(batch)
@@ -35,7 +37,7 @@ func toMysqlJob() {
 }
 
 func SaveGoods(gs []product.Goods) {
-	err := global.XTK_DB.Exec("SET sql_log_bin = 0;").Save(&gs).Error
+	err := global.XTK_DB.Exec("SET sql_log_bin = 0;").Save(&gs).Error // 禁用二进制日志
 	if err != nil {
 		global.GVA_LOG.Error(err.Error())
 	}

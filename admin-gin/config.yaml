@@ -90,8 +90,8 @@ jwt:
     buffer-time: 1d
     issuer: qmPlus
 local:
-    path: uploads/file
     store-path: uploads/file
+    path: http://127.0.0.1:8887/uploads/file
 mongo:
     coll: ""
     options: ""
@@ -135,10 +135,13 @@ mysql:
     max-open-conns: 100
     singular: false
     log-zap: false
-
 es:
     host: http://47.109.31.106
     port: 9200
+kafka:
+    host: 47.109.31.106
+    port: 9092
+
 oracle:
     prefix: ""
     port: ""
