@@ -1,7 +1,15 @@
 <script setup>
 import {ref, reactive, onMounted, computed} from 'vue';
 import {useRoute} from "vue-router";
-import {DeleteImage, getGoodsInfo, GetTagList, SetCoverImage} from "@/api/product";
+import {
+  DeleteImage,
+  GetBrandList,
+  getGoodsInfo,
+  GetTagList,
+  SetCoverImage,
+  UpdateGoodsBaseInfo,
+  UpdateGoodsCouponInfo
+} from "@/api/product";
 import {ElMessage} from "element-plus";
 import ImageCompress from "@/utils/image";
 import {Plus} from "@element-plus/icons-vue";
@@ -51,31 +59,78 @@ const coverImageID = ref(0)
 const couponStatus = ref(0)
 
 
+// 品牌
+const brandList = ref([])
+const getTagList = async () => {
+  const res = await GetTagList();
+  tagData.value = res.data
+}
 // 基本编辑抽屉
+const showBaseUpdateVisible = () => {
+  baseUpdateVisible.value = true
+  // 获取全部品牌列表
+  getBrandList()
+
+
+}
+
 const showTags = ref([])
 const baseUpdateVisible = ref(false)
 const baseUpdate = reactive({
   description: "",
   price: 0,
   commission_rate: 0,
-  tags: []
+  tags: [],
+  brand_id: 0,
+  goods_id: 0
 })
 
+
+const updateGoodBaseInfo = async (data) => {
+  await UpdateGoodsBaseInfo(data);
+}
+
+// 提交
 let arr = []
-const onBaseUpdateSubmit = () => {
+const onBaseUpdateSubmit = async () => {
   arr = []
   showTags.value.forEach(tag => {
     arr.push(tag.id)
   });
   baseUpdate.tags = arr
+  baseUpdate.goods_id = Number(id)
+  baseUpdate.commission_rate = Number(baseUpdate.commission_rate)
 
-  console.log(baseUpdate)
-  console.log("发起后端请求 todo")
+  await updateGoodBaseInfo(baseUpdate)
+  baseUpdateVisible.value = false
+
+  await getGoodsDetail()
 }
+
+
+const updateGoodCouponInfo = async (data) => {
+  await UpdateGoodsCouponInfo(data);
+}
+// 提交优惠券更改
+const onCouponUpdateSubmit = async () => {
+  couponInfo.value.goods_id = Number(id)
+  couponInfo.value.amount = Number(couponInfo.value.amount)
+  couponInfo.value.coupon_total = Number(couponInfo.value.coupon_total)
+  await updateGoodCouponInfo(couponInfo.value)
+  couponUpdateVisible.value = false
+  await getGoodsDetail()
+}
+
+const onConponUpdateReset = () => {
+  couponInfo.value = originalCouponInfo.value
+  console.log("重置")
+}
+
 const originalDescription = ref("")
 const originalCommissionRate = ref(0)
 const originalTags = ref([])
 const originalPrice = ref(0)
+const originalBrandID = ref(0)
 
 // 重置
 const onBaseUpdateReset = () => {
@@ -83,14 +138,15 @@ const onBaseUpdateReset = () => {
   baseUpdate.price = originalPrice.value
   baseUpdate.description = originalDescription.value
   baseUpdate.commission_rate = originalCommissionRate.value
+  baseUpdate.brand_id = originalBrandID.value
 }
 const delTag = (id) => {
   showTags.value = showTags.value.filter(tag => tag.id !== id);
 }
 const tagData = ref([])
-const getTagList = async () => {
-  const res = await GetTagList();
-  tagData.value = res.data
+const getBrandList = async () => {
+  const res = await GetBrandList();
+  brandList.value = res.data
 }
 
 let selectedIds = []
@@ -150,17 +206,14 @@ const tagReset = () => {
   selectedIds = originalSelectedIds.value
   initTagList()
 }
-
-
 // 优惠券抽屉
 const couponUpdateVisible = ref(false)
-
-
-
-
-
-
-
+const originalCouponInfo = ref({})  // 保留一份原始数据
+const couponInfo = ref({})
+const showCouponUpdateVisible = () => {
+  couponUpdateVisible.value = true
+  console.log(couponInfo.value)
+}
 
 
 const getGoodsDetail = async () => {
@@ -242,10 +295,17 @@ const getGoodsDetail = async () => {
   originalDescription.value = res.data.description;
   originalCommissionRate.value = res.data.commission_rate;
   originalPrice.value = res.data.price;
+
+  originalBrandID.value = res.data.brand_id;
+  baseUpdate.brand_id = res.data.brand_id;
+
   originalSelectedIds.value = []
   res.data.tags.forEach(tag => originalSelectedIds.value.push(tag.id));
-
   res.data.tags.forEach(tag => selectedIds.push(tag.id));
+
+  // 优惠券初始化
+  couponInfo.value = res.data.coupon;
+  originalCouponInfo.value = res.data.coupon;
 }
 
 function formatDateTime(dateString) {
@@ -353,6 +413,20 @@ onMounted(() => {
         </div>
       </el-form-item>
 
+      <el-form-item label="品牌">
+        <el-select v-model="baseUpdate.brand_id" filterable placeholder="请选择">
+          <el-option
+              :label="'无'"
+              :value="0"
+          />
+          <el-option
+              v-for="item in brandList"
+              :key="item.id"
+              :label="item.name"
+              :value="item.id"
+          />
+        </el-select>
+      </el-form-item>
 
 
       <el-form-item label="描述">
@@ -376,54 +450,37 @@ onMounted(() => {
       title="优惠券信息修改"
       :show-close="false"
   >
-
-    <el-form :inline="false" :model="baseUpdate" label-width="48px">
-      <el-form-item label="价格">
-        <el-input type="number" v-model="baseUpdate.price"/>
+    <el-form :inline="false" :model="couponInfo" label-width="74px">
+      <el-form-item label="金额">
+        <el-input type="number" v-model="couponInfo.amount"/>
       </el-form-item>
-
-
-      <el-form-item label="标签">
-        <div style="display: flex; align-items: center;">
-          <!-- 标签列表 -->
-          <div style="display: flex; flex-wrap: wrap; gap: 2px;">
-            <el-tag v-for="item in showTags"
-                    :key="item.id"
-                    type="danger"
-                    closable
-                    @close="delTag(item.id)"
-            >{{ item.title }}
-            </el-tag>
-            <!-- 按钮 -->
-            <el-button
-                size="small" type="primary"
-                @click="showTag"
-                icon="plus"
-            >
-            </el-button>
-          </div>
-        </div>
+      <el-form-item label="券总数">
+        <el-input type="number" v-model="couponInfo.coupon_total"/>
       </el-form-item>
-
-
-
-      <el-form-item label="描述">
-        <el-input type="textarea"
-                  :autosize="{ minRows: 2, maxRows: 6 }"
-                  v-model="baseUpdate.description"
+      <el-form-item label="启用金额">
+        <el-input type="number" v-model="couponInfo.min_amount"/>
+      </el-form-item>
+      <el-form-item label="开始时间">
+        <el-date-picker
+            v-model="couponInfo.start_time"
+            type="date"
+            placeholder="Pick a day"
+        />
+      </el-form-item>
+      <el-form-item label="结束时间">
+        <el-date-picker
+            v-model="couponInfo.end_time"
+            type="date"
+            placeholder="Pick a day"
         />
       </el-form-item>
 
       <el-form-item>
-        <el-button type="primary" @click="onBaseUpdateSubmit">保存</el-button>
-        <el-button @click="onBaseUpdateReset">重置</el-button>
+        <el-button type="primary" @click="onCouponUpdateSubmit">保存</el-button>
+        <el-button @click="onConponUpdateReset">重置</el-button>
       </el-form-item>
-
-
     </el-form>
   </el-drawer>
-
-
 
 
   <!--标签修改对话框-->
@@ -451,8 +508,6 @@ onMounted(() => {
       </span>
     </template>
   </el-dialog>
-  <!--带货抽屉-->
-
 
   <div class="fixed-layout">
     <el-container>
@@ -461,17 +516,15 @@ onMounted(() => {
           <el-row>
             <el-col :span="24">
               <el-card body-style="padding:10px" style="margin-bottom: 2px" class="box-card">
-                <el-button @click="baseUpdateVisible = true">
+                <el-button @click="showBaseUpdateVisible">
                   基础
                 </el-button>
 
-                <el-button @click="couponUpdateVisible = true">
+                <el-button @click="showCouponUpdateVisible">
                   优惠券
                 </el-button>
 
-                <el-button>
-                  品牌认证
-                </el-button>
+
               </el-card>
 
             </el-col>
@@ -485,7 +538,6 @@ onMounted(() => {
                 <div style="margin-top: 10px; display: flex; align-items: center;">
                   <el-scrollbar :style="{ width: computedWidth }">
                     <div style="height: 74px;">
-
                       <el-dropdown v-for="item in goodsInfo.images" :key="item.id">
                         <div class="fixed-image-container_sub">
                           <img

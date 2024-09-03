@@ -106,3 +106,27 @@ export const GetTagList = () => {
         method: 'get',
     })
 }
+
+export const GetBrandList = () => {
+    return service({
+        url: '/brand/list',
+        method: 'get',
+    })
+}
+
+
+export const UpdateGoodsBaseInfo = (data) => {
+    return service({
+        url: '/goods/updateBaseInfo',
+        method: 'post',
+        data:data
+    })
+}
+
+export const UpdateGoodsCouponInfo = (data) => {
+    return service({
+        url: '/goods/updateCouponInfo',
+        method: 'post',
+        data:data
+    })
+}
