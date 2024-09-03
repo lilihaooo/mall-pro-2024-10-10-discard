@@ -536,8 +536,8 @@ onMounted(() => {
                   <img class="fixed-image" :src="goodsInfo.coverImageUrl" alt="Product Image"/>
                 </div>
                 <div style="margin-top: 10px; display: flex; align-items: center;">
-                  <el-scrollbar :style="{ width: computedWidth }">
-                    <div style="height: 74px;">
+                  <el-scrollbar :style="{ width: computedWidth, overflowX: 'auto' }">
+                    <div style="height: 74px; display: flex; min-width: max-content;">
                       <el-dropdown v-for="item in goodsInfo.images" :key="item.id">
                         <div class="fixed-image-container_sub">
                           <img
@@ -549,14 +549,13 @@ onMounted(() => {
                         <template #dropdown>
                           <el-dropdown-menu>
                             <el-dropdown-item icon="edit" @click="setCoverImage(id, item.id)">封面</el-dropdown-item>
-                            <el-dropdown-item icon="delete" @click="deleteImage(item.id, item.url)">删除
-                            </el-dropdown-item>
+                            <el-dropdown-item icon="delete" @click="deleteImage(item.id, item.url)">删除</el-dropdown-item>
                           </el-dropdown-menu>
                         </template>
                       </el-dropdown>
                     </div>
-
                   </el-scrollbar>
+
                   <div style="height: 74px; margin-left: 8px">
                     <el-upload
                         :show-file-list="false"
