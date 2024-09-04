@@ -1,5 +1,6 @@
 <script setup>
 import router from "@/router";
+import {ref} from "vue";
 const props = defineProps({
   data: {
     type: Array,
@@ -7,12 +8,18 @@ const props = defineProps({
   }
 });
 
+
+const isExpire = ref(true)
 const goodsDetail =(id)=>{
-  router.push({
-    name:'goodsDetail',
-    query:{id:id},
-  })
+  if (!isExpire.value) {
+    router.push({
+      name:'goodsDetail',
+      query:{id:id},
+    })
+  }
 }
+
+
 
 
 </script>
@@ -24,6 +31,14 @@ const goodsDetail =(id)=>{
         <div class="module_up">
           <div class="image_container">
             <el-image :src="item.cover_image" class="image" />
+
+            <!-- 条件渲染，显示过期标志图片 -->
+            <el-image
+                v-if="isExpire"
+                src="/public/shixiao.png"
+                class="expire-image"
+                alt="Expired"
+            />
           </div>
           <div class="goods-base-info">
             <div class="goods-title">{{item.title}}</div>
@@ -162,14 +177,27 @@ const goodsDetail =(id)=>{
 }
 
 .image_container{
+  position: relative; /* 使子元素的绝对定位相对于该容器 */
   width: 100%;
   height: 260px;
+}
+
+.expire-image {
+  position: absolute; /* 绝对定位 */
+  top: 50px;
+  left: 50px;
+  width: 60%; /* 覆盖整个容器 */
+  height: 60%;
+  object-fit: cover; /* 保持图片的纵横比 */
+  z-index: 10; /* 确保图片在上层显示 */
+  pointer-events: none; /* 防止覆盖图片影响底层图片的点击事件 */
 }
 
 .image {
   width: 100%;
   display: block;
   border-radius: 10px 10px 0 0;
+  object-fit: cover; /* 保持图片的纵横比 */
 }
 
 .goods-title{
