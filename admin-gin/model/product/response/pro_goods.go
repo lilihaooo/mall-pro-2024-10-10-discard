@@ -52,6 +52,7 @@ type GoodsSearchV2 struct {
 	CouponID        uint    `json:"coupon_id"`
 	CouponAmount    float64 `json:"coupon_amount"`
 	CouponEndTime   string  `json:"coupon_end_time"`
+	CouponStartTime string  `json:"coupon_begin_time"`
 	CouponCover     int     `json:"coupon_cover"`
 	CouponTotal     int     `json:"coupon_total"`
 	Price           float64 `json:"price"`
@@ -60,4 +61,5 @@ type GoodsSearchV2 struct {
 	ExperienceScore float64 `json:"experience_score"`
 	PushHot         int     `json:"push_hot"`
 	Tags            []uint  `json:"tags"`
+	IsExpire        bool    `json:"is_expire"`
 }

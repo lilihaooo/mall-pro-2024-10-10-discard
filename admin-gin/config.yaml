@@ -130,7 +130,7 @@ mysql:
     password: a111111
     path: 47.109.31.106
     engine: ""
-    log-mode: error
+    log-mode: info
     max-idle-conns: 10
     max-open-conns: 100
     singular: false

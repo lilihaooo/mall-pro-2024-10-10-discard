@@ -7,16 +7,15 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-type TagApi struct{}
+type BrandApi struct{}
 
-func (TagApi) TagList(c *gin.Context) {
+func (BrandApi) BrandList(c *gin.Context) {
 	// 获取全部标签
-	var tags []product.Tag
-	if err := global.XTK_DB.Find(&tags).Error; err != nil {
+	var brands []product.Brand
+	if err := global.XTK_DB.Find(&brands).Error; err != nil {
 		global.GVA_LOG.Error(err.Error())
 		response.FailWithMessage(err.Error(), c)
 		return
 	}
-	response.OkWithData(tags, c)
-
+	response.OkWithData(brands, c)
 }

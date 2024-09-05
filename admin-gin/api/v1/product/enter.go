@@ -8,6 +8,7 @@ type ApiGroup struct {
 	GrobApi
 	ShopApi
 	TagApi
+	BrandApi
 }
 
 var (

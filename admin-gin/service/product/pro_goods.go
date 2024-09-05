@@ -6,6 +6,7 @@ import (
 	"admin-gin/model/product/request"
 	"admin-gin/model/product/response"
 	"admin-gin/model/system"
+	"admin-gin/utils"
 	"admin-gin/utils/kafka"
 	"admin-gin/utils/upload"
 	"context"
@@ -428,6 +429,7 @@ func findLongCategoryName(targetID uint, m map[uint]categoryAPart) (res string) 
 
 func (*GoodsService) GoodsInfo(req request.GoodsInfo) (goods product.Goods, err error) {
 	err = global.XTK_DB.
+		Where("id=?", req.ID).
 		Preload("Shop", func(db *gorm.DB) *gorm.DB {
 			return db.Select("id, name, logo, logistics_score, product_score, service_score") // 这里选择 Shop 表中的 id 和 name 字段
 		}).
@@ -437,8 +439,12 @@ func (*GoodsService) GoodsInfo(req request.GoodsInfo) (goods product.Goods, err 
 		Preload("Tags").
 		Preload("Brand").
 		Preload("Coupon").
-		Find(&goods, req.ID).
+		Find(&goods).
 		Error
+
+	// 再写一条sql SELECT * FROM `goods` WHERE `goods`.`id` = 1213;  作为对比
+	global.XTK_DB.Find(&goods, req.ID)
+
 	return
 }
 
@@ -627,7 +633,7 @@ func (*GoodsService) GoodsSearchByEs(req request.ProGoodsSearchV2) (respGoods []
 
 	// 关键词搜索 - 模糊匹配
 	if req.Keyword != "" {
-		boolQuery.Must(elastic.NewWildcardQuery("all", "*"+req.Keyword+"*")) // 模糊匹配
+		boolQuery.Must(elastic.NewMatchQuery("all", req.Keyword))
 	}
 	// 分类查询
 	if req.CategoryID != 0 {
@@ -712,9 +718,9 @@ func (*GoodsService) GoodsSearchByEs(req request.ProGoodsSearchV2) (respGoods []
 	if req.DataFrom == 3 {
 		boolQuery.Filter(elastic.NewTermQuery("tags", req.DataFrom))
 	}
-	// 品牌库   查看品牌名不为空的商品
+	// 品牌库   查看品牌id不为0的商品
 	if req.IsBrand == 1 {
-		boolQuery.MustNot(elastic.NewTermQuery("brand_name.keyword", ""))
+		boolQuery.MustNot(elastic.NewTermQuery("brand_id", 0))
 	}
 	// 平台
 	if req.Platform == 1 {
@@ -786,6 +792,13 @@ func (*GoodsService) GoodsSearchByEs(req request.ProGoodsSearchV2) (respGoods []
 		return nil, 0, err
 	}
 
+	now := time.Now()
+	location, err := time.LoadLocation("Asia/Shanghai")
+	layout := "2006-01-02 15:04:05"
+	if err != nil {
+		return nil, 0, err
+	}
+
 	// 解析结果
 	for _, hit := range esRes.Hits.Hits {
 		var g product.EsGoods
@@ -800,6 +813,23 @@ func (*GoodsService) GoodsSearchByEs(req request.ProGoodsSearchV2) (respGoods []
 		if err != nil {
 			global.GVA_LOG.Error(err.Error())
 			return nil, 0, err
+		}
+		// 处理时间
+		btime, err := time.ParseInLocation(layout, g.CouponStartTime, location)
+		if err != nil {
+			return nil, 0, err
+		}
+		etime, err := time.ParseInLocation(layout, g.CouponEndTime, location)
+		if err != nil {
+			return nil, 0, err
+		}
+		if now.After(btime) && now.Before(etime) {
+			gResp.IsExpire = false
+		} else {
+			gResp.IsExpire = true
+		}
+		if g.CouponID == 0 {
+			gResp.IsExpire = false
 		}
 		respGoods = append(respGoods, gResp)
 	}
@@ -963,4 +993,172 @@ func (*GoodsService) SetCoverImage(goodsID uint, imageID uint) error {
 		return sender.Send()
 	})
 	return err
+}
+
+// 基本信息修改
+func (*GoodsService) UpdateBaseInfo(baseInfo request.UpdateGoodsBaseInfo) error {
+	// 查询要修改的商品对象
+	var g product.Goods
+	err := global.XTK_DB.Model(&g).Select("id, coupon_id").Preload("Coupon", func(db *gorm.DB) *gorm.DB {
+		return db.Select("id, amount")
+	}).Where("id = ?", baseInfo.GoodsID).First(&g).Error
+	if err != nil {
+		return err
+	}
+
+	if baseInfo.Price < g.Coupon.Amount {
+		return errors.New("价格设置低于优惠券金额")
+	}
+	// 券后价
+	postCouponPrice := utils.RoundToOneDecimal(baseInfo.Price - g.Coupon.Amount)
+	commissionValue := utils.ComputeCommissionValue(postCouponPrice, baseInfo.CommissionRate)
+
+	// 添加时间
+	createAt := time.Now().Format("2006-01-02 15:04:05")
+	// 更改商品基础信息
+	updateMap := make(map[string]interface{}, 6)
+	updateMap["description"] = baseInfo.Description
+	updateMap["price"] = baseInfo.Price
+	updateMap["commission_rate"] = baseInfo.CommissionRate
+	updateMap["commission_value"] = commissionValue
+	updateMap["brand_id"] = baseInfo.BrandID
+	updateMap["post_coupon_price"] = postCouponPrice
+	updateMap["created_at"] = createAt
+	// 获取品牌名
+	brandName := ""
+	if baseInfo.BrandID != 0 {
+		err = global.XTK_DB.Model(product.Brand{}).Where("id = ?", baseInfo.BrandID).Select("name").Scan(&brandName).Error
+		if err != nil {
+			return err
+		}
+	}
+	// 获取标签信息
+	var ts []product.Tag
+	if len(baseInfo.Tags) > 0 {
+		err = global.XTK_DB.Select("id").Where("id in ?", baseInfo.Tags).Find(&ts).Error
+		if err != nil {
+			return err
+		}
+	}
+
+	err = global.XTK_DB.Transaction(func(tx *gorm.DB) error {
+		// 更改商品表信息
+		err = tx.Model(product.Goods{}).Where("id = ?", baseInfo.GoodsID).Updates(updateMap).Error
+		if err != nil {
+			return err
+		}
+		// 更改商品-标签表关系关系
+		err = tx.Model(&g).Association("Tags").Replace(ts)
+		if err != nil {
+			return err
+		}
+		// 发送消息
+		m := kafka.Message{
+			ID:              baseInfo.GoodsID,
+			Description:     baseInfo.Description,
+			Price:           baseInfo.Price,
+			CommissionRate:  baseInfo.CommissionRate,
+			CommissionValue: commissionValue,
+			Tags:            baseInfo.Tags,
+			BrandName:       brandName,
+			CreatedAt:       createAt,
+			PostCouponPrice: postCouponPrice,
+		}
+		sender := kafka.NewSender("test", "kafka2EsUpdate", m)
+		return sender.Send()
+	})
+	return err
+}
+
+// 优惠券信息修改
+func (*GoodsService) UpdateCouponInfo(couponInfo request.UpdateGoodsCouponInfo) error {
+	// 处理传入时间
+	// 中国时区
+	location, err := time.LoadLocation("Asia/Shanghai")
+	if err != nil {
+		return err
+	}
+
+	// 转换为中国时间
+	beginDTimeStr := couponInfo.StartTime.In(location).Format("2006-01-02") + " 00:00:00"
+	endDTimeStr := couponInfo.EndTime.In(location).Format("2006-01-02") + " 23:59:59"
+
+	// 将字符串解析为时间格式一定要指定时区
+	dayE, err := time.ParseInLocation("2006-01-02 15:04:05", endDTimeStr, location) // 中国时间
+	if err != nil {
+		return err
+	}
+	dayB, err := time.ParseInLocation("2006-01-02 15:04:05", beginDTimeStr, location) // 中国时间
+	if err != nil {
+		return err
+	}
+
+	// mysql 新增优惠券
+	c := product.Coupon{
+		Title:       couponInfo.Title,
+		Amount:      couponInfo.Amount,
+		MinAmount:   couponInfo.MinAmount,
+		StartTime:   dayB,
+		EndTime:     dayE,
+		CouponTotal: couponInfo.CouponTotal,
+		CouponCover: couponInfo.CouponCover,
+		Status:      1,
+	}
+	// 获取商品原价
+	var g product.Goods
+	err = global.XTK_DB.Select("price, commission_rate").Where("id = ?", couponInfo.GoodsID).Take(&g).Error
+	if err != nil {
+		return err
+	}
+	// 更改商品优惠券id和券后价
+	var postCouponPrice float64
+	if g.Price > couponInfo.Amount {
+		postCouponPrice = utils.RoundToOneDecimal(g.Price - couponInfo.Amount)
+	} else {
+		return errors.New("优惠券额度大于商品价格")
+	}
+
+	// 佣金值
+	commissionValue := utils.ComputeCommissionValue(postCouponPrice, g.CommissionRate)
+
+	createdAt := time.Now().Format("2006-01-02 15:04:05")
+
+	return global.XTK_DB.Transaction(func(tx *gorm.DB) error {
+		// 创建新的优惠券
+		err = tx.Create(&c).Error
+		if err != nil {
+			return err
+		}
+
+		// mysql 更新商品
+		updateMap := make(map[string]interface{}, 4)
+		updateMap["post_coupon_price"] = postCouponPrice
+		updateMap["commission_value"] = commissionValue
+		updateMap["created_at"] = createdAt
+		updateMap["coupon_id"] = c.ID
+		err = tx.Model(product.Goods{}).Where("id = ?", couponInfo.GoodsID).Updates(updateMap).Error
+		if err != nil {
+			return err
+		}
+
+		// es 更新数据
+		m := kafka.Message{
+			ID:              couponInfo.GoodsID,
+			CouponID:        c.ID,
+			CouponAmount:    couponInfo.Amount,
+			CouponBeginTime: beginDTimeStr,
+			CouponEndTime:   endDTimeStr,
+			CouponTotal:     couponInfo.CouponTotal,
+			CouponCover:     couponInfo.CouponCover,
+			PostCouponPrice: postCouponPrice,
+			CommissionValue: commissionValue,
+			CreatedAt:       createdAt,
+		}
+		sender := kafka.NewSender("test", "kafka2EsUpdate", m)
+		err = sender.Send()
+		if err != nil {
+			return err
+		}
+		return nil
+	})
 }

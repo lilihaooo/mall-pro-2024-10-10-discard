@@ -1,5 +1,7 @@
 package request
 
+import "time"
+
 type ProGoodsSearch struct {
 	ID         uint `form:"g_id" json:"g_id"`
 	CategoryID uint `form:"category_id" json:"category_id"`
@@ -103,4 +105,23 @@ type GrabRecord struct {
 
 type Suggestion struct {
 	Keyword string `json:"keyword" form:"keyword" validate:"required"`
+}
+
+type UpdateGoodsBaseInfo struct {
+	Description    string  `json:"description"`
+	Price          float64 `json:"price"  validate:"required"`
+	CommissionRate int32   `json:"commission_rate"  validate:"required"`
+	Tags           []uint  `json:"tags"`
+	BrandID        uint    `json:"brand_id"`
+	GoodsID        uint    `json:"goods_id"  validate:"required"`
+}
+type UpdateGoodsCouponInfo struct {
+	GoodsID     uint      `json:"goods_id"  validate:"required"`
+	Title       string    `json:"title" validate:"required"`
+	Amount      float64   `json:"amount" validate:"required"`
+	MinAmount   float64   `json:"min_amount" validate:"required"`
+	StartTime   time.Time `json:"start_time" validate:"required"`
+	EndTime     time.Time `json:"end_time" validate:"required"`
+	CouponTotal int       `json:"coupon_total" validate:"required"`
+	CouponCover int       `json:"coupon_cover" validate:"required"`
 }

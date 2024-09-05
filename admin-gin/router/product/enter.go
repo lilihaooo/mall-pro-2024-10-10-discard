@@ -6,4 +6,5 @@ type RouterGroup struct {
 	ShopRouter
 	GrabRouter
 	TagRouter
+	BrandRouter
 }

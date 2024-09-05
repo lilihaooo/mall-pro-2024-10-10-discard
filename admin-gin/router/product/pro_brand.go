@@ -5,12 +5,12 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-type TagRouter struct{}
+type BrandRouter struct{}
 
-func (*TagRouter) InitTagRouter(Router *gin.RouterGroup) {
-	customerRouter := Router.Group("tag")
-	tagApi := v1.ApiGroupApp.ProductApiGroup.TagApi
+func (*BrandRouter) InitBrandRouter(Router *gin.RouterGroup) {
+	customerRouter := Router.Group("brand")
+	brandApi := v1.ApiGroupApp.ProductApiGroup.BrandApi
 	{
-		customerRouter.GET("/list", tagApi.TagList) // 创建客户
+		customerRouter.GET("/list", brandApi.BrandList) // 创建客户
 	}
 }

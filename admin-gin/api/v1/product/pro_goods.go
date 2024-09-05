@@ -148,3 +148,47 @@ func (GoodsApi) SetGoodsImageCover(c *gin.Context) {
 	}
 	response.OkWithMessage("success", c)
 }
+
+func (GoodsApi) UpdateGoodsBaseInfo(c *gin.Context) {
+	var req request.UpdateGoodsBaseInfo
+	if err := c.ShouldBindJSON(&req); err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	if err := utils.ZhValidate(req); err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+
+	err := goodsService.UpdateBaseInfo(req)
+	if err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	response.OkWithMessage("success", c)
+}
+
+func (GoodsApi) UpdateGoodsCouponInfo(c *gin.Context) {
+	var req request.UpdateGoodsCouponInfo
+	if err := c.ShouldBindJSON(&req); err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	if err := utils.ZhValidate(req); err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+
+	err := goodsService.UpdateCouponInfo(req)
+	if err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	response.OkWithMessage("success", c)
+}
