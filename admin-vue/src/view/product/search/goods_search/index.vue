@@ -14,11 +14,8 @@
 
 
     <el-card style=" background-color: #c0deef;" shadow="never">
-      <el-scrollbar >
         <desktop :data="tableData"/>
         <pagination :data="paginationData" @change="handleChange" style="margin-right: 118px"/>
-      </el-scrollbar >
-
     </el-card>
 
   </div>
@@ -45,7 +42,7 @@ const handleSearch = async (query) => {
 
 
 const condition = ref({
-  category_id: 375
+
 })
 const tableData = ref([])
 

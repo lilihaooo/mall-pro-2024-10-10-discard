@@ -1,6 +1,7 @@
 <script setup>
 import router from "@/router";
-import {ref} from "vue";
+import { ElMessage } from 'element-plus'
+
 const props = defineProps({
   data: {
     type: Array,
@@ -9,12 +10,19 @@ const props = defineProps({
 });
 
 
-const isExpire = ref(true)
-const goodsDetail =(id)=>{
-  if (!isExpire.value) {
+
+
+
+const goodsDetail =(id, isExpire)=>{
+  if (!isExpire) {
     router.push({
       name:'goodsDetail',
       query:{id:id},
+    })
+  }else  {
+    ElMessage({
+      message:`商品为：${id}，请修改商品有效期！`,
+      type: 'warning',
     })
   }
 }
@@ -26,15 +34,16 @@ const goodsDetail =(id)=>{
 
 <template>
   <div class="outer-container">
+    <el-scrollbar >
     <div class="list-container">
-      <div v-for="item in data" :key="item.id" class="module" @click="goodsDetail(item.id)">
+      <div v-for="item in data" :key="item.id" class="module" @click="goodsDetail(item.id, item.is_expire)">
         <div class="module_up">
           <div class="image_container">
             <el-image :src="item.cover_image" class="image" />
 
             <!-- 条件渲染，显示过期标志图片 -->
             <el-image
-                v-if="isExpire"
+                v-if="item.is_expire"
                 src="/public/shixiao.png"
                 class="expire-image"
                 alt="Expired"
@@ -95,6 +104,14 @@ const goodsDetail =(id)=>{
               <div style="color: #999; font-size: 12px"> {{item.coupon_total}}</div>
             </div>
 
+            <div class="more-tag-item" style="margin-left: 24px">
+              <div style="color: #999; font-size: 12px; margin-right: 12px">开始时间</div>
+              <div style="color: #999; font-size: 12px"> {{item.coupon_begin_time}} </div>
+            </div>
+            <div class="more-tag-item"  style="margin-left: 24px">
+              <div style="color: #999; font-size: 12px; margin-right: 12px">结束时间</div>
+              <div style="color: #999; font-size: 12px"> {{item.coupon_end_time}} </div>
+            </div>
             <div class="more-tag-item">
               <div style="color: #999; margin-right: 6px"> <el-icon><House /></el-icon></div>
               <div style="color: #999; font-size: 12px"> {{item.shop_name}} </div>
@@ -109,6 +126,7 @@ const goodsDetail =(id)=>{
         </div>
       </div>
     </div>
+    </el-scrollbar>
   </div>
 </template>
 <style scoped lang="scss">
@@ -125,12 +143,14 @@ const goodsDetail =(id)=>{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 10px;
-  width: calc(5 * 264px + 4 * 5px); /* 5 modules width + 4 gaps */
+  width: calc(5 * 266px + 4 * 5px); /* 5 modules width + 4 gaps */
   position: relative; /* To contain the absolute positioned modules */
-  padding-bottom:116px ;
+  padding-bottom:146px ;
 }
 
 .module {
+  margin-left: 1px;
+  margin-right: 1px;
   margin-top: 1px;
   border-radius: 10px 10px 0 0;
   position: relative; /* To position the goods-more-info absolutely */
@@ -150,12 +170,12 @@ const goodsDetail =(id)=>{
 
 .module_down {
   width: 260px;
-  height: 112px;
+  height: 144px;
   background-color: white;
   position: absolute;
   top: 100%; /* Position below the module */
   display: none; /* Hidden by default */
-  z-index: 10; /* Higher z-index to float above other elements */
+  z-index: 100; /* Higher z-index to float above other elements */
   border-radius: 0 0 10px 10px;
 }
 
