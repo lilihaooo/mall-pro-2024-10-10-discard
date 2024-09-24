@@ -56,7 +56,7 @@ type EsGoods struct {
 	Price           float64 `json:"price"`
 	Status          int     `json:"status"`
 	CouponID        uint    `json:"coupon_id"`
-	CouponStartTime string  `json:"coupon_begin_time"`
+	CouponBeginTime string  `json:"coupon_begin_time"`
 	CouponEndTime   string  `json:"coupon_end_time"`
 	CouponAmount    float64 `json:"coupon_amount"`
 	CouponTotal     int64   `json:"coupon_total"`

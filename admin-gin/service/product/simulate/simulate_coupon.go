@@ -43,7 +43,7 @@ func (*SimService) SimulateCoupon(simReq request.SimulateCouponRequest) (count i
 		coModel.Title = "通用券"
 		coModel.Amount = amount
 		coModel.MinAmount = amount * 10
-		coModel.StartTime = dayB
+		coModel.BeginTime = dayB
 		coModel.EndTime = dayE.AddDate(0, 0, simReq.EffectiveDay)
 		coModel.CouponTotal = total
 		coModel.CouponCover = cover

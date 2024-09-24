@@ -1,0 +1,86 @@
+[go_vue_admin]2024-09-18 13:56:48.209	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 13:57:00.792	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-09-18 14:03:13.316	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	read tcp [::1]:8887->[::1]:58428: use of closed network connection
+[go_vue_admin]2024-09-18 14:03:13.316	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:58377: use of closed network connection
+[go_vue_admin]2024-09-18 14:03:13.316	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-09-18 14:03:43.796	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:03:45.798	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:03:49.088	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:03:58.207	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:03:59.714	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:04:03.769	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-09-18 14:04:08.234	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:04:09.548	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:04:10.415	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:04:11.512	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-09-18 14:04:24.742	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:04:26.430	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:04:27.062	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:04:27.256	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:04:28.431	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-09-18 14:04:39.385	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:04:40.647	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:04:41.160	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:04:41.572	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:04:41.977	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:04:42.388	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:04:43.889	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-09-18 14:04:47.590	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-09-18 14:04:55.348	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:04:58.557	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:04:59.478	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:04:59.709	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:04:59.920	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:05:00.159	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:05:00.377	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:05:00.582	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:05:00.771	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 14:05:02.032	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-09-18 15:14:14.208	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-09-18 15:20:01.987	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 15:20:11.994	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-09-18 15:20:22.522	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 15:20:25.766	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-09-18 15:20:34.387	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 15:20:36.643	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-09-18 15:20:51.045	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 15:20:54.727	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-09-18 15:21:03.208	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 15:21:04.436	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 15:21:05.483	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-09-18 15:21:15.471	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 15:21:16.530	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 15:21:18.756	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-09-18 15:21:34.940	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 15:21:36.765	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-09-18 15:26:13.087	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-09-18 16:17:44.283	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-09-18 18:36:13.320	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-09-18 18:36:28.949	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 18:36:34.286	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-09-18 18:36:54.708	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:61776: use of closed network connection
+[go_vue_admin]2024-09-18 18:36:54.708	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:58733: use of closed network connection
+[go_vue_admin]2024-09-18 18:36:54.708	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:58822: use of closed network connection
+[go_vue_admin]2024-09-18 18:36:54.708	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:61738: use of closed network connection
+[go_vue_admin]2024-09-18 18:36:54.708	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:61705: use of closed network connection
+[go_vue_admin]2024-09-18 18:36:54.708	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:64746: use of closed network connection
+[go_vue_admin]2024-09-18 18:36:54.709	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:58662: use of closed network connection
+[go_vue_admin]2024-09-18 18:36:54.709	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:58764: use of closed network connection
+[go_vue_admin]2024-09-18 18:36:54.709	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:61500: use of closed network connection
+[go_vue_admin]2024-09-18 18:36:54.709	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:58776: use of closed network connection
+[go_vue_admin]2024-09-18 18:36:54.711	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-09-18 18:36:54.709	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:61830: use of closed network connection
+[go_vue_admin]2024-09-18 18:36:54.709	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:58690: use of closed network connection
+[go_vue_admin]2024-09-18 18:50:17.995	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-09-18 18:56:07.027	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-09-18 19:01:03.033	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:65236: use of closed network connection
+[go_vue_admin]2024-09-18 19:01:03.033	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:38	close tcp [::1]:8887->[::1]:64827: use of closed network connection
+[go_vue_admin]2024-09-18 19:01:03.033	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	read tcp [::1]:8887->[::1]:65414: use of closed network connection
+[go_vue_admin]2024-09-18 19:01:03.033	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-09-18 19:01:23.289	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:851	redis: nil
+[go_vue_admin]2024-09-18 19:01:33.348	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-09-18 19:02:06.590	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1006 (abnormal closure): unexpected EOF
+[go_vue_admin]2024-09-18 22:41:52.115	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-09-18 22:41:58.728	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)
+[go_vue_admin]2024-09-18 23:17:59.606	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1006 (abnormal closure): unexpected EOF
+[go_vue_admin]2024-09-18 23:26:11.005	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1001 (going away)

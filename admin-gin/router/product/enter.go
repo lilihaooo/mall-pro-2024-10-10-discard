@@ -7,4 +7,5 @@ type RouterGroup struct {
 	GrabRouter
 	TagRouter
 	BrandRouter
+	SearchRouter
 }

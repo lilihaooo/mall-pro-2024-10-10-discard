@@ -1,0 +1,1 @@
+[go_vue_admin]2024-09-12 00:37:25.794	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:70	websocket: close 1006 (abnormal closure): unexpected EOF

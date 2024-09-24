@@ -11,4 +11,5 @@ type ServiceGroup struct {
 	goods_grab.GoodsGrabService
 	simulate.SimService
 	ShopService
+	SearchService
 }

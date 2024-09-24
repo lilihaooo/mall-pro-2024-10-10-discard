@@ -9,10 +9,12 @@ type ApiGroup struct {
 	ShopApi
 	TagApi
 	BrandApi
+	SearchApi
 }
 
 var (
 	categoryService = service.GroupApp.ProductServiceGroup.CategoryService
 	goodsService    = service.GroupApp.ProductServiceGroup.GoodsService
 	shopService     = service.GroupApp.ProductServiceGroup.ShopService
+	searchService   = service.GroupApp.ProductServiceGroup.SearchService
 )

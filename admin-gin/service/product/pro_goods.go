@@ -2,12 +2,14 @@ package product
 
 import (
 	"admin-gin/global"
+	"admin-gin/kafka/goods"
 	"admin-gin/model/product"
 	"admin-gin/model/product/request"
 	"admin-gin/model/product/response"
 	"admin-gin/model/system"
 	"admin-gin/utils"
-	"admin-gin/utils/kafka"
+	"admin-gin/utils/captcha"
+	"admin-gin/utils/redis"
 	"admin-gin/utils/upload"
 	"context"
 	"encoding/json"
@@ -17,6 +19,7 @@ import (
 	"github.com/olivere/elastic/v7"
 	"gorm.io/gorm"
 	"mime/multipart"
+	"strconv"
 	"strings"
 	"sync"
 	"time"
@@ -489,6 +492,7 @@ func (*GoodsService) GrabRecord(req request.GrabRecord) (list []response.ProGrab
 	return
 }
 
+// 收集标签
 func collectV2Tags(req request.ProGoodsSearchV2) (tags []int) {
 	if req.IsChoice != 0 {
 		tags = append(tags, 36)
@@ -624,7 +628,61 @@ func collectV2Tags(req request.ProGoodsSearchV2) (tags []int) {
 	}
 	return
 }
-func (*GoodsService) GoodsSearchByEs(req request.ProGoodsSearchV2) (respGoods []response.GoodsSearchV2, total int64, err error) {
+func (*GoodsService) GoodsSearchByEs(req request.ProGoodsSearchV2, userID uint) (respGoods []response.GoodsSearchV2, total int64, err error) {
+	respGoods = []response.GoodsSearchV2{}
+	// 获取收藏set
+	myCollectMap := make(map[string]struct{})
+	// 查看是否存在该缓存
+	key := "collect:" + strconv.Itoa(int(userID))
+	exists, err := global.GVA_REDIS.Exists(context.Background(), key).Result()
+	if err != nil {
+		global.GVA_LOG.Error(err.Error())
+		return
+	}
+	// 如果缓存不存在
+	if exists == 0 {
+		// 不存在就查数据库并保存到缓存
+		var myCollectGoodsIDs []string
+		err = global.XTK_DB.Model(product.Collect{}).Where("user_id = ?", userID).Pluck("goods_id", &myCollectGoodsIDs).Error
+		if err != nil {
+			global.GVA_LOG.Error(err.Error())
+			return
+		}
+		// 查询后无论有没有记录 都加入缓存中
+		if len(myCollectGoodsIDs) > 0 {
+			_, err = global.GVA_REDIS.SAdd(context.Background(), key, myCollectGoodsIDs).Result()
+			if err != nil {
+				global.GVA_LOG.Error(err.Error())
+				return
+			}
+		}
+
+		// 设置过期时间，例如设置为 60 秒
+		expiration := 60 * time.Second
+		err = global.GVA_REDIS.Expire(context.Background(), key, expiration).Err()
+		if err != nil {
+			global.GVA_LOG.Error(err.Error())
+			return
+		}
+
+		if len(myCollectGoodsIDs) > 0 {
+			for _, id := range myCollectGoodsIDs {
+				myCollectMap[id] = struct{}{}
+			}
+		}
+	} else {
+		members, err := global.GVA_REDIS.SMembers(context.Background(), key).Result()
+		if err != nil {
+			global.GVA_LOG.Error(err.Error())
+			return respGoods, 0, nil
+		}
+		if len(members) > 0 {
+			for _, member := range members {
+				myCollectMap[member] = struct{}{}
+			}
+		}
+	}
+
 	once.Do(func() {
 		InitCategory()
 	})
@@ -632,8 +690,10 @@ func (*GoodsService) GoodsSearchByEs(req request.ProGoodsSearchV2) (respGoods []
 	boolQuery := elastic.NewBoolQuery()
 
 	// 关键词搜索 - 模糊匹配
-	if req.Keyword != "" {
+	if strings.TrimSpace(req.Keyword) != "" {
 		boolQuery.Must(elastic.NewMatchQuery("all", req.Keyword))
+		// 处理关键词
+		manageKeyword(req.Keyword)
 	}
 	// 分类查询
 	if req.CategoryID != 0 {
@@ -645,7 +705,6 @@ func (*GoodsService) GoodsSearchByEs(req request.ProGoodsSearchV2) (respGoods []
 			}
 			boolQuery.Filter(elastic.NewTermsQuery("category_id", cI...)) // NewTermsQuery 接口数组  而且还必须展开,  NewTermQuery int
 		}
-
 	}
 	// 筛选
 	// 券后价
@@ -739,7 +798,7 @@ func (*GoodsService) GoodsSearchByEs(req request.ProGoodsSearchV2) (respGoods []
 	total, err = global.ESClient.Count("goods_index").Query(boolQuery).Do(context.Background())
 	if err != nil {
 		global.GVA_LOG.Error(err.Error())
-		return nil, 0, err
+		return respGoods, 0, err
 	}
 	// 设置了最大返回数量
 	if total > 1000 {
@@ -789,14 +848,14 @@ func (*GoodsService) GoodsSearchByEs(req request.ProGoodsSearchV2) (respGoods []
 	esRes, err := query.Do(context.Background())
 	if err != nil {
 		global.GVA_LOG.Error(err.Error())
-		return nil, 0, err
+		return respGoods, 0, err
 	}
 
 	now := time.Now()
 	location, err := time.LoadLocation("Asia/Shanghai")
 	layout := "2006-01-02 15:04:05"
 	if err != nil {
-		return nil, 0, err
+		return respGoods, 0, err
 	}
 
 	// 解析结果
@@ -805,23 +864,23 @@ func (*GoodsService) GoodsSearchByEs(req request.ProGoodsSearchV2) (respGoods []
 		err = json.Unmarshal(hit.Source, &g)
 		if err != nil {
 			global.GVA_LOG.Error(err.Error())
-			return nil, 0, err
+			return respGoods, 0, err
 		}
 
 		var gResp response.GoodsSearchV2
 		err = copier.Copy(&gResp, g)
 		if err != nil {
 			global.GVA_LOG.Error(err.Error())
-			return nil, 0, err
+			return respGoods, 0, err
 		}
 		// 处理时间
-		btime, err := time.ParseInLocation(layout, g.CouponStartTime, location)
+		btime, err := time.ParseInLocation(layout, g.CouponBeginTime, location)
 		if err != nil {
-			return nil, 0, err
+			return respGoods, 0, err
 		}
 		etime, err := time.ParseInLocation(layout, g.CouponEndTime, location)
 		if err != nil {
-			return nil, 0, err
+			return respGoods, 0, err
 		}
 		if now.After(btime) && now.Before(etime) {
 			gResp.IsExpire = false
@@ -831,43 +890,53 @@ func (*GoodsService) GoodsSearchByEs(req request.ProGoodsSearchV2) (respGoods []
 		if g.CouponID == 0 {
 			gResp.IsExpire = false
 		}
+		// 查看是否收藏
+		mapKey := strconv.Itoa(int(g.ID))
+		if _, ex := myCollectMap[mapKey]; ex {
+			gResp.IsCollect = true
+		}
 		respGoods = append(respGoods, gResp)
 	}
 	return
 }
 
-// 获取搜索词条
-func (*GoodsService) SearchSuggestionKeywordList(req request.Suggestion) (collect []string) {
-	keyword := req.Keyword
-	// 构建 Suggest 查询
-	suggestName := "keyword_suggest"
-	suggestQuery := elastic.NewCompletionSuggester(suggestName).
-		Prefix(keyword).
-		Field("keyword").
-		Size(10)
-
-	// 执行查询
-	searchResult, err := global.ESClient.Search().
-		Index("suggestion_index"). // 设置索引名称
-		Suggester(suggestQuery).   // 添加 suggest 查询
-		Do(context.Background())   // 执行查询
+// 处理关键词
+func manageKeyword(keyword string) {
+	// 将关键词保存到热搜中
+	zset := redis.NewResZSet()
+	// 检查这个关键词的得分
+	score, err := zset.GetMemberScore(context.Background(), "HotSearch", keyword)
 	if err != nil {
 		global.GVA_LOG.Error(err.Error())
-		return nil
 	}
 
-	// 处理查询结果
-	if suggestResult, found := searchResult.Suggest[suggestName]; found {
-		for _, entry := range suggestResult {
-			for _, option := range entry.Options {
-				collect = append(collect, option.Text)
+	if score > 10 {
+		c := captcha.NewDefaultRedisStore()
+		searchKeyword := c.Get(c.PreKey+keyword, false)
+		if searchKeyword == "" {
+			// 发送kafka消息, 添加这个词语到检索库中
+			sender := goods.NewCreateEsSearchKeywordSender(keyword)
+			err = sender.Send()
+			if err != nil {
+				global.GVA_LOG.Error(err.Error())
+			}
+			// 将该关键字保存到缓存中防止高并发发送信息, 频繁操作es
+			err = c.Set(keyword, "1")
+			if err != nil {
+				global.GVA_LOG.Error(err.Error())
 			}
 		}
-	} else {
-		global.GVA_LOG.Info("无推荐")
-		return
 	}
-	return
+
+	_, err = zset.IncrementMemberScore(context.Background(), "HotSearch", keyword, 1)
+	if err != nil {
+		global.GVA_LOG.Error(err.Error())
+	}
+	// 只保留前100名
+	err = global.GVA_REDIS.ZRemRangeByRank(context.Background(), "HotSearch", 100, -1).Err()
+	if err != nil {
+		global.GVA_LOG.Error(err.Error())
+	}
 }
 
 // 商品图片上传
@@ -923,13 +992,13 @@ func (*GoodsService) DeleteGoodsImage(id uint) error {
 				if len(g.Images) > 0 {
 					ci = g.Images[0].Url
 				}
-				m := kafka.Message{
+				m := goods.Message{
 					ID:         g.ID,
 					CoverImage: ci,
 					CreatedAt:  time.Now().Format("2006-01-02 15:04:05"),
 				}
 				// 发送消息通知es
-				sender := kafka.NewSender("test", "kafka2EsUpdate", m)
+				sender := goods.NewUpdateEsGoodsInfoSender(m)
 				err = sender.Send()
 				if err != nil {
 					return err
@@ -977,19 +1046,18 @@ func (*GoodsService) SetCoverImage(goodsID uint, imageID uint) error {
 	if err != nil {
 		return err
 	}
-
 	err = global.XTK_DB.Transaction(func(tx *gorm.DB) error {
 		err = tx.Model(product.Goods{}).Where("id = ?", goodsID).Update("cover_image_id", imageID).Error
 		if err != nil {
 			return err
 		}
 
-		m := kafka.Message{
+		m := goods.Message{
 			ID:         goodsID,
 			CoverImage: i.Url,
 			CreatedAt:  time.Now().Format("2006-01-02 15:04:05"),
 		}
-		sender := kafka.NewSender("test", "kafka2EsUpdate", m)
+		sender := goods.NewUpdateEsGoodsInfoSender(m)
 		return sender.Send()
 	})
 	return err
@@ -1021,17 +1089,9 @@ func (*GoodsService) UpdateBaseInfo(baseInfo request.UpdateGoodsBaseInfo) error 
 	updateMap["price"] = baseInfo.Price
 	updateMap["commission_rate"] = baseInfo.CommissionRate
 	updateMap["commission_value"] = commissionValue
-	updateMap["brand_id"] = baseInfo.BrandID
 	updateMap["post_coupon_price"] = postCouponPrice
 	updateMap["created_at"] = createAt
-	// 获取品牌名
-	brandName := ""
-	if baseInfo.BrandID != 0 {
-		err = global.XTK_DB.Model(product.Brand{}).Where("id = ?", baseInfo.BrandID).Select("name").Scan(&brandName).Error
-		if err != nil {
-			return err
-		}
-	}
+
 	// 获取标签信息
 	var ts []product.Tag
 	if len(baseInfo.Tags) > 0 {
@@ -1053,18 +1113,18 @@ func (*GoodsService) UpdateBaseInfo(baseInfo request.UpdateGoodsBaseInfo) error 
 			return err
 		}
 		// 发送消息
-		m := kafka.Message{
+		m := goods.Message{
 			ID:              baseInfo.GoodsID,
 			Description:     baseInfo.Description,
 			Price:           baseInfo.Price,
 			CommissionRate:  baseInfo.CommissionRate,
 			CommissionValue: commissionValue,
 			Tags:            baseInfo.Tags,
-			BrandName:       brandName,
 			CreatedAt:       createAt,
 			PostCouponPrice: postCouponPrice,
 		}
-		sender := kafka.NewSender("test", "kafka2EsUpdate", m)
+
+		sender := goods.NewUpdateEsGoodsInfoSender(m)
 		return sender.Send()
 	})
 	return err
@@ -1072,7 +1132,6 @@ func (*GoodsService) UpdateBaseInfo(baseInfo request.UpdateGoodsBaseInfo) error 
 
 // 优惠券信息修改
 func (*GoodsService) UpdateCouponInfo(couponInfo request.UpdateGoodsCouponInfo) error {
-	// 处理传入时间
 	// 中国时区
 	location, err := time.LoadLocation("Asia/Shanghai")
 	if err != nil {
@@ -1080,7 +1139,7 @@ func (*GoodsService) UpdateCouponInfo(couponInfo request.UpdateGoodsCouponInfo) 
 	}
 
 	// 转换为中国时间
-	beginDTimeStr := couponInfo.StartTime.In(location).Format("2006-01-02") + " 00:00:00"
+	beginDTimeStr := couponInfo.BeginTime.In(location).Format("2006-01-02") + " 00:00:00"
 	endDTimeStr := couponInfo.EndTime.In(location).Format("2006-01-02") + " 23:59:59"
 
 	// 将字符串解析为时间格式一定要指定时区
@@ -1098,7 +1157,7 @@ func (*GoodsService) UpdateCouponInfo(couponInfo request.UpdateGoodsCouponInfo) 
 		Title:       couponInfo.Title,
 		Amount:      couponInfo.Amount,
 		MinAmount:   couponInfo.MinAmount,
-		StartTime:   dayB,
+		BeginTime:   dayB,
 		EndTime:     dayE,
 		CouponTotal: couponInfo.CouponTotal,
 		CouponCover: couponInfo.CouponCover,
@@ -1142,7 +1201,7 @@ func (*GoodsService) UpdateCouponInfo(couponInfo request.UpdateGoodsCouponInfo) 
 		}
 
 		// es 更新数据
-		m := kafka.Message{
+		m := goods.Message{
 			ID:              couponInfo.GoodsID,
 			CouponID:        c.ID,
 			CouponAmount:    couponInfo.Amount,
@@ -1154,11 +1213,120 @@ func (*GoodsService) UpdateCouponInfo(couponInfo request.UpdateGoodsCouponInfo) 
 			CommissionValue: commissionValue,
 			CreatedAt:       createdAt,
 		}
-		sender := kafka.NewSender("test", "kafka2EsUpdate", m)
+		sender := goods.NewUpdateEsGoodsInfoSender(m)
 		err = sender.Send()
 		if err != nil {
 			return err
 		}
 		return nil
 	})
+}
+
+// 商品收藏
+func (*GoodsService) Collect(req request.GoodsCollect) error {
+	// 获取商品信息 判断是否过期
+	var g product.Goods
+	err := global.XTK_DB.Preload("Coupon", func(db *gorm.DB) *gorm.DB {
+		return db.Select("id", "begin_time", "end_time", "amount")
+	}).Select("id", "cover_image_id", "commission_rate", "commission_value", "post_coupon_price", "title", "coupon_id", "price").Take(&g, "id = ?", req.GoodsID).Error
+	if err != nil {
+		return err
+	}
+
+	now := time.Now()
+	if g.CouponID != 0 {
+		if g.Coupon.BeginTime.After(now) {
+			return errors.New("未开始")
+		}
+		if g.Coupon.EndTime.Before(now) {
+			return errors.New("已失效")
+		}
+	}
+	// 判断封面是否为空
+	var imageID uint
+	if g.CoverImageID == 0 {
+		err = global.XTK_DB.Table("goods_image").
+			Where("goods_id = ?", req.GoodsID).
+			Limit(1). // 限制只获取一条记录
+			Pluck("image_id", &imageID).Error
+	} else {
+		imageID = g.CoverImageID
+	}
+
+	var c product.Collect
+	c.ID = g.ID
+	c.UserID = req.UserID
+	c.GoodsID = req.GoodsID
+	c.CreatedAt = time.Now()
+	c.Title = g.Title
+	c.CouponValue = g.Coupon.Amount
+	if g.CouponID == 0 {
+		c.PostCouponPrice = g.Price
+	} else {
+		c.PostCouponPrice = g.PostCouponPrice
+	}
+
+	c.CommissionValue = g.CommissionValue
+	c.CommissionRate = g.CommissionRate
+	if g.CouponID == 0 {
+		c.CouponEndTime = nil
+	} else {
+		c.CouponEndTime = &g.Coupon.EndTime
+	}
+	c.ImageID = imageID
+
+	// 判断是否已经收藏
+	err = global.XTK_DB.Where("user_id = ? and goods_id = ?", c.UserID, c.GoodsID).Take(&c).Error
+	if err == nil {
+		return errors.New("已收藏")
+	} else if !errors.Is(err, gorm.ErrRecordNotFound) {
+		return err
+	}
+
+	// 获取该用户的收藏商品总数
+	var count int64
+	err = global.XTK_DB.Model(c).Where("user_id = ?", req.UserID).Count(&count).Error
+	if err != nil {
+		return err
+	}
+	if count > 50 {
+		return errors.New("最多收藏50件商品")
+	}
+	// 创建用户商品添加关联关系
+	err = global.XTK_DB.Transaction(func(tx *gorm.DB) error {
+		// 保存收藏信息
+		err = global.XTK_DB.Create(&c).Error
+		if err != nil {
+			global.GVA_LOG.Error(err.Error())
+			return err
+		}
+		// 删除缓存
+		key := "collect:" + strconv.Itoa(int(req.UserID))
+		err = global.GVA_REDIS.Del(context.Background(), key).Err()
+		return err
+	})
+	return err
+}
+
+// 取消收藏
+func (*GoodsService) CancelCollect(req request.GoodsCollect) error {
+	err := global.XTK_DB.Transaction(func(tx *gorm.DB) error {
+		// 删除key
+		key := "collect:" + strconv.Itoa(int(req.UserID))
+		err := global.GVA_REDIS.Del(context.Background(), key).Err()
+		if err != nil {
+			return err
+		}
+		// 删除商品关联信息
+		err = global.XTK_DB.
+			Where("goods_id = ? and user_id = ?", req.GoodsID, req.UserID).Delete(product.Collect{}).Error
+		return err
+	})
+	return err
+}
+
+// 商品推广
+func (*GoodsService) Promotion(req request.GoodsPromotion) error {
+
+	return nil
 }

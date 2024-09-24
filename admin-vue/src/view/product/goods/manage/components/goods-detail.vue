@@ -3,7 +3,7 @@ import {ref, reactive, onMounted, computed} from 'vue';
 import {useRoute} from "vue-router";
 import {
   DeleteImage,
-  GetBrandList,
+
   getGoodsInfo,
   GetTagList,
   SetCoverImage,
@@ -59,8 +59,7 @@ const coverImageID = ref(0)
 const couponStatus = ref(0)
 
 
-// 品牌
-const brandList = ref([])
+
 const getTagList = async () => {
   const res = await GetTagList();
   tagData.value = res.data
@@ -68,10 +67,6 @@ const getTagList = async () => {
 // 基本编辑抽屉
 const showBaseUpdateVisible = () => {
   baseUpdateVisible.value = true
-  // 获取全部品牌列表
-  getBrandList()
-
-
 }
 
 const showTags = ref([])
@@ -144,10 +139,7 @@ const delTag = (id) => {
   showTags.value = showTags.value.filter(tag => tag.id !== id);
 }
 const tagData = ref([])
-const getBrandList = async () => {
-  const res = await GetBrandList();
-  brandList.value = res.data
-}
+
 
 let selectedIds = []
 const originalSelectedIds = ref([])
@@ -411,21 +403,6 @@ onMounted(() => {
             </el-button>
           </div>
         </div>
-      </el-form-item>
-
-      <el-form-item label="品牌">
-        <el-select v-model="baseUpdate.brand_id" filterable placeholder="请选择">
-          <el-option
-              :label="'无'"
-              :value="0"
-          />
-          <el-option
-              v-for="item in brandList"
-              :key="item.id"
-              :label="item.name"
-              :value="item.id"
-          />
-        </el-select>
       </el-form-item>
 
 

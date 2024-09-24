@@ -3,6 +3,7 @@ package product
 import (
 	"admin-gin/model/common/response"
 	"admin-gin/model/product/request"
+	"admin-gin/utils"
 	"github.com/gin-gonic/gin"
 )
 
@@ -26,14 +27,10 @@ func (GoodsApi) GetGoodsSearchList(c *gin.Context) {
 		req.Page = 1
 	}
 
-	// 查看参数
-	//v := reflect.ValueOf(req)
-	//typeOfReq := v.Type()
-	//for i := 0; i < v.NumField(); i++ {
-	//	fmt.Printf("%s: %v\n", typeOfReq.Field(i).Name, v.Field(i).Interface())
-	//}
+	// 获取用户id
+	userID := utils.GetUserID(c)
 
-	list, total, err := goodsService.GoodsSearchByEs(req)
+	list, total, err := goodsService.GoodsSearchByEs(req, userID)
 	if err != nil {
 		response.FailWithMessage(err.Error(), c)
 		return

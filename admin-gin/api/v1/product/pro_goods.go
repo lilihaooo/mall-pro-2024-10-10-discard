@@ -3,9 +3,13 @@ package product
 import (
 	"admin-gin/global"
 	"admin-gin/model/common/response"
+	"admin-gin/model/product"
 	"admin-gin/model/product/request"
 	"admin-gin/utils"
+	"context"
 	"github.com/gin-gonic/gin"
+	"gorm.io/gorm"
+	"strconv"
 )
 
 type GoodsApi struct{}
@@ -58,26 +62,6 @@ func (GoodsApi) GoodsInfo(c *gin.Context) {
 	}
 	response.OkWithData(goods, c)
 
-}
-
-func (GoodsApi) SuggestionList(c *gin.Context) {
-	var req request.Suggestion
-	err := c.ShouldBindQuery(&req)
-	if err != nil {
-		global.GVA_LOG.Error(err.Error())
-		response.FailWithMessage(err.Error(), c)
-		return
-	}
-
-	err = utils.ZhValidate(&req)
-	if err != nil {
-		global.GVA_LOG.Error(err.Error())
-		response.FailWithMessage(err.Error(), c)
-		return
-	}
-
-	list := goodsService.SearchSuggestionKeywordList(req)
-	response.OkWithDetailed(list, "success", c)
 }
 
 func (GoodsApi) UploadGoodsImage(c *gin.Context) {
@@ -191,4 +175,144 @@ func (GoodsApi) UpdateGoodsCouponInfo(c *gin.Context) {
 		return
 	}
 	response.OkWithMessage("success", c)
+}
+
+// 商品收藏
+func (GoodsApi) GoodsCollect(c *gin.Context) {
+	var req request.GoodsCollect
+	if err := c.ShouldBindJSON(&req); err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	if err := utils.ZhValidate(req); err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	// 判断是否越权
+	userIDS := utils.GetUserID(c)
+	if req.UserID != userIDS {
+		global.GVA_LOG.Error("水平越权")
+		response.FailWithMessage("水平越权", c)
+		return
+	}
+	// 调用服务
+	err := goodsService.Collect(req)
+	if err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	response.OkWithMessage("success", c)
+}
+
+// 取消收藏
+func (GoodsApi) GoodsCancelCollect(c *gin.Context) {
+	var req request.GoodsCollect
+	if err := c.ShouldBindJSON(&req); err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	if err := utils.ZhValidate(req); err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	// 判断是否越权
+	userIDS := utils.GetUserID(c)
+	if req.UserID != userIDS {
+		global.GVA_LOG.Error("水平越权")
+		response.FailWithMessage("水平越权", c)
+		return
+	}
+	// 调用服务
+	err := goodsService.CancelCollect(req)
+	if err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	response.OkWithMessage("success", c)
+}
+
+// 批量取消收藏
+func (GoodsApi) BatchCancelCollect(c *gin.Context) {
+	var req request.BatchCollect
+	if err := c.ShouldBindJSON(&req); err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	if err := utils.ZhValidate(req); err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	userIDS := utils.GetUserID(c)
+	err := global.XTK_DB.Transaction(func(tx *gorm.DB) error {
+		// 删除key
+		key := "collect:" + strconv.Itoa(int(userIDS))
+		err := global.GVA_REDIS.Del(context.Background(), key).Err()
+		if err != nil {
+			return err
+		}
+		// 删除商品关联信息
+		err = global.XTK_DB.Where("id in ?", req.IDs).Delete(product.Collect{}).Error
+		return err
+	})
+	if err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	response.OkWithMessage("success", c)
+}
+
+// 我的收藏
+func (GoodsApi) MyCollect(c *gin.Context) {
+	var req request.MyCollect
+	if err := c.ShouldBindQuery(&req); err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	// 设置默认值
+	if req.Page == 0 {
+		req.Page = 1
+	}
+	offset := (req.Page - 1) * 20
+
+	userID := utils.GetUserID(c)
+
+	var cList []product.Collect
+	var total int64
+
+	q := global.XTK_DB.Where("user_id = ?", userID)
+
+	err := q.Model(product.Collect{}).Count(&total).Error
+	if err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	err = q.Preload("Image").Order("created_at Desc").Offset(offset).Limit(10).Find(&cList).Error
+	if err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	// 返回列表
+	response.OkWithDetailed(response.PageResult{
+		List:     cList,
+		Total:    total,
+		Page:     req.Page,
+		PageSize: 20,
+	}, "获取成功", c)
+}
+
+// 商品推广
+func (GoodsApi) GoodsPromotion(c *gin.Context) {
+
 }

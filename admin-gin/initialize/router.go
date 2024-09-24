@@ -113,6 +113,7 @@ func Routers() *gin.Engine {
 		productRouter.InitShopRouter(PrivateGroup)
 		productRouter.InitTagRouter(PrivateGroup)
 		productRouter.InitBrandRouter(PrivateGroup)
+		productRouter.InitSearchRouter(PrivateGroup)
 	}
 
 	//插件路由安装

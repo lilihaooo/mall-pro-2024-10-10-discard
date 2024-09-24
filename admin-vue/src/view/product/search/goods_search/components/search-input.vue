@@ -1,6 +1,6 @@
 <script setup>
 import {ref, watch, onMounted} from 'vue';
-import {getSuggestionList} from "@/api/product";
+import {GetHotSearchList, GetSuggestionList} from "@/api/product";
 import {Close, Edit} from "@element-plus/icons-vue";
 
 const condition = ref({});
@@ -26,7 +26,7 @@ const submitKG = () => {
       }
       historyKW.value = historyKW.value.filter(item => item !== kw.value); // 先删除已存在的元素
       historyKW.value.unshift(kw.value); // 再添加到头部
-     // 将数组转换为字符串并保存到 localStorage
+      // 将数组转换为字符串并保存到 localStorage
       localStorage.setItem('historyKW', JSON.stringify(historyKW.value));
       kwOld.value = kw.value;
     }
@@ -35,23 +35,27 @@ const submitKG = () => {
 };
 
 const suggestionList = ref([])
+
 watch(kw, (newV) => {
   if (newV.trim() !== "") {
     keyword.value = newV;
-    console.log(keyword.value);
-    recommendShow.value =false
+    recommendShow.value = false
     getSuggestionData({keyword: newV});
   } else {
     suggestionList.value = []
     downListShow.value = false
-
+    console.log(444445)
+    recommendShow.value = true
   }
 })
 
+// 标记 是通过搜索词条点击 导致suggestionList 变化的
+const afterClickSearch = ref(false)
+
 
 watch(suggestionList, (newV) => {
-  console.log(newV)
-  if (newV != null) {
+  // console.log(newV)
+  if (!afterClickSearch.value){
     if (newV.length > 0) {
       downListShow.value = true
       recommendShow.value = false
@@ -59,18 +63,28 @@ watch(suggestionList, (newV) => {
       recommendShow.value = true
       downListShow.value = false
     }
-  } else {
-    downListShow.value = false
   }
+
 })
 
 const getSuggestionData = async (query) => {
-  const res = await getSuggestionList(query)
+  const res = await GetSuggestionList(query)
   // 填充推荐列表
   suggestionList.value = res.data
 }
 
+// 获取热搜数据
+const hotSearchList = ref([])
+const getHotSearchData = async () => {
+  const res = await GetHotSearchList()
+  // 填充推荐列表
+  hotSearchList.value = res.data
+}
+getHotSearchData()
+
+
 const searchItem = (item) => {
+  afterClickSearch.value = true
   kw.value = String(item);
   submitKG()
 }
@@ -78,12 +92,12 @@ const isFocus = ref(false)
 const onFocus = () => {
   isFocus.value = true
   if (suggestionList.value == null) {
-      recommendShow.value = true
+    recommendShow.value = true
   } else {
     if (suggestionList.value.length > 0) {
       downListShow.value = true
     } else {
-        recommendShow.value = true
+      recommendShow.value = true
     }
   }
 }
@@ -107,7 +121,7 @@ const onMouseEnter = () => {
 // 鼠标离开联想框或推荐框
 const onMouseLeave = () => {
   isMouseInside.value = false;
-  if (!isFocus.value){
+  if (!isFocus.value) {
     downListShow.value = false;
     recommendShow.value = false;
   }
@@ -126,6 +140,21 @@ const clearInput = () => {
   kw.value = ''; // 清空输入框内容kw.value = ''; // 清空输入框内容
   inputRef.value.focus(); // 重新聚焦输入框，保留光标
 };
+
+
+const truncateText = (text, maxLength) => {
+  if (text.length > maxLength) {
+    return text.slice(0, maxLength) + '...';
+  }
+  return text;
+}
+
+
+// 删除一个历史记录
+const clearHistoryKwItem = (item) => {
+  historyKW.value = historyKW.value.filter((kw) => kw !== item);
+  localStorage.setItem('historyKW', JSON.stringify(historyKW.value));
+}
 
 
 </script>
@@ -147,7 +176,7 @@ const clearInput = () => {
               @blur="onBlur"
 
           />
-          <el-button v-if="kw" class="clear-btn" size="large" type="primary"  @click="clearInput"  link :icon="Close"/>
+          <el-button v-if="kw" class="clear-btn" size="large" type="primary" @click="clearInput" link :icon="Close"/>
           <el-button
               type="primary"
               :round="true"
@@ -168,7 +197,7 @@ const clearInput = () => {
         >
           <div style=" width: 100%;">
             <el-scrollbar>
-              <p v-for="item in suggestionList" :key="item"  class="scrollbar-demo-item" @click="searchItem(item)">
+              <p v-for="item in suggestionList" :key="item" class="scrollbar-demo-item" @click="searchItem(item)">
                 <span style="margin-left: 12px">
                     {{ item }}
                   </span>
@@ -190,7 +219,9 @@ const clearInput = () => {
               实时热搜
             </div>
             <el-scrollbar height="300px" style="margin-top: 20px">
-              <p v-for="item in 20" class="scrollbar-demo-item" @click="searchItem(item)">
+              <p v-for="(item, index) in hotSearchList" :key="index" class="scrollbar-demo-item"
+                 @click="searchItem(item)"
+              >
                   <span style="margin-left: 12px">
                     {{ item }}
                   </span>
@@ -202,12 +233,15 @@ const clearInput = () => {
             <div class="recommend-scrollbar-title">
               搜索历史
             </div>
-
             <el-scrollbar height="300px" style="margin-top: 20px">
-              <p v-for="(item, index) in historyKW" :key="index" class="scrollbar-demo-item">
-                 <span style="margin-left: 12px">
-                    {{ item }}
-                  </span>
+              <p v-for="(item, index) in historyKW" :key="index"
+                 @click="searchItem(item)"
+                 class="scrollbar-demo-item"
+              >
+              <span style="margin-left: 12px; width: 200px;">
+                {{ truncateText(item, 10) }}
+              </span>
+                <el-button size="large" type="primary" @click="clearHistoryKwItem(item)" link :icon="Close"/>
               </p>
             </el-scrollbar>
           </div>
@@ -220,7 +254,7 @@ const clearInput = () => {
 .recommend-scrollbar-title {
   position: absolute;
   top: 2px;
-  left: 26px;
+  left: 106px;
   font-weight: bold;
   line-height: 20px; /* 使文字垂直居中，如果容器高度固定 */
   height: 20px;
@@ -229,13 +263,16 @@ const clearInput = () => {
 
 .scrollbar-demo-item {
   display: flex;
-  height: 20px;
-  margin: 6px 16px;
+  height: 30px;
+  margin: 2px;
   align-items: center; /* 垂直居中子元素（文本） */
   border-radius: 2px;
   color: var(--el-color-primary);
+  z-index: 100
 }
+
 .scrollbar-demo-item:hover {
+
   background-color: #ddd; /* 鼠标悬停时的背景色 */
   cursor: pointer; /* 鼠标悬停时显示为指针 */
 }
@@ -270,7 +307,7 @@ const clearInput = () => {
   width: 568px;
   margin-left: 25px;
   border-radius: 0 0 5px 5px;
-  z-index: 10; /* Higher z-index to float above other elements */
+  z-index: 100; /* Higher z-index to float above other elements */
   background-color: white;
 }
 
@@ -313,4 +350,3 @@ const clearInput = () => {
   color: #ccc;
 }
 </style>
-

@@ -164,8 +164,6 @@
             <el-checkbox :true-value="1" v-model="condition.is_brand" label="品牌库" size="large"/>
             <el-checkbox :true-value="1" v-model="condition.absolute_low_price" label="低价好卖" size="large"/>
             <el-checkbox :true-value="1" v-model="condition.buyer_reviews" label="买家好评" size="large"/>
-
-
             <!-- 数据来源-->
             <el-popover
                 placement="bottom"

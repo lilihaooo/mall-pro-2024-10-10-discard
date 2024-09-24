@@ -10,7 +10,7 @@ type Coupon struct {
 	Title       string    `json:"title"`        // 优惠券标题
 	Amount      float64   `json:"amount"`       // 券金额
 	MinAmount   float64   `json:"min_amount"`   // 最小消费金额
-	StartTime   time.Time `json:"start_time"`   // 开始时间
+	BeginTime   time.Time `json:"begin_time"`   // 开始时间
 	EndTime     time.Time `json:"end_time"`     // 结束时间
 	CouponTotal int       `json:"coupon_total"` // 优惠券总数
 	CouponCover int       `json:"coupon_cover"` // 领券量

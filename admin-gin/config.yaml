@@ -179,9 +179,9 @@ qiniu:
     use-https: false
     use-cdn-domains: false
 redis:
-    addr: 127.0.0.1:6379
-    password: ""
-    db: 0
+    addr: 47.109.31.106:6379
+    password: a111111
+    db: 3
     useCluster: false
     clusterAddrs:
         - 172.21.0.3:7000
@@ -209,7 +209,7 @@ system:
     iplimit-count: 15000
     iplimit-time: 3600
     use-multipoint: false
-    use-redis: false
+    use-redis: true
     use-mongo: false
 tencent-cos:
     bucket: xxxxx-10005608

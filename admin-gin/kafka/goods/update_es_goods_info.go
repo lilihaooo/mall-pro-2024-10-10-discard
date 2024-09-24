@@ -1,16 +1,8 @@
-package kafka
+package goods
 
 import (
-	"admin-gin/global"
-	"encoding/json"
-	"github.com/IBM/sarama"
+	"admin-gin/kafka"
 )
-
-type Sender struct {
-	Topic string  `json:"topic"`
-	Key   string  `json:"key"`
-	Value Message `json:"value"`
-}
 
 type Message struct {
 	ID uint `json:"id,omitempty"`
@@ -22,6 +14,7 @@ type Message struct {
 	CommissionRate  int32   `json:"commission_rate,omitempty"`
 	CommissionValue float64 `json:"commission_value,omitempty"`
 	Tags            []uint  `json:"tags,omitempty"`
+	BrandID         uint    `json:"brand_id,omitempty"`
 	BrandName       string  `json:"brand_name,omitempty"`
 	// 优惠券信息
 	CouponID        uint    `json:"coupon_id,omitempty"`
@@ -35,26 +28,10 @@ type Message struct {
 	CreatedAt string `json:"created_at,omitempty"`
 }
 
-func NewSender(topic string, key string, value Message) *Sender {
-	return &Sender{
-		Topic: topic,
-		Key:   key,
+func NewUpdateEsGoodsInfoSender(value Message) *kafka.Sender {
+	return &kafka.Sender{
+		Topic: "goods-info",
+		Key:   "update_es_goods_info",
 		Value: value,
 	}
-}
-
-func (s *Sender) Send() error {
-	mByte, err := json.Marshal(s.Value)
-	if err != nil {
-		return err
-	}
-	// 创建消息
-	msg := sarama.ProducerMessage{
-		Topic: s.Topic,
-		Key:   sarama.StringEncoder(s.Key),
-		Value: sarama.StringEncoder(mByte),
-	}
-	// 发送消息
-	_, _, err = global.KafkaProducer.SendMessage(&msg)
-	return err
 }

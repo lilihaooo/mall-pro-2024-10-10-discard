@@ -112,7 +112,6 @@ type UpdateGoodsBaseInfo struct {
 	Price          float64 `json:"price"  validate:"required"`
 	CommissionRate int32   `json:"commission_rate"  validate:"required"`
 	Tags           []uint  `json:"tags"`
-	BrandID        uint    `json:"brand_id"`
 	GoodsID        uint    `json:"goods_id"  validate:"required"`
 }
 type UpdateGoodsCouponInfo struct {
@@ -120,8 +119,30 @@ type UpdateGoodsCouponInfo struct {
 	Title       string    `json:"title" validate:"required"`
 	Amount      float64   `json:"amount" validate:"required"`
 	MinAmount   float64   `json:"min_amount" validate:"required"`
-	StartTime   time.Time `json:"start_time" validate:"required"`
+	BeginTime   time.Time `json:"begin_time" validate:"required"`
 	EndTime     time.Time `json:"end_time" validate:"required"`
 	CouponTotal int       `json:"coupon_total" validate:"required"`
 	CouponCover int       `json:"coupon_cover" validate:"required"`
+}
+
+// 用户收藏请求
+type GoodsCollect struct {
+	UserID  uint `json:"user_id" validate:"required"`
+	GoodsID uint `json:"goods_id"  validate:"required"`
+}
+
+// 批量取消收藏
+type BatchCollect struct {
+	IDs []uint `json:"ids" validate:"required"`
+}
+
+// 用户推广请求
+type GoodsPromotion struct {
+	UserID  uint `json:"user_id"`
+	GoodsID uint `json:"goods_id"  validate:"required"`
+}
+
+// 取消收藏
+type MyCollect struct {
+	Page int `form:"page" json:"page"`
 }
