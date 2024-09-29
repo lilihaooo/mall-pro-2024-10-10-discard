@@ -1,0 +1,4 @@
+[go_vue_admin]2024-09-26 10:50:18.682	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-09-26 21:12:22.252	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-09-26 21:13:46.337	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-09-26 22:06:59.396	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}

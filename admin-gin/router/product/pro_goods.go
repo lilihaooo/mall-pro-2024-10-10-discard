@@ -24,6 +24,7 @@ func (p *GoodsRouter) InitGoodsRouter(Router *gin.RouterGroup) {
 		goodsInfoRouter.POST("/cancelCollect", goodsApiV1.GoodsCancelCollect)       // 取消收藏商品
 		goodsInfoRouter.POST("/batchCancelCollect", goodsApiV1.BatchCancelCollect)  // 批量取消收藏商品
 		goodsInfoRouter.GET("/myCollect", goodsApiV1.MyCollect)                     // 我的收藏
+		goodsInfoRouter.GET("/myPromotion", goodsApiV1.MyPromotion)                 // 我的推广
 		goodsInfoRouter.POST("/promotion", goodsApiV1.GoodsPromotion)               // 推广商品
 	}
 

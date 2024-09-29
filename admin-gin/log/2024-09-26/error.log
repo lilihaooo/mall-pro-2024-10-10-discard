@@ -1,0 +1,12 @@
+[go_vue_admin]2024-09-26 21:08:45.650	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/product/pro_goods.go:203	已收藏
+[go_vue_admin]2024-09-26 21:08:50.623	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/product/pro_goods.go:203	已收藏
+[go_vue_admin]2024-09-26 21:08:53.378	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/product/pro_goods.go:203	已收藏
+[go_vue_admin]2024-09-26 21:12:10.389	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-09-26 21:12:28.521	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/product/pro_goods.go:333	已失效
+[go_vue_admin]2024-09-26 21:12:37.874	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:1384	Error 1062 (23000): Duplicate entry '690513' for key 'promotion.PRIMARY'
+[go_vue_admin]2024-09-26 21:12:37.889	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/product/pro_goods.go:333	Error 1062 (23000): Duplicate entry '690513' for key 'promotion.PRIMARY'
+[go_vue_admin]2024-09-26 21:13:36.442	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-09-26 21:13:50.966	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/product/pro_goods.go:203	已失效
+[go_vue_admin]2024-09-26 22:06:49.739	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-09-26 22:27:48.590	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/product/pro_goods.go:332	已失效
+[go_vue_admin]2024-09-26 23:11:53.631	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection

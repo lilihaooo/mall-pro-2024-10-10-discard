@@ -1,0 +1,9 @@
+[go_vue_admin]2024-09-29 15:13:34.503	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-09-29 16:58:46.516	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/product/pro_search.go:37	dial tcp 47.109.31.106:6379: connect: connection refused
+[go_vue_admin]2024-09-29 16:58:46.520	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:639	dial tcp 47.109.31.106:6379: connect: connection refused
+[go_vue_admin]2024-09-29 16:58:56.022	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/product/pro_goods.go:383	dial tcp 47.109.31.106:6379: connect: connection refused
+[go_vue_admin]2024-09-29 17:10:07.406	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/pro_goods.go:910	redis: nil
+[go_vue_admin]2024-09-29 19:14:47.689	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_menu.go:29	获取失败!	{"error": "invalid connection"}
+[go_vue_admin]2024-09-29 20:34:57.518	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_menu.go:29	获取失败!	{"error": "invalid connection"}
+[go_vue_admin]2024-09-29 20:58:03.920	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	net.Listen error: listen tcp 0.0.0.0:8887: bind: address already in use
+[go_vue_admin]2024-09-29 21:00:07.995	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection

@@ -1,42 +1,45 @@
 <script setup>
 import {ref, watch} from 'vue';
-import {ApiBatchCancelCollect, ApiCollect, ApiMyCollect} from "@/api/product";
+import {ApiBatchCancelCollect, ApiCollect, ApiMyCollect, ApiMyPromotion, ApiPromotion} from "@/api/product";
 import {ElMessage} from "element-plus";
 
-const truncateTitle = (title)=> {
+const truncateTitle = (title) => {
   if (title.length > 15) {
     return title.slice(0, 15) + '...';
   }
   return title;
 }
-const checkIDList = ref([])
+const checkCollectIDList = ref([])
 const drawerCollect = ref(false);
-const openDrawerCollect = ()=>{
+const openDrawerCollect = () => {
   drawerCollect.value = true
-  checkIDList.value = []
+  checkCollectIDList.value = []
 }
 
 
+const drawerPromotion = ref(false);
+const openDrawerPromotion = () => {
+  drawerPromotion.value = true
+}
 
 
-
-
-
-const drawerCollectClose = () => {
+const drawerClose = () => {
   drawerCollect.value = false;
+  drawerPromotion.value = false;
 }
 
 
+const myCollectCount = ref(0)
+const myPromotionCount = ref(0)
 
-const pageSize = ref(10);
-const page = ref(0)
-const count = ref(0)
-
-const handleCurrentChange = (val) => {
-  console.log(val)
+const handleCollectCurrentChange = (val) => {
   getMyCollect(val)
 }
 
+
+const handlePromotionCurrentChange = (val) => {
+  getMyPromotion(val)
+}
 
 
 const myCollect = ref([])
@@ -45,7 +48,17 @@ const getMyCollect = async (page) => {
   const res = await ApiMyCollect(page)
   if (res.code === 0) {
     myCollect.value = res.data.list
-    count.value = res.data.total
+    myCollectCount.value = res.data.total
+
+  }
+}
+
+const myPromotion = ref([])
+const getMyPromotion = async (page) => {
+  const res = await ApiMyPromotion(page)
+  if (res.code === 0) {
+    myPromotion.value = res.data.list
+    myPromotionCount.value = res.data.total
 
   }
 }
@@ -60,14 +73,38 @@ const batchCancelGoodsCollect = async (ids) => {
   }
 }
 
-watch(drawerCollect, (nValue)=>{
-  if (nValue){
-   // 获取我的收藏
+const goodsPromotion = async (goodsID) => {
+  const res = await ApiPromotion(goodsID)
+  if (res.code === 0) {
+    ElMessage.success('推广成功')
+  }
+}
+const handlePromotion = (id) => {
+  goodsPromotion(id)
+}
+
+
+watch(drawerCollect, (nValue) => {
+  if (nValue) {
+    // 获取我的收藏
     getMyCollect(1)
   }
 })
 
-const timeAgo = (createdAt) =>{
+
+watch(drawerPromotion, (nValue) => {
+  if (nValue) {
+    // 获取我的收藏
+    getMyPromotion(1)
+  }
+})
+
+
+const formattedCouponEndTime = (endTime) => {
+  return endTime.split('T')[0]; // 只取日期部分
+}
+
+const timeAgoCollect = (createdAt) => {
   const now = new Date(); // 获取当前时间
   const createdTime = new Date(createdAt); // 将字符串时间转换为 Date 对象
   const diffInMs = now - createdTime; // 时间差，单位为毫秒
@@ -101,10 +138,44 @@ const timeAgo = (createdAt) =>{
   }
 }
 
+const timeAgoPromotion = (createdAt) => {
+  const now = new Date(); // 获取当前时间
+  const createdTime = new Date(createdAt); // 将字符串时间转换为 Date 对象
+  const diffInMs = now - createdTime; // 时间差，单位为毫秒
+  const diffInSeconds = diffInMs / 1000; // 转换为秒
+  const diffInMinutes = diffInSeconds / 60;
+  const diffInHours = diffInMinutes / 60;
+  const diffInDays = diffInHours / 24;
+  const diffInMonths = diffInDays / 30; // 粗略地将一个月视为 30 天
+  const diffInYears = diffInMonths / 12;
+
+  if (diffInMinutes < 1) {
+    return '刚刚推广';
+  } else if (diffInMinutes < 5) {
+    return '5分钟前推广';
+  } else if (diffInMinutes < 10) {
+    return '10分钟前推广';
+  } else if (diffInMinutes < 30) {
+    return '30分钟前推广';
+  } else if (diffInHours < 1) {
+    return '1小时前推广';
+  } else if (diffInDays < 1) {
+    return `${Math.floor(diffInHours)}小时前推广`;
+  } else if (diffInDays < 7) {
+    return `${Math.floor(diffInDays)}天前推广`;
+  } else if (diffInDays < 30) {
+    return `${Math.floor(diffInDays / 7)}周前推广`;
+  } else if (diffInMonths < 12) {
+    return `${Math.floor(diffInMonths)}个月前推广`;
+  } else {
+    return `${Math.floor(diffInYears)}年前推广`;
+  }
+}
+
 </script>
 
 <template>
-  <div @click="drawerCollectClose">
+  <div @click="drawerClose">
     <div style="display: flex; justify-content: center;">
       <div style="margin-top: 10px; width: 70%;">
         <div class="left-bottom" @click.stop="openDrawerCollect"
@@ -117,7 +188,11 @@ const timeAgo = (createdAt) =>{
           </div>
           我的收藏
         </div>
-        <div class="left-bottom">
+
+        <div class="left-bottom"
+             @click.stop="openDrawerPromotion"
+             :style="{ backgroundColor: drawerPromotion ? 'var(--el-color-primary)' : '', color: drawerPromotion ? 'white' : ''  }"
+        >
           <div>
             <el-icon>
               <Money/>
@@ -144,17 +219,16 @@ const timeAgo = (createdAt) =>{
                :show-close="false"
     >
       <div style="margin-right: 20px;">
-        <el-checkbox-group v-model="checkIDList" @change="console.log(checkIDList)">
+        <el-checkbox-group v-model="checkCollectIDList">
           <div v-for="one in myCollect" class="one">
             <div class="multiple-choice-container">
               <el-checkbox :value="one.id"/>
-              {{one.id}}
             </div>
 
             <div class="collect-div">
               <div class="collect-div-up">
                 <div class="collect-div-up-one">
-                  {{ timeAgo(one.created_at) }}
+                  {{ timeAgoCollect(one.created_at) }}
                 </div>
 
                 <div class="collect-div-up-two">
@@ -168,14 +242,15 @@ const timeAgo = (createdAt) =>{
                       <div class="goods-info-row" style="font-size: 14px; color: #222">
                         {{ truncateTitle(one.title) }}
                       </div>
-                      <div class="goods-info-row" >
+                      <div class="goods-info-row">
                         <div class="goods-info-row-one-1">
                           <span v-if="one.coupon_value !== 0">券后 </span>
                           <span v-else>原价 </span>
-                           <span style="color: #ff4443;font-size: 13px">¥{{ one.post_coupon_price }}</span>
+                          <span style="color: #ff4443;font-size: 13px">¥{{ one.post_coupon_price }}</span>
                         </div>
                         <div class="goods-info-row-one-1">
-                          佣金 <span style="color: #1e6fff; font-size: 13px">%{{ one.commission_rate }}</span> (约¥{{ one.commission_value }})
+                          佣金 <span style="color: #1e6fff; font-size: 13px">%{{ one.commission_rate }}</span>
+                          (约¥{{ one.commission_value }})
                         </div>
                       </div>
                       <div class="goods-info-row" v-if="one.coupon_value !== 0">
@@ -183,7 +258,9 @@ const timeAgo = (createdAt) =>{
                           券 <span style="color: #ff4443;font-size: 13px">¥{{ one.coupon_value }}</span>
                         </div>
                         <div class="goods-info-row-one-1">
-                          有效期至 <span style="color: #999; font-size: 13px">2002.12.22</span>
+                          有效期至 <span style="color: #999; font-size: 13px">
+                      {{ formattedCouponEndTime(one.coupon_end_time) }}
+                        </span>
                         </div>
                       </div>
                       <div class="goods-info-row" v-else="one.coupon_value !== 0">
@@ -203,8 +280,15 @@ const timeAgo = (createdAt) =>{
 
               </div>
               <div class="collect-div-down">
-                <div style="width: 100%; text-align: center; color: #1e6fff" @click="batchCancelGoodsCollect([one.id])">取消收藏</div>
-                <div style="width: 100%; text-align: center; color: #1e6fff">推广</div>
+                <div style="width: 100%; text-align: center; color: #1e6fff" @click="batchCancelGoodsCollect([one.id])">
+                  取消收藏
+                </div>
+                <div
+                    @click="handlePromotion(one.id)"
+                    style="width: 100%; text-align: center; color: #1e6fff"
+                >
+                  推广
+                </div>
               </div>
             </div>
 
@@ -216,12 +300,13 @@ const timeAgo = (createdAt) =>{
       <template #header>
         <div style="flex: auto; margin-left: 24px; padding-top: 0px;display: flex; justify-content: center;">
           <div style="width: 100%; display: flex;align-items: center;">我的收藏</div>
-          <div style="width: 100%; display: flex; justify-content: right; padding-right: 30px; color: red" >
+          <div style="width: 100%; display: flex; justify-content: right; padding-right: 30px; color: red">
             <el-button
                 link
                 type="danger"
-                :disabled="checkIDList.length === 0"
-                @click="batchCancelGoodsCollect(checkIDList)">
+                :disabled="checkCollectIDList.length === 0"
+                @click="batchCancelGoodsCollect(checkCollectIDList)"
+            >
               删除
             </el-button>
           </div>
@@ -235,8 +320,114 @@ const timeAgo = (createdAt) =>{
               :pager-count=5
               :page-sizes="[10]"
               layout="prev, pager, next"
-              :total=count
-              @current-change="handleCurrentChange"
+              :total=myCollectCount
+              @current-change="handleCollectCurrentChange"
+          />
+        </div>
+      </template>
+    </el-drawer>
+
+
+    <!--    推广抽屉-->
+    <el-drawer v-model="drawerPromotion"
+               style="margin-right: 59px;
+               margin-top: 63px;
+               border-radius: 14px 0 0 14px;
+               height: 92.8vb;
+               background-color:#eaf4d5;
+               position: absolute;
+               right: 0;"
+               size="410"
+               modal-class="modal-collect"
+               :modal="false"
+               :show-close="false"
+    >
+
+      <div v-for="one in myPromotion" class="one">
+        <div class="promotion-div">
+          <div class="collect-div-up">
+            <div class="collect-div-up-one">
+              {{ timeAgoPromotion(one.created_at) }}
+            </div>
+
+            <div class="collect-div-up-two">
+              <div class="collect-div-up-two-left">
+                <el-image class="collect-image"
+                          :src="one.image_url"
+                />
+              </div>
+              <div class="collect-div-up-two-right">
+                <div style="  width: 100%; margin-left: 4px">
+                  <div class="goods-info-row" style="font-size: 14px; color: #222">
+                    {{ truncateTitle(one.title) }}
+                  </div>
+                  <div class="goods-info-row">
+                    <div class="goods-info-row-one-1">
+                      <span v-if="one.coupon_value !== 0">券后 </span>
+                      <span v-else>原价 </span>
+                      <span style="color: #ff4443;font-size: 13px">¥{{ one.post_coupon_price }}</span>
+                    </div>
+                    <div class="goods-info-row-one-1">
+                      佣金 <span style="color: #1e6fff; font-size: 13px">%{{ one.commission_rate }}</span>
+                      (约¥{{ one.commission_value }})
+                    </div>
+                  </div>
+                  <div class="goods-info-row" v-if="one.coupon_value !== 0">
+                    <div class="goods-info-row-one-1">
+                      券 <span style="color: #ff4443;font-size: 13px">¥{{ one.coupon_value }}</span>
+                    </div>
+                    <div class="goods-info-row-one-1">
+                      有效期至 <span style="color: #999; font-size: 13px">
+                  {{ formattedCouponEndTime(one.coupon_end_time) }}
+                    </span>
+                    </div>
+                  </div>
+                  <div class="goods-info-row" v-else="one.coupon_value !== 0">
+
+                  </div>
+                  <div class="goods-info-row">
+                    <div class="goods-info-row-one-1">
+                      销量 <span style="color: #444;font-size: 12px">{{one.seals_all}}</span>
+                    </div>
+                    <div class="goods-info-row-one-1">
+                      推广次数 <span style="color: #444;font-size: 12px">{{one.promotion_num}}</span>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+
+
+          </div>
+          <div class="promotion-div-down">
+            <div
+                @click="handlePromotion(one.id)"
+                style="width: 100%; text-align: center; color: #1e6fff"
+            >
+              推广
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <template #header>
+        <div style="flex: auto; margin-left: 24px; padding-top: 0px;display: flex; justify-content: center;">
+          <div style="width: 100%; display: flex;align-items: center;">我的推广</div>
+        </div>
+      </template>
+
+      <template #footer>
+        <div style="flex: auto; margin-left: 24px">
+          <el-pagination
+              :pager-count=5
+              :page-sizes="[10]"
+              layout="prev, pager, next"
+              :total=myPromotionCount
+              @current-change="handlePromotionCurrentChange"
           />
         </div>
       </template>
@@ -246,6 +437,7 @@ const timeAgo = (createdAt) =>{
 </template>
 
 <style scoped lang="scss">
+//  有一些bug, 也不影响: 推广和收藏共用了一些 收藏的css!!!
 .one {
   display: flex;
   justify-content: center;
@@ -294,9 +486,50 @@ const timeAgo = (createdAt) =>{
 }
 
 
+.promotion-div {
+  border: 1px solid #ddd;
+  margin: 6px 0;
+  height: 110px;
+  width: 315px;
+  border-radius: 8px;
+  background-color: white;
+  position: relative;
+  padding-left: 10px;
+}
+
+.promotion-div:hover {
+  border-radius: 8px 8px 0 0;
+  border: 1px solid #ddd;
+  border-bottom: none; /* 去掉下边框 */
+  height: 111px;
+}
+
+.promotion-div:hover .promotion-div-down {
+  display: flex;
+  top: 110px;
+  left: -1px;
+  justify-content: center;
+  align-items: center;
+  width: 325px;
+  position: absolute;
+  z-index: 10;
+  border: 1px solid #ddd;
+  border-radius: 0 0 8px 8px;
+  border-top: none; /* 去掉下边框 */
+  border-top: 1px dashed #ddd;
+}
+
+.promotion-div-down {
+  display: none;
+  height: 28px;
+  background-color: white;
+}
+
 .collect-div-up {
   height: 140px;
 }
+
+
 
 .collect-div-down {
   display: none;

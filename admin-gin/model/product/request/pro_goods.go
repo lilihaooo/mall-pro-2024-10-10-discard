@@ -138,11 +138,15 @@ type BatchCollect struct {
 
 // 用户推广请求
 type GoodsPromotion struct {
-	UserID  uint `json:"user_id"`
 	GoodsID uint `json:"goods_id"  validate:"required"`
 }
 
-// 取消收藏
+// 我的收藏
 type MyCollect struct {
+	Page int `form:"page" json:"page"`
+}
+
+// 我的推广
+type MyPromotion struct {
 	Page int `form:"page" json:"page"`
 }

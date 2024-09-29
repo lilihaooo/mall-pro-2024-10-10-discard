@@ -1,0 +1,7 @@
+[go_vue_admin]2024-09-27 14:51:54.849	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-09-27 14:52:19.243	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/product/pro_goods.go:392	copy destination must be non-nil and addressable
+[go_vue_admin]2024-09-27 14:52:24.782	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/product/pro_goods.go:392	copy destination must be non-nil and addressable
+[go_vue_admin]2024-09-27 14:53:43.080	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-09-27 14:54:51.093	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-09-27 14:55:55.113	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection
+[go_vue_admin]2024-09-27 21:56:59.298	[31merror[0m	/Users/lihao/project/mall-pro/admin-gin/core/server.go:44	accept tcp [::]:8887: use of closed network connection

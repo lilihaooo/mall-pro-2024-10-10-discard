@@ -69,14 +69,26 @@ export const ApiMyCollect =  (page) => {
         }
     })
 }
+export const ApiMyPromotion =  (page) => {
+    return service({
+        url: '/goods/myPromotion',
+        method: 'get',
+        data: {
+            page: page,
+        }
+    })
+}
+
+
+
+
 
 // 商品推广
-export const ApiPromotion = (userID, goodsID) => {
+export const ApiPromotion = ( goodsID) => {
     return service({
         url: '/goods/promotion',
         method: 'post',
         data: {
-            user_id: userID,
             goods_id: goodsID
         }
     })

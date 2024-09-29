@@ -1232,7 +1232,6 @@ func (*GoodsService) Collect(req request.GoodsCollect) error {
 	if err != nil {
 		return err
 	}
-
 	now := time.Now()
 	if g.CouponID != 0 {
 		if g.Coupon.BeginTime.After(now) {
@@ -1326,7 +1325,68 @@ func (*GoodsService) CancelCollect(req request.GoodsCollect) error {
 }
 
 // 商品推广
-func (*GoodsService) Promotion(req request.GoodsPromotion) error {
+func (*GoodsService) Promotion(req request.GoodsPromotion, userID uint) error {
+	// 获取商品信息 判断是否过期
+	var g product.Goods
+	err := global.XTK_DB.Preload("Coupon", func(db *gorm.DB) *gorm.DB {
+		return db.Select("id", "begin_time", "end_time", "amount")
+	}).Select("id", "cover_image_id", "commission_rate", "commission_value", "post_coupon_price", "title", "coupon_id", "price").Take(&g, "id = ?", req.GoodsID).Error
+	if err != nil {
+		return err
+	}
+	now := time.Now()
+	if g.CouponID != 0 {
+		if g.Coupon.BeginTime.After(now) {
+			return errors.New("未开始")
+		}
+		if g.Coupon.EndTime.Before(now) {
+			return errors.New("已失效")
+		}
+	}
+	// 判断封面是否为空
+	var imageID uint
+	if g.CoverImageID == 0 {
+		err = global.XTK_DB.Table("goods_image").
+			Where("goods_id = ?", req.GoodsID).
+			Limit(1). // 限制只获取一条记录
+			Pluck("image_id", &imageID).Error
+	} else {
+		imageID = g.CoverImageID
+	}
 
-	return nil
+	var p product.Promotion
+	p.ID = g.ID
+	p.UserID = userID
+	p.GoodsID = req.GoodsID
+	p.CreatedAt = time.Now()
+	p.Title = g.Title
+	p.CouponValue = g.Coupon.Amount
+	if g.CouponID == 0 {
+		p.PostCouponPrice = g.Price
+	} else {
+		p.PostCouponPrice = g.PostCouponPrice
+	}
+
+	p.CommissionValue = g.CommissionValue
+	p.CommissionRate = g.CommissionRate
+	if g.CouponID == 0 {
+		p.CouponEndTime = nil
+	} else {
+		p.CouponEndTime = &g.Coupon.EndTime
+	}
+	p.ImageID = imageID
+	// 创建用户商品添加关联关系
+	err = global.XTK_DB.Transaction(func(tx *gorm.DB) error {
+		// 保存收藏信息
+		err = global.XTK_DB.Save(&p).Error
+		if err != nil {
+			global.GVA_LOG.Error(err.Error())
+			return err
+		}
+		key := "GoodsPromotion"
+		member := strconv.Itoa(int(req.GoodsID))
+		_, err = global.GVA_REDIS.ZIncrBy(context.Background(), key, 1, member).Result()
+		return err
+	})
+	return err
 }

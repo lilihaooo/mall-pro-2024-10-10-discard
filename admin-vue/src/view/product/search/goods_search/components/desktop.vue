@@ -1,7 +1,7 @@
 <script setup>
 import router from "@/router";
 import {ElMessage} from 'element-plus'
-import {ApiCancelCollect, ApiCollect} from "@/api/product";
+import {ApiCancelCollect, ApiCollect, ApiPromotion} from "@/api/product";
 import {useUserStore} from "@/pinia";
 import {ref, computed} from "vue"
 
@@ -64,24 +64,18 @@ const handleCollect = (id, isCollect) => {
       // 收藏
       goodsCollect(id)
     }
-
-
-
-
-
-
 }
 
-const handlePromotion = (id, isExpire) => {
-  if (!isExpire) {
-    // 请求推广接口 实际上就是 维护我的推广, 和推广数量
-  } else {
-    ElMessage({
-      message: `商品为：${id}，请修改商品有效期！`,
-      type: 'warning',
-    })
+const goodsPromotion = async (goodsID) => {
+  const res = await ApiPromotion( goodsID)
+  if (res.code === 0) {
+    ElMessage.success('推广成功')
   }
 }
+const handlePromotion = (id) => {
+  goodsPromotion(id)
+}
+
 </script>
 
 <template>
@@ -95,9 +89,9 @@ const handlePromotion = (id, isExpire) => {
             <div class="image_container">
               <el-image :src="item.cover_image" class="image"/>
               <!-- 条件渲染，显示过期标志图片 -->
-              <el-image
+              <img
                   v-if="item.is_expire"
-                  src="/public/shixiao.png"
+                  src="@/assets/shixiao.png"
                   class="expire-image"
                   alt="Expired"
               />
@@ -113,7 +107,7 @@ const handlePromotion = (id, isExpire) => {
                 </div>
                 <div
                     class="bottom-item"
-                    @click.stop="handlePromotion(item.id, item.is_expire)"
+                    @click.stop="handlePromotion(item.id)"
                 >
                   推广
                 </div>

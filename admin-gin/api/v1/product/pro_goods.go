@@ -5,9 +5,11 @@ import (
 	"admin-gin/model/common/response"
 	"admin-gin/model/product"
 	"admin-gin/model/product/request"
+	response2 "admin-gin/model/product/response"
 	"admin-gin/utils"
 	"context"
 	"github.com/gin-gonic/gin"
+	"github.com/jinzhu/copier"
 	"gorm.io/gorm"
 	"strconv"
 )
@@ -191,8 +193,8 @@ func (GoodsApi) GoodsCollect(c *gin.Context) {
 		return
 	}
 	// 判断是否越权
-	userIDS := utils.GetUserID(c)
-	if req.UserID != userIDS {
+	userID := utils.GetUserID(c)
+	if req.UserID != userID {
 		global.GVA_LOG.Error("水平越权")
 		response.FailWithMessage("水平越权", c)
 		return
@@ -303,6 +305,7 @@ func (GoodsApi) MyCollect(c *gin.Context) {
 		response.FailWithMessage(err.Error(), c)
 		return
 	}
+
 	// 返回列表
 	response.OkWithDetailed(response.PageResult{
 		List:     cList,
@@ -314,5 +317,90 @@ func (GoodsApi) MyCollect(c *gin.Context) {
 
 // 商品推广
 func (GoodsApi) GoodsPromotion(c *gin.Context) {
+	var req request.GoodsPromotion
+	if err := c.ShouldBindJSON(&req); err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	if err := utils.ZhValidate(req); err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	userID := utils.GetUserID(c)
+	// 调用服务
+	err := goodsService.Promotion(req, userID)
+	if err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	response.OkWithMessage("success", c)
+}
 
+// 我的推广
+func (GoodsApi) MyPromotion(c *gin.Context) {
+	var req request.MyPromotion
+	if err := c.ShouldBindQuery(&req); err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	// 设置默认值
+	if req.Page == 0 {
+		req.Page = 1
+	}
+	offset := (req.Page - 1) * 20
+
+	userID := utils.GetUserID(c)
+
+	var pList []product.Promotion
+	var total int64
+
+	q := global.XTK_DB.Where("user_id = ?", userID)
+
+	err := q.Model(product.Promotion{}).Count(&total).Error
+	if err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	err = q.Preload("Image").Order("created_at Desc").Offset(offset).Limit(10).Find(&pList).Error
+	if err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	// 获取商品 推广数量
+	var members []string
+	for _, one := range pList {
+		members = append(members, strconv.Itoa(int(one.GoodsID)))
+	}
+	// 使用 ZMSCORE 批量获取商品的分数
+	scores, err := global.GVA_REDIS.ZMScore(context.Background(), "GoodsPromotion", members...).Result()
+	if err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	var rList = make([]response2.MyPromotion, len(pList))
+	for i, one := range pList {
+		err = copier.Copy(&rList[i], one)
+		if err != nil {
+			global.GVA_LOG.Error(err.Error())
+			response.FailWithMessage(err.Error(), c)
+			return
+		}
+		rList[i].ImageUrl = one.Image.Url
+		rList[i].PromotionNum = int64(scores[i])
+	}
+
+	// 返回列表
+	response.OkWithDetailed(response.PageResult{
+		List:     rList,
+		Total:    total,
+		Page:     req.Page,
+		PageSize: 20,
+	}, "获取成功", c)
 }

@@ -85,9 +85,8 @@ router.beforeEach(async(to, from) => {
       // console.log(sessionStorage.getItem("needCloseAll"))
       // websocket 连接
       if (!webSocketStore.isConnected) {
-        webSocketStore.connect('ws://localhost:8887/ws');             // 本地环境使用
-        // webSocketStore.connect('ws://' + window.l
-        // ocation.host + '/ws');  // 服务器上使用
+        // webSocketStore.connect('ws://localhost:8887/ws');             // 本地环境使用
+        webSocketStore.connect('ws://' + window.location.host + '/ws');  // 服务器上使用
       }
 
 

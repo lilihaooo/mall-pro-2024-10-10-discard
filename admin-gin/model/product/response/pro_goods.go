@@ -1,5 +1,7 @@
 package response
 
+import "time"
+
 type GoodsSearch struct {
 	ID              uint    `json:"id"`
 	Description     string  `json:"description"`
@@ -65,4 +67,20 @@ type GoodsSearchV2 struct {
 	BrandName       string  `json:"brand_name"`
 	IsExpire        bool    `json:"is_expire"`
 	IsCollect       bool    `json:"is_collect"`
+}
+
+type MyPromotion struct {
+	ID              uint       `json:"id"`
+	UserID          uint       `json:"user_id"`
+	GoodsID         uint       `json:"goods_id"`
+	CreatedAt       time.Time  `json:"created_at"`
+	Title           string     `json:"title"`
+	PostCouponPrice float64    `json:"post_coupon_price"`
+	CommissionValue float64    `json:"commission_value"`
+	CommissionRate  int32      `json:"commission_rate"`
+	CouponValue     float64    `json:"coupon_value"`
+	CouponEndTime   *time.Time `json:"coupon_end_time"`
+	ImageUrl        string     `json:"image_url"`
+	PromotionNum    int64      `json:"promotion_num"`
+	SealsAll        int32      `json:"seals_all"`
 }

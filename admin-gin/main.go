@@ -1,11 +1,15 @@
 package main
 
 import (
+	_ "net/http/pprof"
+
 	"admin-gin/core"
 	"admin-gin/global"
 	"admin-gin/initialize"
 	_ "go.uber.org/automaxprocs"
 	"go.uber.org/zap"
+	"log"
+	"net/http"
 )
 
 //go:generate go env -w GO111MODULE=on
@@ -21,6 +25,10 @@ import (
 // @name                        x-token
 // @BasePath                    /
 func main() {
+	go func() {
+		log.Println(http.ListenAndServe("127.0.0.1:6060", nil))
+	}()
+
 	global.GVA_VP = core.Viper() // 初始化Viper， 将配置文件解析到global.GVA_LOG中。并动态监听
 	initialize.OtherInit()       // 初始化其他  将jwt的过期时间改为 日期格式； 检查JWT缓冲时间; 初始化全局缓存
 
