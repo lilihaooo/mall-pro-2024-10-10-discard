@@ -1,7 +1,7 @@
 package request
 
 import (
-	"admin-gin/global"
+	"admin-gin/model/common"
 	"admin-gin/model/system"
 )
 
@@ -13,7 +13,7 @@ type AddMenuAuthorityInfo struct {
 
 func DefaultMenu() []system.SysBaseMenu {
 	return []system.SysBaseMenu{{
-		GVA_MODEL: global.GVA_MODEL{ID: 1},
+		GVA_MODEL: common.GVA_MODEL{ID: 1},
 		ParentId:  0,
 		Path:      "dashboard",
 		Name:      "dashboard",

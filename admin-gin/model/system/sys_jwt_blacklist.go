@@ -1,10 +1,10 @@
 package system
 
 import (
-	"admin-gin/global"
+	"admin-gin/model/common"
 )
 
 type JwtBlacklist struct {
-	global.GVA_MODEL
+	common.GVA_MODEL
 	Jwt string `gorm:"type:text;comment:jwt"`
 }

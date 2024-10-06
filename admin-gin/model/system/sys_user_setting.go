@@ -1,18 +1,18 @@
 package system
 
 type SysSetting struct {
-	ID                       uint   `json:"id"  gorm:"column:id"`
-	UserID                   uint   `json:"user_id"  gorm:"column:user_id"`
-	Weakness                 bool   `json:"weakness" gorm:"column:weakness"`
-	Grey                     bool   `json:"grey" gorm:"column:grey"`
-	PrimaryColor             string `validate:"required" json:"primaryColor" gorm:"column:primary_color;type:varchar(255)"`
-	ShowTabs                 bool   `json:"showTabs" gorm:"column:show_tabs"`
-	DarkMode                 string `validate:"required" json:"darkMode" gorm:"column:dark_mode"`
-	LayoutSideWidth          int    `validate:"required" json:"layout_side_width" gorm:"column:layout_side_width"`
-	LayoutSideCollapsedWidth int    `validate:"required" json:"layout_side_collapsed_width" gorm:"column:layout_side_collapsed_width"`
-	LayoutSideItemHeight     int    `validate:"required" json:"layout_side_item_height" gorm:"column:layout_side_item_height"`
-	ShowWatermark            bool   `json:"show_watermark" gorm:"column:show_watermark"`
-	SideMode                 string `validate:"required" json:"side_mode" gorm:"column:side_mode"`
+	ID                       uint   `gorm:"column:id;primaryKey;autoIncrement;type:bigint;comment:'系统设置ID'" json:"id"`
+	UserID                   uint   `gorm:"column:user_id;type:bigint;not null;comment:'用户ID'" json:"user_id"`
+	Weakness                 bool   `gorm:"column:weakness;type:boolean;default:false;comment:'是否启用色弱模式'" json:"weakness"`
+	Grey                     bool   `gorm:"column:grey;type:boolean;default:false;comment:'是否启用灰色模式'" json:"grey"`
+	PrimaryColor             string `gorm:"column:primary_color;type:varchar(100);not null;comment:'主色调'" validate:"required" json:"primaryColor"`
+	ShowTabs                 bool   `gorm:"column:show_tabs;type:boolean;default:true;comment:'是否显示标签页'" json:"showTabs"`
+	DarkMode                 string `gorm:"column:dark_mode;type:varchar(100);not null;comment:'暗黑模式'" validate:"required" json:"darkMode"`
+	LayoutSideWidth          int    `gorm:"column:layout_side_width;type:int;not null;comment:'侧边栏宽度'" validate:"required" json:"layout_side_width"`
+	LayoutSideCollapsedWidth int    `gorm:"column:layout_side_collapsed_width;type:int;not null;comment:'侧边栏折叠宽度'" validate:"required" json:"layout_side_collapsed_width"`
+	LayoutSideItemHeight     int    `gorm:"column:layout_side_item_height;type:int;not null;comment:'侧边栏项高度'" validate:"required" json:"layout_side_item_height"`
+	ShowWatermark            bool   `gorm:"column:show_watermark;type:boolean;default:false;comment:'是否显示水印'" json:"show_watermark"`
+	SideMode                 string `gorm:"column:side_mode;type:varchar(100);not null;comment:'侧边栏模式'" validate:"required" json:"side_mode"`
 }
 
 func (SysSetting) TableName() string {

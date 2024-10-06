@@ -371,7 +371,7 @@ func (*GoodsService) GoodsSearchByMysql(req request.ProGoodsSearch) (respGoods [
 
 		// 返回封面图片   ---  默认图片集合第一张为封面, 如果设置了封面则替换为设置的
 		coverImg := model.Image.Url
-		if coverImg == "" {
+		if coverImg == "" && len(model.Images) > 0 {
 			coverImg = model.Images[0].Url
 		}
 		p.CoverImage = coverImg
@@ -769,13 +769,13 @@ func (*GoodsService) GoodsSearchByEs(req request.ProGoodsSearchV2, userID uint) 
 	}
 	// 数据来源
 	if req.DataFrom == 1 {
-		boolQuery.Filter(elastic.NewTermQuery("tags", req.DataFrom))
+		boolQuery.Filter(elastic.NewTermQuery("data_from", req.DataFrom))
 	}
 	if req.DataFrom == 2 {
-		boolQuery.Filter(elastic.NewTermQuery("tags", req.DataFrom))
+		boolQuery.Filter(elastic.NewTermQuery("data_from", req.DataFrom))
 	}
 	if req.DataFrom == 3 {
-		boolQuery.Filter(elastic.NewTermQuery("tags", req.DataFrom))
+		boolQuery.Filter(elastic.NewTermQuery("data_from", req.DataFrom))
 	}
 	// 品牌库   查看品牌id不为0的商品
 	if req.IsBrand == 1 {

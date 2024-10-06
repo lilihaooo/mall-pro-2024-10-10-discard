@@ -1,6 +1,7 @@
 package system
 
 import (
+	"admin-gin/model/common"
 	"github.com/redis/go-redis/v9"
 	"strconv"
 	"time"
@@ -192,7 +193,7 @@ func (b *BaseApi) ChangePassword(c *gin.Context) {
 		return
 	}
 	uid := utils.GetUserID(c)
-	u := &system.SysUser{GVA_MODEL: global.GVA_MODEL{ID: uid}, Password: req.Password}
+	u := &system.SysUser{GVA_MODEL: common.GVA_MODEL{ID: uid}, Password: req.Password}
 	_, err = userService.ChangePassword(u, req.NewPassword)
 	if err != nil {
 		global.GVA_LOG.Error("修改失败!", zap.Error(err))
@@ -373,7 +374,7 @@ func (b *BaseApi) SetUserInfo(c *gin.Context) {
 		}
 	}
 	err = userService.SetUserInfo(system.SysUser{
-		GVA_MODEL: global.GVA_MODEL{
+		GVA_MODEL: common.GVA_MODEL{
 			ID: user.ID,
 		},
 		NickName:  user.NickName,
@@ -409,7 +410,7 @@ func (b *BaseApi) SetSelfInfo(c *gin.Context) {
 	}
 	user.ID = utils.GetUserID(c)
 	err = userService.SetSelfInfo(system.SysUser{
-		GVA_MODEL: global.GVA_MODEL{
+		GVA_MODEL: common.GVA_MODEL{
 			ID: user.ID,
 		},
 		NickName:  user.NickName,

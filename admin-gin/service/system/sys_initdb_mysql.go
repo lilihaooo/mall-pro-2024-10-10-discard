@@ -78,9 +78,6 @@ func (h MysqlInitHandler) InitTables(ctx context.Context, inits initSlice) error
 func (h MysqlInitHandler) InitData(ctx context.Context, inits initSlice) error {
 	next, cancel := context.WithCancel(ctx)
 	defer func(c func()) { c() }(cancel)
-	return nil
-
-	fmt.Println(inits.Len())
 
 	for _, init := range inits {
 		if init.DataInserted(next) {

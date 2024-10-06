@@ -40,7 +40,11 @@ func (casbinService *CasbinService) UpdateCasbin(AuthorityID uint, casbinInfos [
 		}
 	}
 	e := casbinService.Casbin()
-	success, _ := e.AddPolicies(rules)
+	success, err := e.AddPolicies(rules)
+	if err != nil {
+		global.GVA_LOG.Error(err.Error())
+		return err
+	}
 	if !success {
 		return errors.New("存在相同api,添加失败,请联系管理员")
 	}

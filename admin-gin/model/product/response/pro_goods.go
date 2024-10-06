@@ -67,6 +67,7 @@ type GoodsSearchV2 struct {
 	BrandName       string  `json:"brand_name"`
 	IsExpire        bool    `json:"is_expire"`
 	IsCollect       bool    `json:"is_collect"`
+	DataFrom        int     `json:"data_from"`
 }
 
 type MyPromotion struct {

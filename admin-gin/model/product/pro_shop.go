@@ -1,13 +1,13 @@
 package product
 
 type Shop struct {
-	ID             uint    `gorm:"column:id;primaryKey" json:"id"`
-	Turnover       int64   `gorm:"column:turnover" json:"turnover"` // 店铺销量
-	Name           string  `gorm:"column:name" json:"name"`
-	Logo           string  `gorm:"column:logo" json:"logo"`
-	LogisticsScore float64 `gorm:"logistics_score" json:"logistics_score"` // 物流分
-	ProductScore   float64 `gorm:"product_score" json:"product_score"`     // 商品分
-	ServiceScore   float64 `gorm:"service_score" json:"service_score"`     // 服务分
+	ID             uint   `gorm:"column:id;primaryKey;autoIncrement;type:bigint;comment:'店铺ID'" json:"id"`
+	Turnover       int64  `gorm:"column:turnover;type:bigint;not null;comment:'营业额'" json:"turnover"`
+	Name           string `gorm:"column:name;type:varchar(100);not null;comment:'店铺名称'" json:"name"`
+	Logo           string `gorm:"column:logo;type:varchar(255);comment:'店铺Logo'" json:"logo"`
+	LogisticsScore int    `gorm:"column:logistics_score;type:int;not null;comment:'物流评分'" json:"logistics_score"`
+	ProductScore   int    `gorm:"column:product_score;type:int;not null;comment:'商品评分'" json:"product_score"`
+	ServiceScore   int    `gorm:"column:service_score;type:int;not null;comment:'服务评分'" json:"service_score"`
 }
 
 func (*Shop) TableName() string {

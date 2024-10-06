@@ -270,6 +270,7 @@ const timeAgoPromotion = (createdAt) => {
                         <div class="goods-info-row-one-1">
                           销量 <span style="color: #444;font-size: 12px">1000+</span>
                         </div>
+
                       </div>
                     </div>
 

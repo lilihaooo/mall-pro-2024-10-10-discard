@@ -3,22 +3,26 @@ package system
 import (
 	v1 "admin-gin/api/v1"
 	"admin-gin/middleware"
+	"admin-gin/router/common"
 	"github.com/gin-gonic/gin"
 )
 
 type DictionaryDetailRouter struct{}
 
 func (s *DictionaryDetailRouter) InitSysDictionaryDetailRouter(Router *gin.RouterGroup) {
-	dictionaryDetailRouter := Router.Group("sysDictionaryDetail").Use(middleware.OperationRecord())
-	dictionaryDetailRouterWithoutRecord := Router.Group("sysDictionaryDetail")
+
+	apiGroup := "sysDictionaryDetail"
+	dictionaryDetailRouter := Router.Group(apiGroup).Use(middleware.OperationRecord())
+	dictionaryDetailRouterWithoutRecord := Router.Group(apiGroup)
 	sysDictionaryDetailApi := v1.ApiGroupApp.SystemApiGroup.DictionaryDetailApi
 	{
-		dictionaryDetailRouter.POST("createSysDictionaryDetail", sysDictionaryDetailApi.CreateSysDictionaryDetail)   // 新建SysDictionaryDetail
-		dictionaryDetailRouter.DELETE("deleteSysDictionaryDetail", sysDictionaryDetailApi.DeleteSysDictionaryDetail) // 删除SysDictionaryDetail
-		dictionaryDetailRouter.PUT("updateSysDictionaryDetail", sysDictionaryDetailApi.UpdateSysDictionaryDetail)    // 更新SysDictionaryDetail
+		common.RegisterRouteWithComment(dictionaryDetailRouter, "POST", "createSysDictionaryDetail", "新建SysDictionaryDetail", apiGroup, sysDictionaryDetailApi.CreateSysDictionaryDetail)
+		common.RegisterRouteWithComment(dictionaryDetailRouter, "DELETE", "deleteSysDictionaryDetail", "删除SysDictionaryDetail", apiGroup, sysDictionaryDetailApi.DeleteSysDictionaryDetail)
+		common.RegisterRouteWithComment(dictionaryDetailRouter, "PUT", "updateSysDictionaryDetail", "更新SysDictionaryDetail", apiGroup, sysDictionaryDetailApi.UpdateSysDictionaryDetail)
 	}
 	{
-		dictionaryDetailRouterWithoutRecord.GET("findSysDictionaryDetail", sysDictionaryDetailApi.FindSysDictionaryDetail)       // 根据ID获取SysDictionaryDetail
-		dictionaryDetailRouterWithoutRecord.GET("getSysDictionaryDetailList", sysDictionaryDetailApi.GetSysDictionaryDetailList) // 获取SysDictionaryDetail列表
+		common.RegisterRouteWithComment(dictionaryDetailRouterWithoutRecord, "GET", "findSysDictionaryDetail", "根据ID获取SysDictionaryDetail", apiGroup, sysDictionaryDetailApi.FindSysDictionaryDetail)
+		common.RegisterRouteWithComment(dictionaryDetailRouterWithoutRecord, "GET", "getSysDictionaryDetailList", "获取SysDictionaryDetail列表", apiGroup, sysDictionaryDetailApi.GetSysDictionaryDetailList)
+
 	}
 }

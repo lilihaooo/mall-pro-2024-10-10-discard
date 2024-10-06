@@ -21,10 +21,8 @@ const goodsInfo = reactive({
   brandName:null,
   tags:[],
 
-
   cv: null,
   cr: null,
-
 
   saleAll: null,
   sale2h: null,
@@ -32,12 +30,7 @@ const goodsInfo = reactive({
 
   coupon: null,
   couponValue: null,
-  couponEndTime: null,
-
-
-
-
-
+  couponEndTime: null
 })
 
 const priceName = ref("原价:")
@@ -57,7 +50,7 @@ const getGoodsDetail = async () => {
   goodsInfo.shopWlF = res.data.shop.logistics_score;
   goodsInfo.shopLogo = res.data.shop.logo;
 
-  goodsInfo.tzName = res.data.media.media_mame;
+  goodsInfo.tzName = res.data.media.media_name;
   goodsInfo.tzLevel = res.data.media.user_level;
   goodsInfo.tzLogo = res.data.media.media_head;
 

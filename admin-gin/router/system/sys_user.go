@@ -3,30 +3,33 @@ package system
 import (
 	v1 "admin-gin/api/v1"
 	"admin-gin/middleware"
+	"admin-gin/router/common"
 	"github.com/gin-gonic/gin"
 )
 
 type UserRouter struct{}
 
 func (s *UserRouter) InitUserRouter(Router *gin.RouterGroup) {
-	userRouter := Router.Group("user").Use(middleware.OperationRecord())
-	userRouterWithoutRecord := Router.Group("user")
+	apiGroup := "user"
+	userRouter := Router.Group(apiGroup).Use(middleware.OperationRecord())
+	userRouterWithoutRecord := Router.Group(apiGroup)
 	baseApi := v1.ApiGroupApp.SystemApiGroup.BaseApi
 	{
-		userRouter.POST("admin_register", baseApi.Register)               // 管理员注册账号
-		userRouter.POST("changePassword", baseApi.ChangePassword)         // 用户修改密码
-		userRouter.POST("setUserAuthority", baseApi.SetUserAuthority)     // 设置用户权限
-		userRouter.DELETE("deleteUser", baseApi.DeleteUser)               // 删除用户
-		userRouter.PUT("setUserInfo", baseApi.SetUserInfo)                // 设置用户信息
-		userRouter.PUT("setSelfInfo", baseApi.SetSelfInfo)                // 设置自身信息
-		userRouter.POST("setUserAuthorities", baseApi.SetUserAuthorities) // 设置用户权限组
-		userRouter.POST("resetPassword", baseApi.ResetPassword)           // 重置密码
+		common.RegisterRouteWithComment(userRouter, "POST", "admin_register", "管理员注册账号", apiGroup, baseApi.Register)
+		common.RegisterRouteWithComment(userRouter, "POST", "changePassword", "用户修改密码", apiGroup, baseApi.ChangePassword)
+		common.RegisterRouteWithComment(userRouter, "POST", "setUserAuthority", "设置用户权限", apiGroup, baseApi.SetUserAuthority)
+		common.RegisterRouteWithComment(userRouter, "DELETE", "deleteUser", "删除用户", apiGroup, baseApi.DeleteUser)
+		common.RegisterRouteWithComment(userRouter, "PUT", "setUserInfo", "设置用户信息", apiGroup, baseApi.SetUserInfo)
+		common.RegisterRouteWithComment(userRouter, "PUT", "setSelfInfo", "设置自身信息", apiGroup, baseApi.SetSelfInfo)
+		common.RegisterRouteWithComment(userRouter, "POST", "setUserAuthorities", "设置用户权限组", apiGroup, baseApi.SetUserAuthorities)
+		common.RegisterRouteWithComment(userRouter, "POST", "resetPassword", "重置密码", apiGroup, baseApi.ResetPassword)
 
-		userRouter.GET("getSetting", baseApi.GetUserSettingData)  // 获取用户vue app设置
-		userRouter.POST("setSetting", baseApi.SetUserSettingData) // 	保存用户vue app设置
+		common.RegisterRouteWithComment(userRouter, "GET", "getSetting", "获取用户vue app设置", apiGroup, baseApi.GetUserSettingData)
+		common.RegisterRouteWithComment(userRouter, "POST", "setSetting", "保存用户vue app设置", apiGroup, baseApi.SetUserSettingData)
+
 	}
 	{
-		userRouterWithoutRecord.POST("getUserList", baseApi.GetUserList) // 分页获取用户列表
-		userRouterWithoutRecord.GET("getUserInfo", baseApi.GetUserInfo)  // 获取自身信息
+		common.RegisterRouteWithComment(userRouterWithoutRecord, "POST", "getUserList", "分页获取用户列表", apiGroup, baseApi.GetUserList)
+		common.RegisterRouteWithComment(userRouterWithoutRecord, "GET", "getUserInfo", "获取自身信息", apiGroup, baseApi.GetUserInfo)
 	}
 }

@@ -1,16 +1,16 @@
 package system
 
 import (
+	"admin-gin/model/common"
 	"strconv"
 	"strings"
 
-	"admin-gin/global"
 	"admin-gin/model/common/request"
 )
 
 // SysAutoCodeHistory 自动迁移代码记录,用于回滚,重放使用
 type SysAutoCodeHistory struct {
-	global.GVA_MODEL
+	common.GVA_MODEL
 	Package       string `json:"package"`
 	BusinessDB    string `json:"businessDB"`
 	TableName     string `json:"tableName"`

@@ -1,0 +1,31 @@
+[go_vue_admin]2024-10-01 15:17:42.390	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-01 15:20:14.422	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_initdb.go:61	数据库无需初始化
+[go_vue_admin]2024-10-01 15:20:16.637	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_initdb.go:61	数据库无需初始化
+[go_vue_admin]2024-10-01 15:20:19.376	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_initdb.go:61	数据库无需初始化
+[go_vue_admin]2024-10-01 15:21:38.858	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-01 15:23:53.361	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_initdb.go:61	数据库无需初始化
+[go_vue_admin]2024-10-01 15:24:14.961	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-01 15:24:16.448	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_initdb.go:61	前往初始化数据库
+[go_vue_admin]2024-10-01 15:24:16.586	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_initdb.go:61	前往初始化数据库
+[go_vue_admin]2024-10-01 15:24:22.942	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_initdb.go:61	前往初始化数据库
+[go_vue_admin]2024-10-01 15:27:02.704	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-01 15:29:18.472	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_initdb.go:61	数据库无需初始化
+[go_vue_admin]2024-10-01 15:29:19.925	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_initdb.go:61	数据库无需初始化
+[go_vue_admin]2024-10-01 15:29:32.864	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-01 15:29:38.080	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_initdb.go:61	前往初始化数据库
+[go_vue_admin]2024-10-01 15:43:11.263	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-01 15:43:28.525	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_initdb.go:61	数据库无需初始化
+[go_vue_admin]2024-10-01 15:43:38.476	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-01 15:44:05.921	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/api/v1/system/sys_initdb.go:61	前往初始化数据库
+[go_vue_admin]2024-10-01 15:59:29.165	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-01 20:36:52.243	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-01 20:53:57.672	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-01 21:01:35.906	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-01 21:03:09.242	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-01 21:51:57.015	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-01 22:04:03.647	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-01 22:04:40.601	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-01 22:52:55.303	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-01 22:53:14.841	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-01 22:54:34.086	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-01 22:55:02.848	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}

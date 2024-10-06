@@ -30,10 +30,13 @@ func RunWindowsServer() {
 		system.LoadAll()
 	}
 
-	Router := initialize.Routers()
-	Router.Static("/form-generator", "./resource/page")
+	router := initialize.Routers()
+	// init admin ApiAuthority
+	initialize.AdminApiAuthority()
+
+	router.Static("/form-generator", "./resource/page")
 	address := fmt.Sprintf("0.0.0.0:%d", global.GVA_CONFIG.System.Addr)
-	s := initServer(address, Router)
+	s := initServer(address, router)
 	fmt.Printf(`
 	当前版本:v2.6.5
 	GVA讨论社区:https://support.qq.com/products/371961

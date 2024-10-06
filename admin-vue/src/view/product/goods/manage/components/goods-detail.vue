@@ -44,7 +44,7 @@ const goodsInfo = reactive({
   coupon: null,
   couponValue: null,
   couponEndTime: null,
-  couponStartTime: null,
+  couponBeginTime: null,
 
   postCouponPrice: null,
   price: null
@@ -210,6 +210,7 @@ const showCouponUpdateVisible = () => {
 
 const getGoodsDetail = async () => {
   const res = await getGoodsInfo({id: id});
+
   let coverImage = res.data.images[0].url
   if (res.data.cover_image_id !== 0) {
     coverImage = res.data.image.url;
@@ -241,17 +242,17 @@ const getGoodsDetail = async () => {
   goodsInfo.tags = res.data.tags;
 
   const cEndTime = new Date(res.data.coupon.end_time)
-  const cStartTime = new Date(res.data.coupon.start_time)
+  const cBeginTime = new Date(res.data.coupon.begin_time)
   const nowTime = new Date()
 
   if (res.data.coupon.ID === null) {
     couponStatus.value = 0;
   } else {
-    if (cEndTime >= nowTime && cStartTime <= nowTime) {
+    if (cEndTime >= nowTime && cBeginTime <= nowTime) {
       couponStatus.value = 1;
     } else if (cEndTime < nowTime) {
       couponStatus.value = 2;
-    } else if (cStartTime > nowTime) {
+    } else if (cBeginTime > nowTime) {
       couponStatus.value = 3;
     }
   }
@@ -259,7 +260,7 @@ const getGoodsDetail = async () => {
   goodsInfo.coupon = res.data.coupon;
   goodsInfo.postCouponPrice = res.data.post_coupon_price
   goodsInfo.couponEndTime = formatDateTime(res.data.coupon.end_time);
-  goodsInfo.couponStartTime = formatDateTime(res.data.coupon.start_time);
+  goodsInfo.couponBeginTime = formatDateTime(res.data.coupon.begin_time);
   goodsInfo.couponValue = res.data.coupon.amount
 
   goodsInfo.price = res.data.price;
@@ -439,7 +440,7 @@ onMounted(() => {
       </el-form-item>
       <el-form-item label="开始时间">
         <el-date-picker
-            v-model="couponInfo.start_time"
+            v-model="couponInfo.begin_time"
             type="date"
             placeholder="Pick a day"
         />
@@ -626,11 +627,12 @@ onMounted(() => {
                           <span v-if="couponStatus !==0"
                                 :style="{ textDecoration: couponStatus !== 1 ? 'line-through' : 'none' }"
                           >￥ {{ goodsInfo.couponValue }}</span>
+
                           <span v-else>none</span>
 
                         </td>
                         <td class="goods-pcc-td-3">
-                          {{ goodsInfo.couponStartTime }} ~ {{ goodsInfo.couponEndTime }}
+                          {{ goodsInfo.couponBeginTime }} ~ {{ goodsInfo.couponEndTime }}
                           <span v-if="couponStatus === 2">(过期)</span>
                           <span v-if="couponStatus === 3">(未开始)</span>
                         </td>

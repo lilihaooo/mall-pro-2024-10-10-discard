@@ -210,6 +210,10 @@ func work(categoryInfo CategoryInfo) {
 			// 模拟标签 随机加5个不同的标签
 			g.Tags = simulate.MakeRandomTags()
 			g.DataFrom = 1
+
+			// 将第一张图片id 保存为封面
+			g.CoverImageID = g.Images[0].ID
+
 			process.ToMysqlJobCh <- g
 			count++
 

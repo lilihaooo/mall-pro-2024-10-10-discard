@@ -2,16 +2,19 @@ package product
 
 import (
 	"admin-gin/api/v1"
+	"admin-gin/router/common"
 	"github.com/gin-gonic/gin"
 )
 
 type SearchRouter struct{}
 
 func (*SearchRouter) InitSearchRouter(Router *gin.RouterGroup) {
-	searchRouter := Router.Group("search")
+	var apiGroup = "search"
+	searchRouter := Router.Group(apiGroup)
 	searchApi := v1.ApiGroupApp.ProductApiGroup.SearchApi
 	{
-		searchRouter.GET("/hotSearch/list", searchApi.HotList)         // 创建客户
-		searchRouter.GET("/suggestion/list", searchApi.SuggestionList) // 搜索词条
+		common.RegisterRouteWithComment(searchRouter, "GET", "hotSearch/list", "获取热搜列表", apiGroup, searchApi.HotList)
+		common.RegisterRouteWithComment(searchRouter, "GET", "suggestion/list", "获取推荐词条列表", apiGroup, searchApi.SuggestionList)
+
 	}
 }

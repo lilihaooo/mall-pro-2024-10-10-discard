@@ -10,12 +10,7 @@ const goodsBandCouponTaskData = {
   data: data1
 }
 
-// 商品同步ES
-const data2 = reactive({})
-const goods2ESTaskData = {
-  action_name: "goods_2_es_task_action",
-  data: data2
-}
+
 
 // 商品添加标签
 const data3 = reactive({})
@@ -37,9 +32,6 @@ function sendGoodsBandCoupon() {
   sendWsMessage(JSON.stringify(goodsBandCouponTaskData))
 }
 
-function sendGoods2ES() {
-  sendWsMessage(JSON.stringify(goods2ESTaskData))
-}
 
 function sendGoodsAddTags() {
   sendWsMessage(JSON.stringify(goodsAddTagsTaskData))
@@ -49,14 +41,10 @@ function sendGoodsAddTags() {
 function sendSimulateLoadsOfGoods() {
   sendWsMessage(JSON.stringify(simulateLoadsOfGoodsTaskData))
 }
-
-
-
 </script>
 
 <template>
   <div>
-
     <el-form>
       <el-form-item label="商品绑定优惠券" label-width="130px">
         <el-button type="primary" @click="sendGoodsBandCoupon()">开始</el-button>
@@ -70,9 +58,7 @@ function sendSimulateLoadsOfGoods() {
         <el-button type="primary" @click="sendSimulateLoadsOfGoods()">开始</el-button>
       </el-form-item>
 
-      <el-form-item label="商品同步ES" label-width="130px">
-        <el-button type="primary" @click="sendGoods2ES()">开始</el-button>
-      </el-form-item>
+
 
     </el-form>
   </div>

@@ -3,23 +3,27 @@ package system
 import (
 	v1 "admin-gin/api/v1"
 	"admin-gin/middleware"
+	"admin-gin/router/common"
 	"github.com/gin-gonic/gin"
 )
 
 type AuthorityRouter struct{}
 
 func (s *AuthorityRouter) InitAuthorityRouter(Router *gin.RouterGroup) {
-	authorityRouter := Router.Group("authority").Use(middleware.OperationRecord())
-	authorityRouterWithoutRecord := Router.Group("authority")
+	apiGroup := "authority"
+	authorityRouter := Router.Group(apiGroup).Use(middleware.OperationRecord())
+	authorityRouterWithoutRecord := Router.Group(apiGroup)
 	authorityApi := v1.ApiGroupApp.SystemApiGroup.AuthorityApi
 	{
-		authorityRouter.POST("createAuthority", authorityApi.CreateAuthority)   // 创建角色
-		authorityRouter.POST("deleteAuthority", authorityApi.DeleteAuthority)   // 删除角色
-		authorityRouter.PUT("updateAuthority", authorityApi.UpdateAuthority)    // 更新角色
-		authorityRouter.POST("copyAuthority", authorityApi.CopyAuthority)       // 拷贝角色
-		authorityRouter.POST("setDataAuthority", authorityApi.SetDataAuthority) // 设置角色资源权限
+		common.RegisterRouteWithComment(authorityRouter, "POST", "createAuthority", "创建角色", apiGroup, authorityApi.CreateAuthority)
+		common.RegisterRouteWithComment(authorityRouter, "POST", "deleteAuthority", "删除角色", apiGroup, authorityApi.DeleteAuthority)
+		common.RegisterRouteWithComment(authorityRouter, "PUT", "updateAuthority", "更新角色", apiGroup, authorityApi.UpdateAuthority)
+		common.RegisterRouteWithComment(authorityRouter, "POST", "copyAuthority", "拷贝角色", apiGroup, authorityApi.CopyAuthority)
+		common.RegisterRouteWithComment(authorityRouter, "POST", "setDataAuthority", "设置角色资源权限", apiGroup, authorityApi.SetDataAuthority)
+
 	}
 	{
-		authorityRouterWithoutRecord.POST("getAuthorityList", authorityApi.GetAuthorityList) // 获取角色列表
+		common.RegisterRouteWithComment(authorityRouterWithoutRecord, "POST", "getAuthorityList", "获取角色列表", apiGroup, authorityApi.GetAuthorityList)
+
 	}
 }

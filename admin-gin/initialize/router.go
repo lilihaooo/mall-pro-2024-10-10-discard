@@ -33,7 +33,6 @@ func (fs justFilesFilesystem) Open(name string) (http.File, error) {
 
 func Routers() *gin.Engine {
 	Router := gin.New()
-
 	Router.Use(gin.Recovery())
 
 	if gin.Mode() == gin.DebugMode {

@@ -57,9 +57,9 @@ func (p *GoodsReceive) GoodsReceive2model() (goods product.Goods) {
 	goods.Shop.ID = uint(I2Int(p.Shop.ID))
 	goods.Shop.Name = I2Str(p.Shop.Name)
 	goods.Shop.Logo = I2Str(p.Shop.Logo)
-	goods.Shop.LogisticsScore = I2Float64(p.Shop.CreaditLogistics)
-	goods.Shop.ProductScore = I2Float64(p.Shop.CreaditProduct)
-	goods.Shop.ServiceScore = I2Float64(p.Shop.CreaditService)
+	goods.Shop.LogisticsScore = I2Int(p.Shop.CreaditLogistics)
+	goods.Shop.ProductScore = I2Int(p.Shop.CreaditProduct)
+	goods.Shop.ServiceScore = I2Int(p.Shop.CreaditService)
 	// 图片赋值
 	var imgs []product.Image
 	for _, one := range p.GoodsImages {

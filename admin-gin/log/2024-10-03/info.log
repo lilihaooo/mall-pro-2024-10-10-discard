@@ -1,0 +1,368 @@
+[go_vue_admin]2024-10-03 10:03:39.156	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-03 10:03:39.173	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/admin_ api_authority.go:15	请保证超级管理员的AuthorityID(角色id) 为1
+[go_vue_admin]2024-10-03 10:56:04.541	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-03 11:10:26.744	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-03 11:13:14.807	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	枣制品采集完成！
+[go_vue_admin]2024-10-03 11:14:09.157	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/common.go:54	清理模拟包基础数据
+[go_vue_admin]2024-10-03 11:18:08.515	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-03 11:18:20.457	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-03 11:22:29.841	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-03 21:07:58.617	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-03 21:07:58.630	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/admin_ api_authority.go:15	请保证超级管理员的AuthorityID(角色id) 为1
+[go_vue_admin]2024-10-03 21:08:07.593	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-03 21:08:28.309	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	枣制品采集完成！
+[go_vue_admin]2024-10-03 21:11:07.890	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	巧克力采集完成！
+[go_vue_admin]2024-10-03 21:14:09.853	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	坚果采集完成！
+[go_vue_admin]2024-10-03 21:15:42.785	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	膨化食品采集完成！
+[go_vue_admin]2024-10-03 21:16:07.143	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	饼干采集完成！
+[go_vue_admin]2024-10-03 21:20:37.011	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	豆干采集完成！
+[go_vue_admin]2024-10-03 21:22:29.866	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	蜜饯/果干采集完成！
+[go_vue_admin]2024-10-03 21:22:42.788	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	糖果采集完成！
+[go_vue_admin]2024-10-03 21:22:56.804	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	海苔/即食海产采集完成！
+[go_vue_admin]2024-10-03 21:23:33.778	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	糕点采集完成！
+[go_vue_admin]2024-10-03 21:26:38.804	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	营养膳补采集完成！
+[go_vue_admin]2024-10-03 21:27:15.865	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	膳食保健采集完成！
+[go_vue_admin]2024-10-03 21:28:43.774	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	皮带/手表采集完成！
+[go_vue_admin]2024-10-03 21:29:18.775	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	男士外套采集完成！
+[go_vue_admin]2024-10-03 21:29:48.770	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	男士内搭采集完成！
+[go_vue_admin]2024-10-03 21:29:52.847	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	乳制品/奶制品采集完成！
+[go_vue_admin]2024-10-03 21:30:40.776	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	男士裤装采集完成！
+[go_vue_admin]2024-10-03 21:31:27.894	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	内裤采集完成！
+[go_vue_admin]2024-10-03 21:32:06.772	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	咖啡冲饮采集完成！
+[go_vue_admin]2024-10-03 21:32:33.769	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	文胸塑身采集完成！
+[go_vue_admin]2024-10-03 21:32:45.794	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	家居服采集完成！
+[go_vue_admin]2024-10-03 21:32:47.772	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	面膜采集完成！
+[go_vue_admin]2024-10-03 21:32:53.887	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	眼部护理采集完成！
+[go_vue_admin]2024-10-03 21:32:56.853	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	精华采集完成！
+[go_vue_admin]2024-10-03 21:33:22.860	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	护肤套装采集完成！
+[go_vue_admin]2024-10-03 21:33:38.835	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	防晒采集完成！
+[go_vue_admin]2024-10-03 21:33:45.798	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	洁面采集完成！
+[go_vue_admin]2024-10-03 21:33:47.846	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	卸妆采集完成！
+[go_vue_admin]2024-10-03 21:33:51.840	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	乳液面霜采集完成！
+[go_vue_admin]2024-10-03 21:34:02.798	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	隔离采集完成！
+[go_vue_admin]2024-10-03 21:34:13.857	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	香水香膏采集完成！
+[go_vue_admin]2024-10-03 21:34:16.827	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	眉笔采集完成！
+[go_vue_admin]2024-10-03 21:34:17.849	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	睫毛膏采集完成！
+[go_vue_admin]2024-10-03 21:34:21.768	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	电视采集完成！
+[go_vue_admin]2024-10-03 21:34:23.773	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	智能手机采集完成！
+[go_vue_admin]2024-10-03 21:34:27.783	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	空调采集完成！
+[go_vue_admin]2024-10-03 21:34:28.806	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	洗衣机采集完成！
+[go_vue_admin]2024-10-03 21:34:31.878	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	冰箱采集完成！
+[go_vue_admin]2024-10-03 21:34:37.809	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	厨房大家电采集完成！
+[go_vue_admin]2024-10-03 21:34:38.786	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	热水器采集完成！
+[go_vue_admin]2024-10-03 21:34:50.828	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	口红采集完成！
+[go_vue_admin]2024-10-03 21:36:42.856	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	南北干货采集完成！
+[go_vue_admin]2024-10-03 21:36:57.798	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	电脑配件采集完成！
+[go_vue_admin]2024-10-03 21:37:15.816	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	手机配件采集完成！
+[go_vue_admin]2024-10-03 21:38:00.788	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	打火机/眼镜采集完成！
+[go_vue_admin]2024-10-03 21:38:04.867	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	饮料采集完成！
+[go_vue_admin]2024-10-03 21:38:27.762	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	其他数码配件采集完成！
+[go_vue_admin]2024-10-03 21:38:35.792	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	帽子/围巾/手套采集完成！
+[go_vue_admin]2024-10-03 21:39:05.766	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	葡萄酒采集完成！
+[go_vue_admin]2024-10-03 21:39:20.846	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	洋酒采集完成！
+[go_vue_admin]2024-10-03 21:39:39.789	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	其他配饰采集完成！
+[go_vue_admin]2024-10-03 21:39:45.851	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	黄酒/米酒采集完成！
+[go_vue_admin]2024-10-03 21:40:19.758	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	预调酒/果酒采集完成！
+[go_vue_admin]2024-10-03 21:40:45.764	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	绿茶采集完成！
+[go_vue_admin]2024-10-03 21:41:14.815	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	红茶采集完成！
+[go_vue_admin]2024-10-03 21:41:27.822	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	白酒采集完成！
+[go_vue_admin]2024-10-03 21:41:30.762	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	普洱采集完成！
+[go_vue_admin]2024-10-03 21:41:49.763	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	黑茶/白茶采集完成！
+[go_vue_admin]2024-10-03 21:41:55.775	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	茶制品采集完成！
+[go_vue_admin]2024-10-03 21:43:02.847	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	花果茶采集完成！
+[go_vue_admin]2024-10-03 21:43:17.798	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	基础建材采集完成！
+[go_vue_admin]2024-10-03 21:43:21.791	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	粮油米面采集完成！
+[go_vue_admin]2024-10-03 21:43:25.791	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	电子电工采集完成！
+[go_vue_admin]2024-10-03 21:43:47.799	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	五金工具采集完成！
+[go_vue_admin]2024-10-03 21:43:55.759	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	灯饰照明采集完成！
+[go_vue_admin]2024-10-03 21:44:14.834	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	袜子采集完成！
+[go_vue_admin]2024-10-03 21:44:20.774	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	婴童尿裤采集完成！
+[go_vue_admin]2024-10-03 21:44:26.815	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	家装主材采集完成！
+[go_vue_admin]2024-10-03 21:44:30.774	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	童车座椅采集完成！
+[go_vue_admin]2024-10-03 21:44:39.762	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	儿童餐具采集完成！
+[go_vue_admin]2024-10-03 21:44:50.782	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	喂养用品采集完成！
+[go_vue_admin]2024-10-03 21:45:05.756	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	孕妇个护采集完成！
+[go_vue_admin]2024-10-03 21:45:07.787	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	家具装饰采集完成！
+[go_vue_admin]2024-10-03 21:45:17.811	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	孕妇营养采集完成！
+[go_vue_admin]2024-10-03 21:45:20.762	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	孕妇家居采集完成！
+[go_vue_admin]2024-10-03 21:45:24.778	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	宝宝护肤采集完成！
+[go_vue_admin]2024-10-03 21:45:27.844	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	孕妇配件采集完成！
+[go_vue_admin]2024-10-03 21:45:30.750	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	骨盆带/塑身衣采集完成！
+[go_vue_admin]2024-10-03 21:45:37.762	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	亲子装采集完成！
+[go_vue_admin]2024-10-03 21:46:05.758	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	儿童下装采集完成！
+[go_vue_admin]2024-10-03 21:46:11.757	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	婴幼个护采集完成！
+[go_vue_admin]2024-10-03 21:46:22.831	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	内衣裤袜采集完成！
+[go_vue_admin]2024-10-03 21:46:31.841	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	儿童配饰采集完成！
+[go_vue_admin]2024-10-03 21:46:45.770	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	儿童套装采集完成！
+[go_vue_admin]2024-10-03 21:46:46.793	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	婴儿调味采集完成！
+[go_vue_admin]2024-10-03 21:46:47.818	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	儿童外套采集完成！
+[go_vue_admin]2024-10-03 21:46:53.858	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	调味品采集完成！
+[go_vue_admin]2024-10-03 21:46:57.853	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	奶粉采集完成！
+[go_vue_admin]2024-10-03 21:47:07.784	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	儿童凉鞋采集完成！
+[go_vue_admin]2024-10-03 21:47:11.779	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	儿童营养采集完成！
+[go_vue_admin]2024-10-03 21:47:17.820	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	休闲鞋采集完成！
+[go_vue_admin]2024-10-03 21:47:18.754	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	儿童拖鞋采集完成！
+[go_vue_admin]2024-10-03 21:47:21.813	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	学步鞋采集完成！
+[go_vue_admin]2024-10-03 21:47:23.861	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	儿童皮鞋采集完成！
+[go_vue_admin]2024-10-03 21:47:25.808	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	辅食零食采集完成！
+[go_vue_admin]2024-10-03 21:47:27.865	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	运动鞋采集完成！
+[go_vue_admin]2024-10-03 21:47:28.777	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	老人机采集完成！
+[go_vue_admin]2024-10-03 21:47:30.825	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	游戏手机采集完成！
+[go_vue_admin]2024-10-03 21:47:38.762	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	智能设备采集完成！
+[go_vue_admin]2024-10-03 21:47:45.782	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	台式机采集完成！
+[go_vue_admin]2024-10-03 21:47:46.756	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	爽肤水采集完成！
+[go_vue_admin]2024-10-03 21:47:48.848	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	笔记本采集完成！
+[go_vue_admin]2024-10-03 21:47:49.872	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	儿童上衣采集完成！
+[go_vue_admin]2024-10-03 21:47:50.791	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	平板采集完成！
+[go_vue_admin]2024-10-03 21:47:51.816	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	键盘鼠标采集完成！
+[go_vue_admin]2024-10-03 21:48:03.818	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	办公设备采集完成！
+[go_vue_admin]2024-10-03 21:48:16.800	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	厨房小电采集完成！
+[go_vue_admin]2024-10-03 21:48:25.814	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	生活电器采集完成！
+[go_vue_admin]2024-10-03 21:48:44.867	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	个护家电采集完成！
+[go_vue_admin]2024-10-03 21:49:11.750	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	食品添加剂/辅料采集完成！
+[go_vue_admin]2024-10-03 21:49:14.866	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	枸杞采集完成！
+[go_vue_admin]2024-10-03 21:49:31.860	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	阿胶采集完成！
+[go_vue_admin]2024-10-03 21:49:39.849	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	蜂蜜采集完成！
+[go_vue_admin]2024-10-03 21:49:51.860	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	燕窝采集完成！
+[go_vue_admin]2024-10-03 21:50:09.850	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	参茸贵细采集完成！
+[go_vue_admin]2024-10-03 21:50:11.796	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	养生原料采集完成！
+[go_vue_admin]2024-10-03 21:50:22.857	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	影音娱乐采集完成！
+[go_vue_admin]2024-10-03 21:50:52.877	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	猪肉类采集完成！
+[go_vue_admin]2024-10-03 21:51:19.791	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	其他滋补品采集完成！
+[go_vue_admin]2024-10-03 21:51:21.835	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	食疗滋补采集完成！
+[go_vue_admin]2024-10-03 21:52:31.787	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	肉制品采集完成！
+[go_vue_admin]2024-10-03 21:52:37.816	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	牛羊肉类采集完成！
+[go_vue_admin]2024-10-03 21:52:39.863	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	鸡鸭肉类采集完成！
+[go_vue_admin]2024-10-03 21:53:09.936	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	水饺馄饨采集完成！
+[go_vue_admin]2024-10-03 21:53:18.022	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	煎饼类采集完成！
+[go_vue_admin]2024-10-03 21:53:19.913	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	冰淇淋采集完成！
+[go_vue_admin]2024-10-03 21:53:29.930	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	蟹类采集完成！
+[go_vue_admin]2024-10-03 21:54:09.940	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	海鲜制品采集完成！
+[go_vue_admin]2024-10-03 21:54:19.916	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	海参采集完成！
+[go_vue_admin]2024-10-03 21:54:35.234	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	贝类采集完成！
+[go_vue_admin]2024-10-03 21:54:47.026	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	包点/面点采集完成！
+[go_vue_admin]2024-10-03 21:54:48.048	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	冻半成品采集完成！
+[go_vue_admin]2024-10-03 21:54:59.911	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	虾类采集完成！
+[go_vue_admin]2024-10-03 21:55:11.992	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	鱼类采集完成！
+[go_vue_admin]2024-10-03 21:55:30.018	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	叶菜类采集完成！
+[go_vue_admin]2024-10-03 21:55:39.912	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	鲜菌菇采集完成！
+[go_vue_admin]2024-10-03 21:56:02.912	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	其他海产采集完成！
+[go_vue_admin]2024-10-03 21:56:19.913	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	茄果瓜类采集完成！
+[go_vue_admin]2024-10-03 21:56:22.956	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	快手菜采集完成！
+[go_vue_admin]2024-10-03 21:56:39.932	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	葱姜蒜椒采集完成！
+[go_vue_admin]2024-10-03 21:57:06.990	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	根茎类采集完成！
+[go_vue_admin]2024-10-03 21:57:19.914	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	柑橘橙柚采集完成！
+[go_vue_admin]2024-10-03 21:57:37.912	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	蛋品采集完成！
+[go_vue_admin]2024-10-03 21:57:38.939	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	肉干肉脯/卤味采集完成！
+[go_vue_admin]2024-10-03 21:57:58.234	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	桃李杏枣采集完成！
+[go_vue_admin]2024-10-03 21:58:07.914	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	西瓜/蜜瓜采集完成！
+[go_vue_admin]2024-10-03 21:58:23.993	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	热带水果采集完成！
+[go_vue_admin]2024-10-03 21:58:26.917	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	葡提莓果采集完成！
+[go_vue_admin]2024-10-03 21:58:29.936	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	苹果蕉梨采集完成！
+[go_vue_admin]2024-10-03 21:58:39.010	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	水果礼盒采集完成！
+[go_vue_admin]2024-10-03 21:58:47.136	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	气垫采集完成！
+[go_vue_admin]2024-10-03 21:58:52.911	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	猕猴桃采集完成！
+[go_vue_admin]2024-10-03 21:58:53.975	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	散粉采集完成！
+[go_vue_admin]2024-10-03 21:58:56.914	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	彩妆套装采集完成！
+[go_vue_admin]2024-10-03 21:59:07.000	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	美容美体医疗器械采集完成！
+[go_vue_admin]2024-10-03 21:59:13.915	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	腮红/修容采集完成！
+[go_vue_admin]2024-10-03 21:59:14.991	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	粉底遮瑕采集完成！
+[go_vue_admin]2024-10-03 21:59:18.962	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	女士脱毛采集完成！
+[go_vue_admin]2024-10-03 21:59:21.955	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	美容/个护仪器采集完成！
+[go_vue_admin]2024-10-03 21:59:23.999	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	蒸脸器采集完成！
+[go_vue_admin]2024-10-03 21:59:25.023	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	洁面仪采集完成！
+[go_vue_admin]2024-10-03 21:59:26.908	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	老年机采集完成！
+[go_vue_admin]2024-10-03 21:59:27.993	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	眼影眼线采集完成！
+[go_vue_admin]2024-10-03 22:00:12.948	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	套装采集完成！
+[go_vue_admin]2024-10-03 22:00:23.080	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	衬衫采集完成！
+[go_vue_admin]2024-10-03 22:00:30.972	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	方便速食采集完成！
+[go_vue_admin]2024-10-03 22:00:32.929	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	大码女装采集完成！
+[go_vue_admin]2024-10-03 22:00:50.914	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	其他肉类采集完成！
+[go_vue_admin]2024-10-03 22:00:52.986	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	豆制品采集完成！
+[go_vue_admin]2024-10-03 22:01:07.959	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	办公文具采集完成！
+[go_vue_admin]2024-10-03 22:01:26.918	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	裤子采集完成！
+[go_vue_admin]2024-10-03 22:01:54.914	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	女士上衣采集完成！
+[go_vue_admin]2024-10-03 22:02:08.930	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	连衣裙采集完成！
+[go_vue_admin]2024-10-03 22:02:12.957	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	创意家居采集完成！
+[go_vue_admin]2024-10-03 22:02:28.015	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	精油/纯露采集完成！
+[go_vue_admin]2024-10-03 22:02:53.154	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	基础护肤采集完成！
+[go_vue_admin]2024-10-03 22:03:51.030	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-03 22:03:55.141	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	烹饪用具采集完成！
+[go_vue_admin]2024-10-03 22:04:04.138	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	厨房配件采集完成！
+[go_vue_admin]2024-10-03 22:04:14.932	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	其他采集完成！
+[go_vue_admin]2024-10-03 22:04:40.133	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	手工DIY采集完成！
+[go_vue_admin]2024-10-03 22:04:54.936	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	积木/模型采集完成！
+[go_vue_admin]2024-10-03 22:04:58.146	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	美妆工具采集完成！
+[go_vue_admin]2024-10-03 22:05:09.769	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-03 22:05:19.924	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	电动玩具采集完成！
+[go_vue_admin]2024-10-03 22:05:23.938	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	益智玩具采集完成！
+[go_vue_admin]2024-10-03 22:05:28.034	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	童车运动采集完成！
+[go_vue_admin]2024-10-03 22:05:29.979	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	宝宝纪念品采集完成！
+[go_vue_admin]2024-10-03 22:05:33.973	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	童鞋配件采集完成！
+[go_vue_admin]2024-10-03 22:05:47.918	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	孕妇装/妈咪装采集完成！
+[go_vue_admin]2024-10-03 22:05:49.071	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	安全防护采集完成！
+[go_vue_admin]2024-10-03 22:05:54.044	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	美容服务采集完成！
+[go_vue_admin]2024-10-03 22:06:03.984	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	黄金珠宝采集完成！
+[go_vue_admin]2024-10-03 22:06:19.906	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	日用起居采集完成！
+[go_vue_admin]2024-10-03 22:06:22.917	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	乌龙茶采集完成！
+[go_vue_admin]2024-10-03 22:06:54.378	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	时尚配饰采集完成！
+[go_vue_admin]2024-10-03 22:07:05.008	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	功能箱包采集完成！
+[go_vue_admin]2024-10-03 22:07:08.925	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	男士包袋采集完成！
+[go_vue_admin]2024-10-03 22:07:09.926	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	卡套采集完成！
+[go_vue_admin]2024-10-03 22:07:22.904	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	女士包袋采集完成！
+[go_vue_admin]2024-10-03 22:07:32.961	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	皮鞋采集完成！
+[go_vue_admin]2024-10-03 22:07:43.920	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	运动鞋采集完成！
+[go_vue_admin]2024-10-03 22:07:53.955	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	高跟鞋采集完成！
+[go_vue_admin]2024-10-03 22:08:16.994	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	餐饮具采集完成！
+[go_vue_admin]2024-10-03 22:08:17.975	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	靴子采集完成！
+[go_vue_admin]2024-10-03 22:08:27.952	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	其他采集完成！
+[go_vue_admin]2024-10-03 22:08:51.913	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	凉鞋采集完成！
+[go_vue_admin]2024-10-03 22:09:00.003	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	休闲鞋采集完成！
+[go_vue_admin]2024-10-03 22:09:03.921	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	拖鞋采集完成！
+[go_vue_admin]2024-10-03 22:09:12.916	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	套装采集完成！
+[go_vue_admin]2024-10-03 22:09:13.919	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	民族服装采集完成！
+[go_vue_admin]2024-10-03 22:09:14.967	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	短裤采集完成！
+[go_vue_admin]2024-10-03 22:09:23.915	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	短裙采集完成！
+[go_vue_admin]2024-10-03 22:09:27.959	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	民族服装采集完成！
+[go_vue_admin]2024-10-03 22:09:28.914	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	礼服采集完成！
+[go_vue_admin]2024-10-03 22:10:00.009	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	内搭/背心采集完成！
+[go_vue_admin]2024-10-03 22:10:22.027	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	男士上衣采集完成！
+[go_vue_admin]2024-10-03 22:10:24.145	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	宠物食品采集完成！
+[go_vue_admin]2024-10-03 22:10:43.031	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	保暖套装采集完成！
+[go_vue_admin]2024-10-03 22:10:46.895	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	文学小说类采集完成！
+[go_vue_admin]2024-10-03 22:10:59.917	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	宠物用品采集完成！
+[go_vue_admin]2024-10-03 22:11:08.005	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	教材辅导类采集完成！
+[go_vue_admin]2024-10-03 22:11:08.913	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	儿童读物类采集完成！
+[go_vue_admin]2024-10-03 22:11:21.927	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	休闲杂志类采集完成！
+[go_vue_admin]2024-10-03 22:11:26.143	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	生活日用采集完成！
+[go_vue_admin]2024-10-03 22:11:34.919	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	社会科学类采集完成！
+[go_vue_admin]2024-10-03 22:12:05.042	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	地毯/地垫采集完成！
+[go_vue_admin]2024-10-03 22:12:22.961	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	啤酒采集完成！
+[go_vue_admin]2024-10-03 22:12:35.922	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	窗帘窗纱采集完成！
+[go_vue_admin]2024-10-03 22:12:47.912	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	桌布/罩件/布料采集完成！
+[go_vue_admin]2024-10-03 22:12:55.243	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	抱枕/靠垫/座垫采集完成！
+[go_vue_admin]2024-10-03 22:12:58.992	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	文具采集完成！
+[go_vue_admin]2024-10-03 22:13:02.916	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	其他配件采集完成！
+[go_vue_admin]2024-10-03 22:13:23.141	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	电热毯/毛毯采集完成！
+[go_vue_admin]2024-10-03 22:13:32.905	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	凉席/蚊帐采集完成！
+[go_vue_admin]2024-10-03 22:13:42.935	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	儿童床品采集完成！
+[go_vue_admin]2024-10-03 22:13:54.011	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	四件套/床笠床套采集完成！
+[go_vue_admin]2024-10-03 22:13:59.012	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	进口书籍采集完成！
+[go_vue_admin]2024-10-03 22:14:03.923	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	水果/肉蛋/蔬菜卡券采集完成！
+[go_vue_admin]2024-10-03 22:14:18.902	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	海鲜/水产品/制品卡券采集完成！
+[go_vue_admin]2024-10-03 22:14:20.911	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	毛巾/浴巾/浴袍采集完成！
+[go_vue_admin]2024-10-03 22:14:23.912	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	烘焙蛋糕卡券采集完成！
+[go_vue_admin]2024-10-03 22:14:59.019	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	洗护套装采集完成！
+[go_vue_admin]2024-10-03 22:15:02.158	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	收纳整理采集完成！
+[go_vue_admin]2024-10-03 22:15:16.940	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	其它护发采集完成！
+[go_vue_admin]2024-10-03 22:15:29.944	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	被子/枕头采集完成！
+[go_vue_admin]2024-10-03 22:15:33.016	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	拖鞋/居家鞋采集完成！
+[go_vue_admin]2024-10-03 22:15:38.953	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	护发素/发膜/精油采集完成！
+[go_vue_admin]2024-10-03 22:15:42.935	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	牙齿美白/护理剂采集完成！
+[go_vue_admin]2024-10-03 22:15:49.150	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	口腔护理套装采集完成！
+[go_vue_admin]2024-10-03 22:15:50.922	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	洗发水采集完成！
+[go_vue_admin]2024-10-03 22:16:07.923	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	漱口水/口腔喷剂采集完成！
+[go_vue_admin]2024-10-03 22:16:08.943	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	牙线/牙签/牙线棒采集完成！
+[go_vue_admin]2024-10-03 22:16:23.996	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	身体磨砂膏/去角质膏采集完成！
+[go_vue_admin]2024-10-03 22:16:31.985	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	牙膏采集完成！
+[go_vue_admin]2024-10-03 22:16:37.924	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	香皂采集完成！
+[go_vue_admin]2024-10-03 22:16:38.949	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	洗手液采集完成！
+[go_vue_admin]2024-10-03 22:16:51.954	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	其他采集完成！
+[go_vue_admin]2024-10-03 22:16:54.001	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	身体护理套装采集完成！
+[go_vue_admin]2024-10-03 22:16:59.944	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	牙刷/口腔清洁工具采集完成！
+[go_vue_admin]2024-10-03 22:17:02.262	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	颈霜/颈膜采集完成！
+[go_vue_admin]2024-10-03 22:17:13.970	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	止汗露/消臭剂采集完成！
+[go_vue_admin]2024-10-03 22:17:18.987	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	胸部护理采集完成！
+[go_vue_admin]2024-10-03 22:17:20.931	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	沐浴露/油采集完成！
+[go_vue_admin]2024-10-03 22:17:25.030	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	肩颈/膝肘贴采集完成！
+[go_vue_admin]2024-10-03 22:17:28.912	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	脱毛膏/凝胶采集完成！
+[go_vue_admin]2024-10-03 22:17:31.993	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	足部护理采集完成！
+[go_vue_admin]2024-10-03 22:17:39.898	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	身体皂/身体喷雾采集完成！
+[go_vue_admin]2024-10-03 22:17:41.004	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	清凉油/防暑/醒神药油采集完成！
+[go_vue_admin]2024-10-03 22:17:50.176	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	卫生棉条采集完成！
+[go_vue_admin]2024-10-03 22:17:55.937	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	私处洗液/湿巾采集完成！
+[go_vue_admin]2024-10-03 22:17:58.026	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	身体乳/霜/精油/膏采集完成！
+[go_vue_admin]2024-10-03 22:17:59.041	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	其他采集完成！
+[go_vue_admin]2024-10-03 22:18:07.949	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	烫发产品采集完成！
+[go_vue_admin]2024-10-03 22:18:08.915	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	美发工具采集完成！
+[go_vue_admin]2024-10-03 22:18:10.013	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	染发产品采集完成！
+[go_vue_admin]2024-10-03 22:18:15.910	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	摩丝/啫喱/头发造型采集完成！
+[go_vue_admin]2024-10-03 22:18:18.913	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	手部保养套装采集完成！
+[go_vue_admin]2024-10-03 22:18:19.931	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	手部修复/清洁采集完成！
+[go_vue_admin]2024-10-03 22:18:25.571	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-03 22:18:28.913	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	塑身贴/塑形带采集完成！
+[go_vue_admin]2024-10-03 22:18:40.083	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	发圈/发网/发带采集完成！
+[go_vue_admin]2024-10-03 22:18:41.109	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	剃须刀/指甲钳采集完成！
+[go_vue_admin]2024-10-03 22:44:16.047	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-03 22:44:20.080	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-03 22:44:31.318	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-03 22:46:35.086	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	蒸汽眼罩采集完成！
+[go_vue_admin]2024-10-03 22:46:35.087	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	梳子/卷发棒/化妆镜采集完成！
+[go_vue_admin]2024-10-03 22:46:37.996	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	按摩用品采集完成！
+[go_vue_admin]2024-10-03 22:46:47.107	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	假发及配件采集完成！
+[go_vue_admin]2024-10-03 22:46:47.399	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-03 22:46:48.002	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	身体精油芳疗采集完成！
+[go_vue_admin]2024-10-03 22:46:50.002	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	护手霜/手膜采集完成！
+[go_vue_admin]2024-10-03 22:47:19.058	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	卫生巾/护垫/卫生裤采集完成！
+[go_vue_admin]2024-10-03 22:47:49.012	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	卷纸/卫生纸采集完成！
+[go_vue_admin]2024-10-03 22:48:05.239	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	湿巾/湿厕纸采集完成！
+[go_vue_admin]2024-10-03 22:48:13.022	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	棉柔巾/洗脸巾采集完成！
+[go_vue_admin]2024-10-03 22:48:19.075	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	厨房用纸采集完成！
+[go_vue_admin]2024-10-03 22:48:23.062	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	甲醛清除剂/甲醛测试采集完成！
+[go_vue_admin]2024-10-03 22:48:29.186	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	冰箱除味剂采集完成！
+[go_vue_admin]2024-10-03 22:48:33.093	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	除臭喷雾/剂/除臭用品采集完成！
+[go_vue_admin]2024-10-03 22:48:35.236	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	空气清新/净化/芳香剂采集完成！
+[go_vue_admin]2024-10-03 22:48:39.215	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	干燥剂采集完成！
+[go_vue_admin]2024-10-03 22:48:54.247	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	消毒用品采集完成！
+[go_vue_admin]2024-10-03 22:49:11.085	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	其他个护工具采集完成！
+[go_vue_admin]2024-10-03 22:49:33.000	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	厨房清洁采集完成！
+[go_vue_admin]2024-10-03 22:49:46.006	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	洗衣粉/爆炸盐/漂白剂采集完成！
+[go_vue_admin]2024-10-03 22:49:55.132	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	居家清洁采集完成！
+[go_vue_admin]2024-10-03 22:50:05.999	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	柔顺剂/吸色片/织物喷雾采集完成！
+[go_vue_admin]2024-10-03 22:50:08.032	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	洗衣皂/内衣皂采集完成！
+[go_vue_admin]2024-10-03 22:50:10.178	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	其他衣物洗涤剂采集完成！
+[go_vue_admin]2024-10-03 22:50:20.105	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	除螨喷雾采集完成！
+[go_vue_admin]2024-10-03 22:50:21.129	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	家用杀虫剂采集完成！
+[go_vue_admin]2024-10-03 22:50:23.075	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	蚊香液/电蚊香采集完成！
+[go_vue_admin]2024-10-03 22:50:30.037	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	蚊香片/蚊香盘采集完成！
+[go_vue_admin]2024-10-03 22:50:31.066	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	驱蚊液/驱蚊凝露/驱蚊喷雾采集完成！
+[go_vue_admin]2024-10-03 22:50:33.066	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	其他驱虫用品采集完成！
+[go_vue_admin]2024-10-03 22:50:43.044	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	香薰用品采集完成！
+[go_vue_admin]2024-10-03 22:50:48.061	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	木作/书画/钱币/收藏采集完成！
+[go_vue_admin]2024-10-03 22:50:51.030	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	清洁慕斯采集完成！
+[go_vue_admin]2024-10-03 22:50:55.024	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	家私清洁/皮具护理剂采集完成！
+[go_vue_admin]2024-10-03 22:50:58.097	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	珠宝/文玩/收藏品采集完成！
+[go_vue_admin]2024-10-03 22:51:01.066	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	宠物采集完成！
+[go_vue_admin]2024-10-03 22:51:10.078	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	男士个护采集完成！
+[go_vue_admin]2024-10-03 22:51:11.102	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	隐形眼镜/护理液采集完成！
+[go_vue_admin]2024-10-03 22:51:21.021	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	其它采集完成！
+[go_vue_admin]2024-10-03 22:51:37.002	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	抽纸/纸巾/手帕纸采集完成！
+[go_vue_admin]2024-10-03 22:51:39.005	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	洗衣液/洗衣凝珠/留香珠采集完成！
+[go_vue_admin]2024-10-03 22:51:56.003	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	个护电器采集完成！
+[go_vue_admin]2024-10-03 22:51:57.080	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	个人洗护清洁用具采集完成！
+[go_vue_admin]2024-10-03 22:52:18.073	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	中老年护理用品采集完成！
+[go_vue_admin]2024-10-03 22:52:25.009	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	个护服务采集完成！
+[go_vue_admin]2024-10-03 22:52:27.009	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	画具/画材/书法用品采集完成！
+[go_vue_admin]2024-10-03 22:52:28.112	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	摄影摄像采集完成！
+[go_vue_admin]2024-10-03 22:52:37.122	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	毛衣/针织衫采集完成！
+[go_vue_admin]2024-10-03 22:53:21.050	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	卫浴/置物用具采集完成！
+[go_vue_admin]2024-10-03 22:53:28.117	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	女式外套采集完成！
+[go_vue_admin]2024-10-03 22:53:30.063	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	毛衣/针织衫采集完成！
+[go_vue_admin]2024-10-03 22:53:37.010	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	女式短裤采集完成！
+[go_vue_admin]2024-10-03 22:53:38.047	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	其他童鞋采集完成！
+[go_vue_admin]2024-10-03 22:53:44.009	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	其他农产品采集完成！
+[go_vue_admin]2024-10-03 22:54:23.110	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	家务/地板清洁用具采集完成！
+[go_vue_admin]2024-10-03 22:55:37.017	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	其他采集完成！
+[go_vue_admin]2024-10-03 22:55:37.055	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/common.go:54	清理模拟包基础数据
+[go_vue_admin]2024-10-03 22:58:07.382	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-03 22:58:14.542	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-03 23:20:35.064	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-03 23:38:57.196	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-03 23:38:57.209	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/admin_ api_authority.go:15	请保证超级管理员的AuthorityID(角色id) 为1
+[go_vue_admin]2024-10-03 23:39:05.299	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-03 23:41:15.591	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-03 23:41:20.530	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-03 23:41:21.790	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-03 23:41:31.986	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-03 23:41:34.780	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-03 23:41:35.991	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功

@@ -2,6 +2,7 @@ package global
 
 import (
 	"admin-gin/config"
+	"admin-gin/model/system"
 	"admin-gin/utils/timer"
 	"github.com/gorilla/websocket"
 	"github.com/olivere/elastic/v7"
@@ -29,6 +30,9 @@ var (
 	GVA_LOG                 *zap.Logger
 	GVA_Timer               timer.Timer = timer.NewTimerTask()
 	GVA_Concurrency_Control             = &singleflight.Group{}
+
+	// 路由信息
+	Apis []system.SysApi
 
 	// kafka 生产者
 	KafkaProducer sarama.SyncProducer

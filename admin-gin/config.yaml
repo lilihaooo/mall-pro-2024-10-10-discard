@@ -12,7 +12,7 @@ autocode:
     server-api: /api/v1/%s
     server-plug: /plugin/%s
     server-initialize: /initialize
-    root: /Users/lihao/project/gin-vue-admin
+    root: /Users/lihao/project/mall-pro
     web-table: /view
     web: /web/src
     server-service: /service/%s
@@ -34,7 +34,7 @@ captcha:
     key-long: 4
     img-width: 240
     img-height: 80
-    open-captcha: 0
+    open-captcha: 3
     open-captcha-timeout: 3600
 cors:
     mode: strict-whitelist
@@ -50,14 +50,14 @@ cors:
           expose-headers: Content-Length, Access-Control-Allow-Origin, Access-Control-Allow-Headers, Content-Type
           allow-credentials: true
 db-list:
-    - type: "mysql"
-      alias-name: "xtaoke_db"
+    - type: mysql
+      alias-name: xtaoke_db
       prefix: ""
-      port: "3306"
+      port: "3307"
       config: charset=utf8mb4&parseTime=True&loc=Local
-      db-name: "xtaoke"
+      db-name: xtaoke
       username: root
-      password: a111111
+      password: a6381286
       path: 47.109.31.106
       engine: ""
       log-mode: error
@@ -76,6 +76,9 @@ email:
     nickname: test
     port: 465
     is-ssl: true
+es:
+    host: http://47.109.31.106
+    port: 9200
 excel:
     dir: ./resource/excel/
 hua-wei-obs:
@@ -85,13 +88,16 @@ hua-wei-obs:
     access-key: you-access-key
     secret-key: you-secret-key
 jwt:
-    signing-key: 17ebab2b-1a3e-4709-82a9-ef16f771eca2
+    signing-key: eb7501a9-2d2b-4e98-88b2-ae6098bd6f4f
     expires-time: 7d
     buffer-time: 1d
     issuer: qmPlus
+kafka:
+    host: 47.109.31.106
+    port: 9092
 local:
-    store-path: uploads/file
     path: http://127.0.0.1:8887/uploads/file
+    store-path: uploads/file
 mongo:
     coll: ""
     options: ""
@@ -123,11 +129,11 @@ mssql:
     log-zap: false
 mysql:
     prefix: ""
-    port: "3306"
+    port: "3307"
     config: charset=utf8mb4&parseTime=True&loc=Local
     db-name: gin_vue_admin
     username: root
-    password: a111111
+    password: a6381286
     path: 47.109.31.106
     engine: ""
     log-mode: info
@@ -135,13 +141,6 @@ mysql:
     max-open-conns: 100
     singular: false
     log-zap: false
-es:
-    host: http://47.109.31.106
-    port: 9200
-kafka:
-    host: 47.109.31.106
-    port: 9092
-
 oracle:
     prefix: ""
     port: ""
@@ -180,7 +179,7 @@ qiniu:
     use-cdn-domains: false
 redis:
     addr: 47.109.31.106:6379
-    password: a111111
+    password: redis6381286
     db: 3
     useCluster: false
     clusterAddrs:

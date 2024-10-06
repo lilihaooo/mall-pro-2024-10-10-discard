@@ -2,15 +2,17 @@ package system
 
 import (
 	v1 "admin-gin/api/v1"
+	"admin-gin/router/common"
 	"github.com/gin-gonic/gin"
 )
 
 type JwtRouter struct{}
 
 func (s *JwtRouter) InitJwtRouter(Router *gin.RouterGroup) {
-	jwtRouter := Router.Group("jwt")
+	apiGroup := "jwt"
+	jwtRouter := Router.Group(apiGroup)
 	jwtApi := v1.ApiGroupApp.SystemApiGroup.JwtApi
 	{
-		jwtRouter.POST("jsonInBlacklist", jwtApi.JsonInBlacklist) // jwt加入黑名单
+		common.RegisterRouteWithComment(jwtRouter, "POST", "jsonInBlacklist", "jwt加入黑名单", apiGroup, jwtApi.JsonInBlacklist)
 	}
 }

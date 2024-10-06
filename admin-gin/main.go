@@ -1,15 +1,13 @@
 package main
 
 import (
-	_ "net/http/pprof"
+	//_ "net/http/pprof"
 
 	"admin-gin/core"
 	"admin-gin/global"
 	"admin-gin/initialize"
 	_ "go.uber.org/automaxprocs"
 	"go.uber.org/zap"
-	"log"
-	"net/http"
 )
 
 //go:generate go env -w GO111MODULE=on
@@ -25,9 +23,10 @@ import (
 // @name                        x-token
 // @BasePath                    /
 func main() {
-	go func() {
-		log.Println(http.ListenAndServe("127.0.0.1:6060", nil))
-	}()
+	// pprof 测试工具
+	//go func() {
+	//	log.Println(http.ListenAndServe("127.0.0.1:6060", nil))
+	//}()
 
 	global.GVA_VP = core.Viper() // 初始化Viper， 将配置文件解析到global.GVA_LOG中。并动态监听
 	initialize.OtherInit()       // 初始化其他  将jwt的过期时间改为 日期格式； 检查JWT缓冲时间; 初始化全局缓存
@@ -50,6 +49,13 @@ func main() {
 		//initialize.RegisterTables()
 		// 程序结束前关闭数据库链接
 		db, _ := global.GVA_DB.DB()
+		//err := global.GVA_DB.AutoMigrate(
+		//	system.SysSetting{},
+		//)
+		//if err != nil {
+		//	global.GVA_LOG.Error(err.Error())
+		//	return
+		//}
 		defer db.Close()
 	}
 
@@ -57,9 +63,20 @@ func main() {
 		// 程序结束前关闭数据库链接
 		db, _ := global.XTK_DB.DB()
 		//err := global.XTK_DB.AutoMigrate(
-		//
+		//	product.Promotion{},
+		//	product.Category{},
+		//	product.Platform{},
+		//	product.Media{},
+		//	product.Brand{},
+		//	product.Shop{},
 		//	product.Image{},
+		//	product.Tag{},
+		//	product.Coupon{},
+		//	product.GoodsImage{},
 		//	product.Goods{},
+		//	product.Collect{},
+		//	product.GrabLog{},
+		//	product.GrabRecord{},
 		//)
 		//if err != nil {
 		//	global.GVA_LOG.Error(err.Error())

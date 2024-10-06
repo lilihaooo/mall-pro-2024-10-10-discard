@@ -67,6 +67,8 @@
           :disabled="!apis.length"
           @click="onDelete"
         >删除</el-button>
+
+
         <el-button
           icon="Refresh"
           @click="onFresh"
@@ -82,6 +84,13 @@
           template-id="api"
           @on-success="getTableData"
         />
+
+<!--        <el-button-->
+<!--            style="margin-left: 10.5px"-->
+<!--            type="primary"-->
+<!--            icon="edit"-->
+<!--            @click="renewApi()"-->
+<!--        >获取全部api</el-button>-->
       </div>
       <el-table
         :data="tableData"
@@ -358,6 +367,17 @@ const sortChange = ({ prop, order }) => {
   }
   getTableData()
 }
+
+
+// // 更新全部api
+// const renewApi =() => {
+//   const res =  ApiRenewApi()
+//   if (res.code === 0) {
+//     getTableData()
+//   }
+// }
+
+
 
 // 查询
 const getTableData = async() => {

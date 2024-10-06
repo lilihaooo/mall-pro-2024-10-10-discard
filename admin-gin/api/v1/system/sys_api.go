@@ -8,9 +8,9 @@ import (
 	systemReq "admin-gin/model/system/request"
 	systemRes "admin-gin/model/system/response"
 	"admin-gin/utils"
-
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
+	"gorm.io/gorm"
 )
 
 type SystemApiApi struct{}
@@ -225,6 +225,41 @@ func (s *SystemApiApi) FreshCasbin(c *gin.Context) {
 	if err != nil {
 		global.GVA_LOG.Error("刷新失败!", zap.Error(err))
 		response.FailWithMessage("刷新失败", c)
+		return
+	}
+	response.OkWithMessage("刷新成功", c)
+}
+
+func (s *SystemApiApi) RenewApi(c *gin.Context) {
+	var cmr systemReq.CasbinInReceive
+	// 将全部路由信息赋值给cmr
+	cmr.AuthorityId = 1
+	for _, api := range global.Apis {
+		cmr.CasbinInfos = append(cmr.CasbinInfos, systemReq.CasbinInfo{
+			Path:   api.Path,
+			Method: api.Method,
+		})
+	}
+
+	err := global.GVA_DB.Transaction(func(tx *gorm.DB) error {
+		// 清空api表
+		var api system.SysApi
+		// 清空 SysApi 表
+		if err := tx.Unscoped().Where("1 = 1").Delete(api).Error; err != nil {
+			return err
+		}
+		// 批量创建 api
+		if err := tx.Create(&global.Apis).Error; err != nil {
+			return err
+		}
+		// 清空 global.Apis 中的数据以释放内存
+		global.Apis = nil
+
+		return nil
+	})
+	if err != nil {
+		global.GVA_LOG.Error(err.Error())
+		response.FailWithMessage(err.Error(), c)
 		return
 	}
 	response.OkWithMessage("刷新成功", c)

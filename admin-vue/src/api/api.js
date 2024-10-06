@@ -20,6 +20,10 @@ export const getApiList = (data) => {
   })
 }
 
+
+
+
+
 // @Tags Api
 // @Summary 创建基础api
 // @Security ApiKeyAuth
@@ -144,3 +148,16 @@ export const freshCasbin = () => {
     method: 'get'
   })
 }
+
+
+// export const ApiRenewApi = () => {
+//   return service({
+//     url: '/api/renew',
+//     method: 'post'
+//   })
+// }
+
+
+
+
+

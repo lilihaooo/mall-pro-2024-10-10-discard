@@ -50,8 +50,6 @@ const goodsManage =(id)=>{
       </template>
     </el-table-column>
 
-
-
     <el-table-column align="center" label="状态" width="120" prop="status"/>
     <el-table-column align="center" label="佣金比例" prop="commission_rate" width="120"/>
     <el-table-column align="center" label="佣金" width="120" prop="commission_value"/>
@@ -76,21 +74,16 @@ const goodsManage =(id)=>{
         <span v-else>none</span>
       </template>
     </el-table-column>
+
     <el-table-column align="center" label="券面额" min-width="120" prop="coupon_amount" fixed="right" />
     <el-table-column align="center" label="到期时间" min-width="220" prop="coupon_end_time"/>
     <el-table-column align="center" label="领券量" min-width="120" prop="coupon_cover"/>
     <el-table-column align="center" label="券总量" min-width="120" prop="coupon_total"/>
-
     <el-table-column align="center" label="推广热度" min-width="120" prop="push_hot"/>
-
 
     <el-table-column align="center" label="操作" fixed="right" min-width="180">
       <template #default="scope">
-        <el-button
-            type="primary"
-            link
-            @click="goodsManage(scope.row.id)"
-        >
+        <el-button type="primary" link @click="goodsManage(scope.row.id)">
           <el-icon><More /></el-icon>
           管理
         </el-button>

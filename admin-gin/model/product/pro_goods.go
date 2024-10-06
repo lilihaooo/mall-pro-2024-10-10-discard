@@ -5,42 +5,42 @@ import (
 )
 
 type Goods struct {
-	ID              uint      `gorm:"column:id;primaryKey;autoIncrement:true;comment:id" json:"id"` // id
-	Description     string    `gorm:"column:description;comment:描述" json:"description"`             // 描述
-	ShopID          uint      `gorm:"column:shop_id;comment:店铺id" json:"shop_id"`                   // 店铺id
-	Shop            Shop      `json:"shop"`
-	CouponID        uint      `gorm:"column:coupon_id" json:"coupon_id"`
-	Coupon          Coupon    `json:"coupon"`
-	Images          []Image   `gorm:"many2many:goods_image" json:"images"`
-	CoverImageID    uint      `gorm:"column:cover_image_id" json:"cover_image_id"`
-	Image           Image     `gorm:"foreignKey:CoverImageID" json:"image"`
-	Status          int       `gorm:"column:status;comment:状态" json:"status"`             // 状态
-	CategoryID      uint      `gorm:"column:category_id;comment:分类id" json:"category_id"` // 分类id
-	Category        Category  `json:"category"`
-	SalesAll        int32     `gorm:"column:sales_all;comment:全部销量" json:"sales_all"`                 // 全部销量
-	SalesMonth      int32     `gorm:"column:sales_month" json:"sales_month"`                          // 月销量
-	SalesDay        int32     `gorm:"column:sales_day" json:"sales_day"`                              // 24小时销量
-	Sales2Hour      int32     `gorm:"column:sales_2_hour" json:"sales_2_hour"`                        // 2小时销量
-	Title           string    `gorm:"column:title;comment:标题" json:"title"`                           // 标题
-	CommissionRate  int32     `gorm:"column:commission_rate;comment:佣金比例" json:"commission_rate"`     // 佣金比例
-	CommissionValue float64   `gorm:"column:commission_value;comment:佣金金额" json:"commission_value"`   // 佣金比例
-	Price           float64   `gorm:"column:price;comment:价格" json:"price"`                           // 价格
-	PostCouponPrice float64   `gorm:"column:post_coupon_price;comment:最终价格" json:"post_coupon_price"` // 券后价
-	Inventory       int32     `gorm:"column:inventory;comment:库存" json:"inventory"`                   // 库存
-	ExperienceScore float64   `gorm:"column:experience_score;comment:体验分" json:"experience_score"`    // 体验分
-	Tags            []Tag     `gorm:"many2many:goods_tag" json:"tags"`
-	BrandID         uint64    `gorm:"column:brand_id" json:"brand_id"`
-	Brand           Brand     `json:"brand"`
-	CreatedAt       time.Time `json:"created_at"`
-	PlatformID      uint      `gorm:"column:platform_id" json:"platform_id"`
-	Platform        Platform  `json:"platform"`
-	DataFrom        int       `gorm:"column:data_from" json:"data_from"`
-	PushHot         int       `gorm:"column:push_hot" json:"push_hot"`
-	MediaUID        *string   `gorm:"column:media_uid;comment:媒体ID" json:"media_uid"` // 团长ID
-	Media           Media     `gorm:"foreignKey:MediaUID;references:UID" json:"media"`
+	ID              uint      `gorm:"column:id;primaryKey;autoIncrement:true;type:bigint;comment:'ID'" json:"id"`
+	Description     string    `gorm:"column:description;type:varchar(255);comment:'商品描述'" json:"description"`
+	ShopID          uint      `gorm:"column:shop_id;type:bigint;comment:'店铺ID'" json:"shop_id"`
+	Shop            Shop      `gorm:"foreignKey:ShopID;references:ID;" json:"shop"`
+	CouponID        uint      `gorm:"column:coupon_id;type:bigint;comment:'优惠券ID'" json:"coupon_id"`
+	Coupon          Coupon    `gorm:"foreignKey:CouponID;references:ID;" json:"coupon"`
+	Images          []Image   `gorm:"many2many:goods_image;" json:"images"`
+	CoverImageID    uint      `gorm:"column:cover_image_id;not null;type:bigint;comment:'封面图片ID'" json:"cover_image_id"`
+	Image           Image     `gorm:"foreignKey:CoverImageID;references:ID;comment:'封面图片'" json:"image"`
+	Status          int       `gorm:"column:status;type:int;comment:'商品状态'" json:"status"`
+	CategoryID      uint      `gorm:"column:category_id;type:bigint;comment:'分类ID'" json:"category_id"`
+	Category        Category  `gorm:"foreignKey:CategoryID;references:ID;" json:"category"`
+	SalesAll        int32     `gorm:"column:sales_all;type:int;comment:'全部销量'" json:"sales_all"`
+	SalesMonth      int32     `gorm:"column:sales_month;type:int;comment:'月销量'" json:"sales_month"`
+	SalesDay        int32     `gorm:"column:sales_day;type:int;comment:'24小时销量'" json:"sales_day"`
+	Sales2Hour      int32     `gorm:"column:sales_2_hour;type:int;comment:'2小时销量'" json:"sales_2_hour"`
+	Title           string    `gorm:"column:title;type:varchar(255);not null;comment:'商品标题'" json:"title"`
+	CommissionRate  int32     `gorm:"column:commission_rate;type:int;comment:'佣金比例'" json:"commission_rate"`
+	CommissionValue float64   `gorm:"column:commission_value;type:decimal(10,2);comment:'佣金金额'" json:"commission_value"`
+	Price           float64   `gorm:"column:price;type:decimal(10,2);not null;comment:'商品价格'" json:"price"`
+	PostCouponPrice float64   `gorm:"column:post_coupon_price;type:decimal(10,2);comment:'优惠券后的最终价格'" json:"post_coupon_price"`
+	Inventory       int32     `gorm:"column:inventory;type:int;comment:'商品库存'" json:"inventory"`
+	ExperienceScore float64   `gorm:"column:experience_score;type:decimal(3,1);comment:'体验分'" json:"experience_score"`
+	Tags            []Tag     `gorm:"many2many:goods_tag;" json:"tags"`
+	BrandID         uint64    `gorm:"column:brand_id;type:bigint;comment:'品牌ID'" json:"brand_id"`
+	Brand           Brand     `gorm:"foreignKey:BrandID;references:ID;comment:'品牌信息'" json:"brand"`
+	CreatedAt       time.Time `gorm:"column:created_at;type:datetime;comment:'创建时间'" json:"created_at"`
+	PlatformID      uint      `gorm:"column:platform_id;type:bigint;comment:'平台ID'" json:"platform_id"`
+	Platform        Platform  `gorm:"foreignKey:PlatformID;references:ID;not null;comment:'平台信息'" json:"platform"`
+	DataFrom        int       `gorm:"column:data_from;type:int;not null;comment:'商品数据来源'" json:"data_from"`
+	PushHot         int       `gorm:"column:push_hot;type:int;comment:'热销商品标识'" json:"push_hot"`
+	MediaUID        *string   `gorm:"column:media_uid;type:varchar(64);comment:'媒体ID'" json:"media_uid"`
+	Media           Media     `gorm:"foreignKey:MediaUID;references:UID;comment:'媒体信息'" json:"media"`
+	IsToEs          int       `gorm:"column:is_to_es;type:tinyint(1);default:0;comment:'是否同步到ES (0: 否, 1: 是)'" json:"is_to_es"`
 }
 
-// TableName Product's table name
 func (*Goods) TableName() string {
 	return "goods"
 }
@@ -80,4 +80,5 @@ type EsGoods struct {
 	BrandName       string  `json:"brand_name"`
 	Tags            []uint  `json:"tags"`
 	IsToEs          int     `gorm:"column:is_to_es" json:"is_to_es"`
+	DataFrom        int     `json:"data_from"`
 }
