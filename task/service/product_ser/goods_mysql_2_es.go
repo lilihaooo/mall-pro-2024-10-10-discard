@@ -27,7 +27,7 @@ func (s *GoodsService) GoodsMysql2EsTask() {
 	num := 0
 	a := time.Now()
 	var maxGoodsID uint = 0
-	var batchCount = 1000
+	var batchCount = 3000
 	for {
 		// 从数据库中获取100条记录
 		var goods []gormmodel.Goods
@@ -109,7 +109,6 @@ func (s *GoodsService) GoodsMysql2EsTask() {
 			esg.DataFrom = g.DataFrom
 			esg.BrandName = g.Brand.Name
 			esg.BrandID = g.Brand.ID
-
 			var etag []uint
 			for _, one := range g.Tags {
 				etag = append(etag, one.ID)
@@ -166,7 +165,10 @@ func (s *GoodsService) toEs(esGoods []esmodel.Goods) {
 	// 构建批量请求
 	bulkRequest := global.ESClient.Bulk()
 	for _, item := range esGoods {
-		indexReq := elastic.NewBulkIndexRequest().Index(item.Index()).Doc(item)
+		indexReq := elastic.NewBulkIndexRequest().
+			Index(item.Index()).
+			Id(strconv.Itoa(int(item.ID))).
+			Doc(item)
 		bulkRequest = bulkRequest.Add(indexReq)
 	}
 

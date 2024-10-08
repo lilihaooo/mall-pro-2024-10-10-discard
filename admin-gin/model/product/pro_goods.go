@@ -12,7 +12,7 @@ type Goods struct {
 	CouponID        uint      `gorm:"column:coupon_id;type:bigint;comment:'优惠券ID'" json:"coupon_id"`
 	Coupon          Coupon    `gorm:"foreignKey:CouponID;references:ID;" json:"coupon"`
 	Images          []Image   `gorm:"many2many:goods_image;" json:"images"`
-	CoverImageID    uint      `gorm:"column:cover_image_id;not null;type:bigint;comment:'封面图片ID'" json:"cover_image_id"`
+	CoverImageID    *uint     `gorm:"column:cover_image_id;not null;type:bigint;comment:'封面图片ID'" json:"cover_image_id"`
 	Image           Image     `gorm:"foreignKey:CoverImageID;references:ID;comment:'封面图片'" json:"image"`
 	Status          int       `gorm:"column:status;type:int;comment:'商品状态'" json:"status"`
 	CategoryID      uint      `gorm:"column:category_id;type:bigint;comment:'分类ID'" json:"category_id"`

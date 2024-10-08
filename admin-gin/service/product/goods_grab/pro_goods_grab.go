@@ -212,7 +212,7 @@ func work(categoryInfo CategoryInfo) {
 			g.DataFrom = 1
 
 			// 将第一张图片id 保存为封面
-			g.CoverImageID = g.Images[0].ID
+			g.CoverImageID = nil
 
 			process.ToMysqlJobCh <- g
 			count++

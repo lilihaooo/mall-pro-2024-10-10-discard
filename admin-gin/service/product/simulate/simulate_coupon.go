@@ -19,7 +19,6 @@ func (*SimService) SimulateCoupon(simReq request.SimulateCouponRequest) (count i
 
 	// 转换为中国时间
 	chinaTime := simReq.BeginDate.In(location)
-
 	date := chinaTime.Format("2006-01-02")
 	beginDTimeStr := date + " 00:00:00"
 	endDTimeStr := date + " 23:59:59"

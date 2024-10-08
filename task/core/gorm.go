@@ -18,7 +18,7 @@ func InitGorm() {
 	level := strings.ToLower(global.Config.Mysql.LogLevel)
 	LogLevel := logger.Info
 	switch level {
-	case "warn":
+	case "worn":
 		LogLevel = logger.Warn
 	case "error":
 		LogLevel = logger.Error
@@ -35,15 +35,16 @@ func InitGorm() {
 	if level == "info" || level == "worn" {
 		out = log.New(os.Stdout, "\r\n", log.LstdFlags) // 使用标准输出
 		conf = logger.Config{
-			//SlowThreshold: time.Second, // 查询超过1秒钟将被视为慢查询
-			LogLevel: LogLevel, // 日志级别：Silent、Error、Warn、Info
+			SlowThreshold: 200 * time.Millisecond, // 查询超过200ms将被视为慢查询
+			LogLevel:      LogLevel,               // 日志级别：Silent、Error、Warn、Info
 			//IgnoreRecordNotFoundError: true,        // 忽略记录未找到的错误
 			Colorful: true, // 开启彩色打印
 		}
 	} else {
 		out = log.New(gormLogFile, "\r\n", log.LstdFlags) // 输出到日志文件
 		conf = logger.Config{
-			LogLevel: LogLevel, // 日志级别：Silent、Error、Warn、Info
+			SlowThreshold: 300 * time.Millisecond, // 查询超过300ms将被视为慢查询
+			LogLevel:      LogLevel,               // 日志级别：Silent、Error、Warn、Info
 		}
 	}
 

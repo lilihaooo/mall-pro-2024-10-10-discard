@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"task/core"
 	"task/global"
 	"task/models/esmodel"
@@ -25,16 +24,16 @@ func main() {
 
 	//任务二: Mysql to Es
 	//saveGoodsIndex() //将清空全部goods索引!!! 谨慎
-	//proService := new(product_ser.GoodsService)
-	//proService.GoodsMysql2EsTask()
+	proService := new(product_ser.GoodsService)
+	proService.GoodsMysql2EsTask()
 
 	//任务三 品牌
 	//获取店铺名 判断是否为官方旗舰店 然后为商品添加 品牌信息
-	proService := new(product_ser.GoodsService)
-	err := proService.SetGoodsBrands()
-	if err != nil {
-		fmt.Println("错误")
-	}
+	//proService := new(product_ser.GoodsService)
+	//err := proService.SetGoodsBrands()
+	//if err != nil {
+	//	fmt.Println("错误")
+	//}
 
 	// 任务四 封面图刷为 不是null
 	//proService := new(product_ser.GoodsService)

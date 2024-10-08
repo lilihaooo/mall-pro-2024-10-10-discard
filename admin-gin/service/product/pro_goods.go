@@ -1243,13 +1243,13 @@ func (*GoodsService) Collect(req request.GoodsCollect) error {
 	}
 	// 判断封面是否为空
 	var imageID uint
-	if g.CoverImageID == 0 {
+	if *g.CoverImageID == 0 {
 		err = global.XTK_DB.Table("goods_image").
 			Where("goods_id = ?", req.GoodsID).
 			Limit(1). // 限制只获取一条记录
 			Pluck("image_id", &imageID).Error
 	} else {
-		imageID = g.CoverImageID
+		imageID = *g.CoverImageID
 	}
 
 	var c product.Collect
@@ -1345,13 +1345,13 @@ func (*GoodsService) Promotion(req request.GoodsPromotion, userID uint) error {
 	}
 	// 判断封面是否为空
 	var imageID uint
-	if g.CoverImageID == 0 {
+	if *g.CoverImageID == 0 {
 		err = global.XTK_DB.Table("goods_image").
 			Where("goods_id = ?", req.GoodsID).
 			Limit(1). // 限制只获取一条记录
 			Pluck("image_id", &imageID).Error
 	} else {
-		imageID = g.CoverImageID
+		imageID = *g.CoverImageID
 	}
 
 	var p product.Promotion

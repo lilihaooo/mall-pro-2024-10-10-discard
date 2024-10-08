@@ -38,12 +38,7 @@ const priceValue= ref(0)
 
 const getGoodsDetail = async () => {
   const res = await getGoodsInfo({id: id});
-  goodsInfo.coverImageUrl = res.data.images[0].url;
-  for (const image of res.data.images) {
-    if (image.is_cover === 1) {
-      goodsInfo.coverImageUrl = image.url;
-    }
-  }
+  goodsInfo.coverImageUrl = res.data.image.url
   goodsInfo.shopName = res.data.shop.name;
   goodsInfo.shopFWF = res.data.shop.service_score;
   goodsInfo.shopSPF = res.data.shop.product_score;

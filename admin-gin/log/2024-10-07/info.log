@@ -1,0 +1,10 @@
+[go_vue_admin]2024-10-07 10:36:21.324	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-07 10:36:21.384	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/admin_ api_authority.go:15	请保证超级管理员的AuthorityID(角色id) 为1
+[go_vue_admin]2024-10-07 10:36:26.726	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-07 10:36:57.902	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-07 10:37:02.460	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-07 10:37:25.118	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-07 10:37:25.126	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/admin_ api_authority.go:15	请保证超级管理员的AuthorityID(角色id) 为1
+[go_vue_admin]2024-10-07 10:40:19.812	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-07 10:53:56.824	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-07 10:53:56.831	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/admin_ api_authority.go:15	请保证超级管理员的AuthorityID(角色id) 为1

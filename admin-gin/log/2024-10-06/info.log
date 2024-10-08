@@ -3,3 +3,24 @@
 [go_vue_admin]2024-10-06 09:51:29.426	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
 [go_vue_admin]2024-10-06 10:59:40.612	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
 [go_vue_admin]2024-10-06 11:18:28.950	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-06 15:30:27.721	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-06 15:30:27.762	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/admin_ api_authority.go:15	请保证超级管理员的AuthorityID(角色id) 为1
+[go_vue_admin]2024-10-06 15:30:29.021	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-06 15:30:36.173	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-06 15:30:41.512	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	枣制品采集完成！
+[go_vue_admin]2024-10-06 15:32:04.783	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/common.go:54	清理模拟包基础数据
+[go_vue_admin]2024-10-06 15:49:52.418	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-06 15:49:52.445	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/admin_ api_authority.go:15	请保证超级管理员的AuthorityID(角色id) 为1
+[go_vue_admin]2024-10-06 15:50:04.608	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-06 15:50:07.340	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	枣制品采集完成！
+[go_vue_admin]2024-10-06 15:51:10.593	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-06 15:51:10.620	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/admin_ api_authority.go:15	请保证超级管理员的AuthorityID(角色id) 为1
+[go_vue_admin]2024-10-06 15:51:24.052	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-06 15:51:28.113	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	枣制品采集完成！
+[go_vue_admin]2024-10-06 15:52:34.404	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/common.go:54	清理模拟包基础数据
+[go_vue_admin]2024-10-06 15:55:18.392	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/redis.go:34	redis connect ping response:	{"pong": "PONG"}
+[go_vue_admin]2024-10-06 15:55:18.417	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/initialize/admin_ api_authority.go:15	请保证超级管理员的AuthorityID(角色id) 为1
+[go_vue_admin]2024-10-06 15:55:32.968	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/ws_handle.go:49	websocket 连接成功
+[go_vue_admin]2024-10-06 15:55:35.485	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/goods_grab/pro_goods_grab.go:166	枣制品采集完成！
+[go_vue_admin]2024-10-06 15:56:05.807	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/websocket/internal/action/grab_action.go:47	grab_lock is exist
+[go_vue_admin]2024-10-06 15:56:13.135	[34minfo[0m	/Users/lihao/project/mall-pro/admin-gin/service/product/simulate/common.go:54	清理模拟包基础数据

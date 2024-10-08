@@ -11,16 +11,18 @@ import (
 
 func (*SimService) SimulateLoadOfGoods() {
 	// 目前数据库中有10万个数据, 以这10万个为基础 遍历每个数据 复制100份
-	var goods []product.Goods
 	var pageSize = 10
 	var page = 1
 	for {
+		var goods []product.Goods
 		offset := (page - 1) * pageSize
 		err := global.XTK_DB.
 			Order("id desc").
 			Where("data_from = 1").
 			Limit(pageSize).
-			Offset(offset).Find(&goods).Error
+			Offset(offset).
+			Find(&goods).
+			Error
 		if err != nil {
 			global.GVA_LOG.Error(err.Error())
 			continue
@@ -40,14 +42,12 @@ func (*SimService) SimulateLoadOfGoods() {
 				g.CommissionRate = int32(utils.RandomInt(1, 60))
 				g.CommissionValue = utils.RoundToOneDecimal(float64(g.CommissionRate) * g.PostCouponPrice / 100)
 				g.Inventory = int32(utils.RandomInt(1000, 60000))
-
 				// 销量, 评分
 				g.SalesAll = int32(utils.RandomInt(0, 100000))
 				g.SalesMonth = int32(utils.RandomInt(0, 10000))
 				g.SalesDay = int32(utils.RandomInt(0, 1000))
 				g.Sales2Hour = int32(utils.RandomInt(0, 100))
 				g.ExperienceScore = utils.RandomFloat64With1Decimal(1.0, 10.0)
-
 				// 放入队列, 刷入数据库
 				process.ToMysqlJobCh <- g
 			}
@@ -56,8 +56,8 @@ func (*SimService) SimulateLoadOfGoods() {
 			break
 		}
 		page++
+		fmt.Println("模拟了1000 条数据")
 	}
-	fmt.Println("模拟了100 条数据")
 	// 清理模拟的基础数据
 	CleanSimulateBaseData()
 }

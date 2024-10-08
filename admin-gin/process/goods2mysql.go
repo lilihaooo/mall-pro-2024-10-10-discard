@@ -3,7 +3,6 @@ package process
 import (
 	"admin-gin/global"
 	"admin-gin/model/product"
-	"fmt"
 	"sync"
 	"time"
 )
@@ -19,7 +18,6 @@ func toMysqlJob() {
 	for {
 		select {
 		case goods, _ := <-ToMysqlJobCh:
-			fmt.Println("toMysqlJob: 接受+1")
 			batch = append(batch, goods)
 			if len(batch) == batchSize {
 				SaveGoods(batch)

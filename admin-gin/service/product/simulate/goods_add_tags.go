@@ -49,7 +49,6 @@ func (*SimService) GoodsAddTags() {
 	}
 	close(goodsIDChan)
 	<-doneChan // 等待所有操作完成
-
 	// 清理模拟的基础数据
 	CleanSimulateBaseData()
 }

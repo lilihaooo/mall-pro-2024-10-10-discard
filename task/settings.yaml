@@ -6,7 +6,7 @@ mysql:
     username: root
     password: a6381286
     db: xtaoke
-    log_level: warn
+    log_level: error
 es:
     host: http://47.109.31.106
     port: 9200
