@@ -6,6 +6,7 @@ import (
 	"admin-gin/process"
 	"admin-gin/utils"
 	"fmt"
+	"gorm.io/gorm"
 	"time"
 )
 
@@ -18,6 +19,9 @@ func (*SimService) SimulateLoadOfGoods() {
 		offset := (page - 1) * pageSize
 		err := global.XTK_DB.
 			Order("id desc").
+			Preload("Images", func(db *gorm.DB) *gorm.DB {
+				return db.Select("goods_id, url")
+			}).
 			Where("data_from = 1").
 			Limit(pageSize).
 			Offset(offset).

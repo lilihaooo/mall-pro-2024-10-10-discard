@@ -2,6 +2,7 @@ package product_ser
 
 import (
 	"context"
+	"fmt"
 	"github.com/olivere/elastic/v7"
 	"gorm.io/gorm"
 	"strconv"
@@ -118,15 +119,17 @@ func (s *GoodsService) GoodsMysql2EsTask() {
 			esGoods = append(esGoods, esg)
 		}
 
-		//将商品表的is_to_es字段改为1
-		err = global.DB.Model(&gormmodel.Goods{}).Where("id in ?", ids).Update("is_to_es", 1).Error
+		//todo 事务中进行  同步失败的数据也被标记为1;
+		err = global.DB.Model(&gormmodel.Goods{}).
+			Where("id in ?", ids).
+			Update("is_to_es", 1).Error
 		if err != nil {
 			global.Logrus.Error(err.Error())
 		} else {
 			s.toEs(esGoods)
 			l := len(goods)
 			num += l
-			global.Logrus.Info("已同步: " + strconv.Itoa(num) + " 条记录")
+			fmt.Println("已同步: " + strconv.Itoa(num) + " 条记录")
 		}
 
 		count := len(goods)
@@ -137,20 +140,13 @@ func (s *GoodsService) GoodsMysql2EsTask() {
 		}
 		maxGoodsID = goods[batchCount-1].ID
 
-		//
-		//global.ESClient.Flush()
-		//// 使用Count API来获取索引中的总记录数量
-		//total, _ := global.ESClient.Count("goods_index").Do(context.Background())
-		//// 打印总记录数量
-		//fmt.Printf("总记录数量为：%d\n", total)
-		//}
-
 	}
 }
 
 func initCategoryMap() {
 	var categoryAParts []categoryAPart
-	err := global.DB.Model(gormmodel.Category{}).Select("id, parent_id, name").Scan(&categoryAParts).Error
+	err := global.DB.Model(gormmodel.Category{}).
+		Select("id, parent_id, name").Scan(&categoryAParts).Error
 	if err != nil {
 		global.Logrus.Error(err.Error())
 	}

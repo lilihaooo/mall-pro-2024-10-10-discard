@@ -49,7 +49,6 @@ const getGoodsDetail = async () => {
   goodsInfo.tzLevel = res.data.media.user_level;
   goodsInfo.tzLogo = res.data.media.media_head;
 
-
   goodsInfo.brandName = res.data.brand.name
 
   if (res.data.title.length > 50) {

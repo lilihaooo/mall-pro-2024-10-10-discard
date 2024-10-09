@@ -24,8 +24,8 @@ func main() {
 
 	//任务二: Mysql to Es
 	//saveGoodsIndex() //将清空全部goods索引!!! 谨慎
-	proService := new(product_ser.GoodsService)
-	proService.GoodsMysql2EsTask()
+	//proService := new(product_ser.GoodsService)
+	//proService.GoodsMysql2EsTask()
 
 	//任务三 品牌
 	//获取店铺名 判断是否为官方旗舰店 然后为商品添加 品牌信息
@@ -43,12 +43,15 @@ func main() {
 	//}
 
 	// 任务五 数据库备份
+	proService := new(product_ser.GoodsService)
+	proService.MysqlBackup()
+
+	// 任务6 创建模拟数据的图片商品关联关系
 	//proService := new(product_ser.GoodsService)
-	//err := proService.MysqlBackup()
+	//err := proService.SaveGoodsImage()
 	//if err != nil {
 	//	fmt.Println("错误")
 	//}
-
 }
 
 func saveSuggestionIndex() {
